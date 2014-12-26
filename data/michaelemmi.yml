@@ -1,0 +1,210 @@
+# Data for my webpage
+
+# idea for webpage: Liquid HTML + YAML -> Jekyll -> HTML result
+# idea for CV:      Liquid HTML + YAML -> Jekyll -> HTML result
+# idea for project: Liquid HTML + YAML + markdown -> Jekyll -> HTML result
+# ideas for printing: HTML document -> CSS media style -> PDF result
+# data files: cv.yml, bibliography.yml
+# content files: background.md, intro.md, related.md, ...
+# layout files: www.html, cv.html, project.html, section.html
+
+name: Michael Emmi
+role: Researcher
+place: IMDEA Software Institute
+about: >
+  <p>Michael received his Ph.D. in Computer Science from the University of
+  California, Los Angeles (UCLA) in 2010. Michael joined the IMDEA Software
+  Institute in September 2013, following a post-doc at the Université Paris
+  Diderot, on a fellowship awarded by La Fondation Sciences Mathématiques de
+  Paris. Prior to receiving his doctorate, Michael completed his undergraduate
+  studies at the University of Binghamton, of the State University of New York
+  (SUNY). He has been a teaching assistant for undergraduate courses at UCLA
+  and Université Paris Diderot, and has held internships at Microsoft Research,
+  NASA Ames Research Center, and IBM.</p>
+
+  <p>Michael is primarily interested in developing formal techniques to foster the
+  construction of reliable software systems. Specifically, Michael has
+  developed formal models to support the analysis of reactive, parallel, and
+  distributed software systems, studied their theoretical properties (i.e.,
+  decidability, complexity), and developed exploration techniques to quickly
+  discover faulty behavior in, or prove correctness of, such systems. Besides
+  being the/a principal author of many noteworthy scientific publications (see
+  the Publications list below), Michael is a lead developer of some software
+  verification tools (see the Software list below).</p>
+
+contact:
+  address: |
+    IMDEA Software Institute<br>
+    Campus Montegancedo UPM<br>
+    28223 Pozuelo de Alarcón, Madrid<br>
+    España
+  email: michael.emmi@gmail.com
+  phone:
+    - number: +34 911 012 202
+      country: Spain
+    - number: +1 (310) 564-6453
+      country: USA
+
+activities:
+
+- name: POPL&nbsp'15
+  desc: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  URL:  http://popl.mpi-sws.org/2015/
+  role: External Review Committee
+
+- name: FM&nbsp'15
+  desc: 20th International Symposium on Formal Methods
+  URL:    http://fm2015.ifi.uio.no
+  role:   Program Committee
+
+- name: EC<sup>2</sup>&nbsp'14
+  desc: 7th International Workshop on Exploiting Concurrency Efficiently and Correctly
+  URL:  http://software.imdea.org/ec2-2014/
+  role: Program Chair
+
+- name: PLDI&nbsp'14
+  desc: 35th annual ACM SIGPLAN Conference on Programming Language Design
+    and Implementation
+  URL:  http://conferences.inf.ed.ac.uk/pldi2014/
+  role: External Review Committee
+
+- name: POPL&nbsp'13
+  desc: 40th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  URL:  http://popl.mpi-sws.org/2013/
+  role: External Review Committee
+
+- name: VMCAI&nbsp'13
+  desc: 14th International Symposium on Verification, Model Checking and Abstract Interpretation
+  URL:  http://vmcai13.di.univr.it/
+  role: Program Committee
+
+publications:
+- title: 'SMACK+Corral: A Modular Verifier'
+  place: TACAS&nbsp'15
+  tags: [impl]
+
+- title: Analysis of Asynchronous Programs with Event-Based Synchronization
+  place: ESOP&nbsp'15
+  tags: []
+
+- title: Tractable Refinement Checking for Concurrent Objects
+  place: POPL&nbsp'15
+  tags: []
+
+- title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
+  place: CAV&nbsp'14
+  tags: []
+  URL: papers/conf-cav-RakamaricE14.pdf
+
+- title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
+  place: SPIN&nbsp'14
+  tags: []
+  URL: papers/conf-spin-EmmiOT14.pdf
+
+- title: Bounded Phase Analysis of Message-Passing Programs
+  place: STTT&nbsp'14
+  tags: []
+  URL: papers/journals-sttt-BouajjaniE14.pdf
+
+- title: Verifying Concurrent Programs Against Sequential Specifications 
+  place: ESOP&nbsp'13
+  tags: []
+  URL: papers/conf-esop-BouajjaniEEH13.pdf
+
+- title: Analysis of Recursively Parallel Programs
+  place: TOPLAS&nbsp'13
+  tags: []
+  URL: papers/journals-toplas-BouajjaniE13.pdf
+
+- title: Asynchronous Programs with Prioritized Task-Buffers
+  place: FSE&nbsp'12
+  tags: []
+  URL: papers/conf-fse-EmmiLQ12.pdf
+
+- title: Finding Non-Terminating Executions in Distributed Asynchronous Programs
+  place: SAS&nbsp'12
+  tags: []
+  URL: papers/conf-sas-EmmiL12.pdf
+
+- title: Detecting Fair Non-Termination in Multithreaded Programs
+  place: CAV&nbsp;'12
+  tags: []
+  URL: papers/conf-cav-AtigBEL12.pdf
+
+- title: Bounded Phase Analysis of Message-Passing Programs
+  place: TACAS&nbsp'12
+  tags: []
+  URL: papers/conf-tacas-BouajjaniE12.pdf
+
+- title: Analysis of Recursively Parallel Programs
+  place: POPL&nbsp'12
+  tags: []
+  URL: papers/conf-popl-BouajjaniE12.pdf
+
+- title: On Sequentializing Concurrent Programs
+  place: SAS&nbsp'11
+  tags: []
+  URL: papers/conf-sas-BouajjaniEP11.pdf
+
+- title: Parameterized Verification of Transactional Memories
+  place: PLDI&nbsp'10
+  tags: []
+  URL: papers/conf-pldi-EmmiMM10.pdf
+
+- title: Verifying Reference Counting Implementations
+  place: TACAS&nbsp'09
+  tags: []
+  URL: papers/conf-tacas-EmmiJKM09.pdf
+
+- title: Assume-Guarantee Verification for Interface Automata
+  place: FM&nbsp'08
+  tags: []
+  URL: papers/conf-fm-EmmiGP08.pdf
+
+- title: Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers
+  place:  PLDI&nbsp'08
+  tags: []
+  URL: papers/conf-pldi-ChenHPECCP08.pdf
+
+- title: Assembling an Expressive Facial Animation System
+  place: Sandbox&nbsp'07
+  tags: []
+  URL: papers/conf-sandbox-WangEF07.pdf
+
+- title: Dynamic Test Input Generation for Database Applications
+  place: ISSTA&nbsp'07
+  tags: []
+  URL: papers/conf-issta-EmmiMS07.pdf
+
+- title: Verifying Compensating Transactions
+  place: VMCAI&nbsp'07
+  tags: []
+  URL: papers/conf-vmcai-EmmiM07.pdf
+
+- title: Lock Allocation
+  place: POPL&nbsp'07
+  tags: []
+  URL: papers/conf-popl-EmmiFJM07.pdf
+
+- title: Decision Problems for the Verification of Real-Time Software
+  place: HSCC&nbsp'06
+  tags: []
+  URL: papers/conf-hscc-EmmiM06.pdf
+
+software:
+
+- name: SMACK
+  URL: https://github.com/smackers/smack
+  desc: >
+    LLVM bitcode to Boogie translation.
+  
+- name: c2s
+  URL: https://github.com/michael-emmi/c2s
+  desc: >
+    concurrent to sequential program translations.
+
+- name: printlncs
+  URL: https://github.com/michael-emmi/printlncs
+  desc: >
+    save paper by printing every two pages of LNCS proceedings on a single
+    page, without scaling.

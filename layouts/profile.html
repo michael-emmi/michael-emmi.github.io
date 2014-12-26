@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <title>{{name}}</title>
+    <script type="text/javascript" src="js/Hyphenator.js"></script>
+  </head>
+
+  <body>
+
+    <section id="header">
+      <h1>{{name}}</h1>
+      <span>{{role}} / {{place}}</span>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div>
+        {{{about}}}
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Professional Activities</h2>
+      {{#activities}}
+        <div class="item">
+          <div class="head">
+            <span class="thing">{{role}}</span>
+            <span class="place">{{{name}}}</span>
+          </div>
+          <div class="info">
+            <a href="{{URL}}" class="live info">{{desc}}</a>
+          </div>
+        </div>
+      {{/activities}}
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      {{#publications}}
+        <div class="item">
+          <div class="head">
+            <span class="thing">
+              {{#URL}}
+                <a href="{{.}}" class="live">{{{title}}}</a>
+              {{/URL}}
+              {{^URL}}
+                <a class="to-appear">{{{title}}}</a>
+              {{/URL}}
+            </span>
+            <span class="place">{{{place}}}</span>
+          </div>
+        </div>
+      {{/publications}}
+    </section>
+
+    <section id="software">
+      <h2>Software</h2>
+      {{#software}}
+        <div class="item">
+          <div class="head">
+            <span class="thing">
+              <a href="{{URL}}" class="live">{{name}}</a>
+            </span>
+          </div>
+          <div class="info">{{desc}}</div>
+        </div>
+      {{/software}}
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      {{#contact}}
+        <div class="item">{{{address}}}</div>
+        <div class="item">
+          E / <a class="live" href="mailto:{{email}}">{{email}}</a>
+        </div>
+        {{#phone}}
+          <div class="item">T / {{number}} ({{country}})</div>
+        {{/phone}}
+      {{/contact}}
+    </section>
+
+  </body>
+
+</html>
