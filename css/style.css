@@ -56,7 +56,12 @@ a[href]:hover {
   text-decoration: underline;
 }
 
-a.info {
+.info a {
+  color: #A0A0A0;
+}
+
+.tag a {
+  padding: 0.2em;
   color: #A0A0A0;
 }
 
@@ -79,11 +84,6 @@ a.info {
   width: 100%;
   padding-bottom: 1em;
   color: #606060;
-}
-
-.tag {
-  padding: 0.2em;
-  color: #A0A0A0;
 }
 
 .head {
