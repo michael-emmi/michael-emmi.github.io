@@ -1,26 +1,22 @@
 body {
-  margin-top: 1cm;
-  margin-bottom: 1cm;
+  margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 10%;
   margin-right: 15%;
   padding: 0;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 11pt;
+  font-size: 14px;
   font-weight: light;
   /* text-align: justify; */
 }
 
 h1, h2 {
   /* font-variant: small-caps; */
-  margin-bottom: 3mm;
-}
-
-h1 {
-/*  font-weight: bold;*/
+  margin-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 20pt;
+  font-size: 24px;
   font-weight: light;
   color: #000000;
 }
@@ -50,7 +46,7 @@ a:hover.live {
 .item {
   display: table;
   width: 100%;
-  padding-bottom: 3mm;
+  padding-bottom: 1em;
 }
 
 .head {
@@ -59,13 +55,12 @@ a:hover.live {
 
 .thing {
   display: table-cell;
-  padding-right: 4mm;
+  padding-right: 1em;
   color: #606060;
 }
 
 .place {
   display: table-cell;
-/*  float: right;*/
   text-align: right;
   font-size: smaller;
   font-weight: bold;
@@ -79,13 +74,13 @@ a:hover.live {
 }
 
 #header h1 {
-  font-size: 45pt;
+  font-size: 60px;
   letter-spacing: -5px;
   margin-bottom: 0;
 }
 
 #header span {
-  font-size: 15pt;
+  font-size: 20px;
   font-weight: normal;
   margin-top: 0;
   color: #606060;
@@ -93,8 +88,7 @@ a:hover.live {
 
 #about p {
   line-height: 1.2;
-  /* text-align: justify; */
   margin-top: 0;
-  margin-bottom: 2mm;
+  margin-bottom: 1em;
 }
 
