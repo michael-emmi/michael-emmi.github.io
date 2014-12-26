@@ -84,6 +84,7 @@ activities:
 publications:
 - title: 'SMACK+Corral: A Modular Verifier'
   place: TACAS&nbsp'15
+  info: competition contribution to SV-COMP 2015
   tags: [impl]
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
@@ -97,6 +98,7 @@ publications:
 - title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
   place: CAV&nbsp'14
   tags: []
+  info: tool paper
   URL: papers/conf-cav-RakamaricE14.pdf
 
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
