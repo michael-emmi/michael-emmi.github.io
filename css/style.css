@@ -1,4 +1,4 @@
-@media (max-width : 10cm) {
+@media (max-width : 12cm) {
   body {
     margin-top: 0;
     margin-bottom: 1em;
@@ -8,7 +8,7 @@
   }
 }
 
-@media (min-width : 10cm) {
+@media (min-width : 12cm) {
   body {
     margin-top: 0;
     margin-bottom: 1em;
