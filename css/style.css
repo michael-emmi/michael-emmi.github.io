@@ -46,10 +46,10 @@ p {
 
 a {
   color: #A0A0A0;
+  text-decoration: none;
 }
 
 a:link.live, a:visited.live {
-  text-decoration: none;
   color: #606060;
 }
 
@@ -94,7 +94,7 @@ a:hover.live {
   margin-bottom: 0;
 }
 
-#header span {
+#header .tagline {
   font-size: 1.4em;
   font-weight: normal;
   margin-top: 0;
