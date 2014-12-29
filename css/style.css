@@ -16,6 +16,18 @@
     margin-right: 10%;
     font-size: 1em;
   }
+
+  section {
+    max-width: 20cm;
+  }
+
+  #header {
+    max-width: 12cm;
+  }
+
+  #about {
+    max-width: 14cm;
+  }
 }
 
 body {
@@ -80,16 +92,10 @@ a[href]:hover {
 
 section {
   margin: auto;
-  max-width: 20cm;
 }
 
 #header {
-  max-width: 12cm;
   white-space: nowrap;
-}
-
-#about {
-  max-width: 14cm;
 }
 
 .item {
