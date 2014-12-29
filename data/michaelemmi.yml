@@ -151,6 +151,11 @@ publications:
   tags: []
   URL: papers/conf-sas-BouajjaniEP11.pdf
 
+- title: Delay-Bounded Scheduling
+  place: POPL&nbsp'11
+  tags: []
+  URL: papers/conf-popl-EmmiQR11.pdf
+
 - title: Parameterized Verification of Transactional Memories
   place: PLDI&nbsp'10
   tags: []
