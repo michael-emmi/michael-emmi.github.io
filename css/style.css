@@ -3,7 +3,7 @@
     margin-top: 0;
     margin-bottom: 1em;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     font-size: 3vw;
   }
 }
@@ -13,7 +13,7 @@
     margin-top: 0;
     margin-bottom: 1em;
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 10%;
     font-size: 1em;
   }
 }
@@ -76,6 +76,21 @@ a[href]:hover {
   margin-top: 0em;
   margin-bottom: 0.5em;
   color: #606060;
+}
+
+section {
+  max-width: 20cm;
+}
+
+#header {
+  margin: auto;
+  max-width: 12cm;
+  white-space: nowrap;
+}
+
+#about {
+  margin: auto;
+  max-width: 14cm;
 }
 
 .item {
