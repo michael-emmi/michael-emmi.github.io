@@ -116,13 +116,13 @@ section {
 
 .place {
   display: table-cell;
+  white-space: nowrap;
   text-align: right;
   font-size: smaller;
   font-weight: bold;
 }
 
 .info {
-  display: table-row;
   font-size: 70%;
   font-style: italic;
   color: #A0A0A0;
