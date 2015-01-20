@@ -82,7 +82,7 @@ publications:
 - title: Tractable Refinement Checking for Concurrent Objects
   place: POPL '15
   tags: []
-  ULR: papers/conf-popl/BouajjaniEEH15.pdf
+  URL: papers/conf-popl-BouajjaniEEH15.pdf
 
 - title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
   place: CAV '14
