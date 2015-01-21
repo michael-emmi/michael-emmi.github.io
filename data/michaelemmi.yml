@@ -14,7 +14,7 @@ about: >
   has held internships at Microsoft Research, NASA Ames Research Center, and
   IBM.</p>
 
-  <p>Michael's research enables the construction of reliable software by
+  <p>Michael’s research enables the construction of reliable software by
   developing the foundations for effective programming abstractions and
   informative program analysis tools. Integrating technological trends with
   knowledge from several research communities spanning automata theory,
@@ -38,155 +38,155 @@ contact:
 
 activities:
 
-- name: POPL '15
+- name: POPL ’15
   desc: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
   role: External Review Committee
 
-- name: FM '15
+- name: FM ’15
   desc: 20th International Symposium on Formal Methods
   URL:    http://fm2015.ifi.uio.no
   role:   Program Committee
 
-- name: EC<sup>2</sup> '14
+- name: EC<sup>2</sup> ’14
   desc: 7th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://software.imdea.org/ec2-2014/
   role: Program Chair
 
-- name: PLDI '14
+- name: PLDI ’14
   desc: 35th annual ACM SIGPLAN Conference on Programming Language Design
     and Implementation
   URL:  http://conferences.inf.ed.ac.uk/pldi2014/
   role: External Review Committee
 
-- name: POPL '13
+- name: POPL ’13
   desc: 40th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2013/
   role: External Review Committee
 
-- name: VMCAI '13
+- name: VMCAI ’13
   desc: 14th International Conference on Verification, Model Checking and Abstract Interpretation
   URL:  http://vmcai13.di.univr.it/
   role: Program Committee
 
 publications:
 - title: 'SMACK+Corral: A Modular Verifier'
-  place: TACAS '15
+  place: TACAS ’15
   info: competition contribution to SV-COMP 2015
   tags: [impl]
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
-  place: ESOP '15
+  place: ESOP ’15
   tags: []
 
 - title: Tractable Refinement Checking for Concurrent Objects
-  place: POPL '15
+  place: POPL ’15
   tags: []
   URL: papers/conf-popl-BouajjaniEEH15.pdf
 
 - title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
-  place: CAV '14
+  place: CAV ’14
   tags: []
   info: tool paper
   URL: papers/conf-cav-RakamaricE14.pdf
 
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
-  place: SPIN '14
+  place: SPIN ’14
   tags: []
   URL: papers/conf-spin-EmmiOT14.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
-  place: STTT '14
+  place: STTT ’14
   tags: []
   URL: papers/journals-sttt-BouajjaniE14.pdf
 
 - title: Verifying Concurrent Programs Against Sequential Specifications 
-  place: ESOP '13
+  place: ESOP ’13
   tags: []
   URL: papers/conf-esop-BouajjaniEEH13.pdf
 
 - title: Analysis of Recursively Parallel Programs
-  place: TOPLAS '13
+  place: TOPLAS ’13
   tags: []
   URL: papers/journals-toplas-BouajjaniE13.pdf
 
 - title: Asynchronous Programs with Prioritized Task-Buffers
-  place: FSE '12
+  place: FSE ’12
   tags: []
   URL: papers/conf-fse-EmmiLQ12.pdf
 
 - title: Finding Non-Terminating Executions in Distributed Asynchronous Programs
-  place: SAS '12
+  place: SAS ’12
   tags: []
   URL: papers/conf-sas-EmmiL12.pdf
 
 - title: Detecting Fair Non-Termination in Multithreaded Programs
-  place: CAV '12
+  place: CAV ’12
   tags: []
   URL: papers/conf-cav-AtigBEL12.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
-  place: TACAS '12
+  place: TACAS ’12
   tags: []
   URL: papers/conf-tacas-BouajjaniE12.pdf
 
 - title: Analysis of Recursively Parallel Programs
-  place: POPL '12
+  place: POPL ’12
   tags: []
   URL: papers/conf-popl-BouajjaniE12.pdf
 
 - title: On Sequentializing Concurrent Programs
-  place: SAS '11
+  place: SAS ’11
   tags: []
   URL: papers/conf-sas-BouajjaniEP11.pdf
 
 - title: Delay-Bounded Scheduling
-  place: POPL '11
+  place: POPL ’11
   tags: []
   URL: papers/conf-popl-EmmiQR11.pdf
 
 - title: Parameterized Verification of Transactional Memories
-  place: PLDI '10
+  place: PLDI ’10
   tags: []
   URL: papers/conf-pldi-EmmiMM10.pdf
 
 - title: Verifying Reference Counting Implementations
-  place: TACAS '09
+  place: TACAS ’09
   tags: []
   URL: papers/conf-tacas-EmmiJKM09.pdf
 
 - title: Assume-Guarantee Verification for Interface Automata
-  place: FM '08
+  place: FM ’08
   tags: []
   URL: papers/conf-fm-EmmiGP08.pdf
 
 - title: Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers
-  place:  PLDI '08
+  place:  PLDI ’08
   tags: []
   URL: papers/conf-pldi-ChenHPECCP08.pdf
 
 - title: Assembling an Expressive Facial Animation System
-  place: Sandbox '07
+  place: Sandbox ’07
   tags: []
   URL: papers/conf-sandbox-WangEF07.pdf
 
 - title: Dynamic Test Input Generation for Database Applications
-  place: ISSTA '07
+  place: ISSTA ’07
   tags: []
   URL: papers/conf-issta-EmmiMS07.pdf
 
 - title: Verifying Compensating Transactions
-  place: VMCAI '07
+  place: VMCAI ’07
   tags: []
   URL: papers/conf-vmcai-EmmiM07.pdf
 
 - title: Lock Allocation
-  place: POPL '07
+  place: POPL ’07
   tags: []
   URL: papers/conf-popl-EmmiFJM07.pdf
 
 - title: Decision Problems for the Verification of Real-Time Software
-  place: HSCC '06
+  place: HSCC ’06
   tags: []
   URL: papers/conf-hscc-EmmiM06.pdf
 
