@@ -70,6 +70,10 @@ activities:
   role: Program Committee
 
 publications:
+- title: Monitoring Refinement via Symbolic Reasoning
+  place: PLDI ’15
+  tags: []
+
 - title: 'SMACK+Corral: A Modular Verifier'
   place: TACAS ’15
   info: competition contribution to SV-COMP 2015
