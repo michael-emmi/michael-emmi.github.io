@@ -14,8 +14,9 @@
       <h1 class="title">{{name}}</h1>
       <div class="tagline">{{role}} / {{place}}</div>
       <div class="item">
-        <span class="tag"><a href="{{dblp}}">@dblp</a></span>
-        <span class="tag"><a href="{{github}}">@GitHub</a></span>
+        {{#links}}
+          <span class="tag"><a href="{{url}}">@{{name}}</a></span>
+        {{/links}}
       </div>
     </section>
 

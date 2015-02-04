@@ -1,8 +1,13 @@
 name: Michael Emmi
 role: Researcher
 place: IMDEA Software Institute
-dblp: http://www.informatik.uni-trier.de/~ley/pers/hd/e/Emmi:Michael
-github: https://github.com/michael-emmi
+
+links:
+- name: dblp
+  url: http://www.informatik.uni-trier.de/~ley/pers/hd/e/Emmi:Michael
+- name: GitHub
+  url: https://github.com/michael-emmi
+
 about: >
 
   <p>Michael received his Ph.D. in Computer Science from UCLA in 2010 and
