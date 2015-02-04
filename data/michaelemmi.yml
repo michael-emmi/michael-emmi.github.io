@@ -38,6 +38,11 @@ contact:
 
 activities:
 
+- name: EC<sup>2</sup> ’15
+  desc: 8th International Workshop on Exploiting Concurrency Efficiently and Correctly
+  URL:  http://multicore.doc.ic.ac.uk/events/ec2/
+  role: Program Committee
+
 - name: POPL ’15
   desc: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
