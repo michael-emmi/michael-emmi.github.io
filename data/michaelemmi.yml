@@ -43,6 +43,11 @@ contact:
 
 activities:
 
+- name: POPL ’16
+  desc: 43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  URL:  http://popl.mpi-sws.org/2016/
+  role: External Review Committee
+
 - name: EC<sup>2</sup> ’15
   desc: 8th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://multicore.doc.ic.ac.uk/events/ec2/
