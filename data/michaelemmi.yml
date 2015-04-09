@@ -93,10 +93,12 @@ publications:
   place: TACAS ’15
   info: competition contribution to SV-COMP 2015
   tags: [impl]
+  URL: papers/conf-tacas-HaranCELQR15.pdf
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
   place: ESOP ’15
   tags: []
+  URL: papers/conf-esop-EmmiGMR15.pdf
 
 - title: Tractable Refinement Checking for Concurrent Objects
   place: POPL ’15
