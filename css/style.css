@@ -18,7 +18,7 @@
   }
 
   section {
-    max-width: 20cm;
+    max-width: 18cm;
   }
 
   #header {
@@ -32,8 +32,7 @@
 
 body {
   padding: 0;
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: light;
+  font-family: 'IM Fell Double Pica', serif;
 }
 
 h1, h2 {
@@ -51,6 +50,13 @@ p {
   margin-top: 0;
   margin-bottom: 1em;
   color: #606060;
+}
+
+abbr {
+  /* NOTE this looks terrible without proper fonts. */
+  font-family: 'IM Fell Double Pica SC', serif;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
 }
 
 a {
