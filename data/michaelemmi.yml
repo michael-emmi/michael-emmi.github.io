@@ -48,6 +48,11 @@ activities:
   URL:  http://popl.mpi-sws.org/2016/
   role: External Review Committee
 
+- name: PPoPP ’16
+  desc: 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
+  URL:  http://www.sigplan.org/Conferences/PPOPP/
+  role: External Review Committee
+
 - name: EC<sup>2</sup> ’15
   desc: 8th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://multicore.doc.ic.ac.uk/events/ec2/
