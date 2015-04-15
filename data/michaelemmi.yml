@@ -90,6 +90,10 @@ activities:
   role: Program Committee
 
 publications:
+- title: On Reducing Linearizability to State Reachability
+  place: ICALP ’15
+  tags: []
+
 - title: Monitoring Refinement via Symbolic Reasoning
   place: PLDI ’15
   tags: []
