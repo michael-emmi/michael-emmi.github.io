@@ -90,6 +90,10 @@ activities:
   role: Program Committee
 
 publications:
+- title: Systematic Asynchrony Bug Exploration for Android Apps
+  place: CAV ’15
+  tags: []
+
 - title: On Reducing Linearizability to State Reachability
   place: ICALP ’15
   tags: []
