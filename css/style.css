@@ -44,7 +44,13 @@ body {
 @media only screen and (max-device-width: 480px) {
 	.column { margin: 1% 0 1% 0%;}
 	.left, .right { width: 100%; }
-  .font-size: 3vw;
+  body {
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3vw;
+  }
 }
 
 section {
