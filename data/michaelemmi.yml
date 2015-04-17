@@ -227,6 +227,11 @@ software:
   desc: >
     LLVM bitcode to Boogie translation.
   
+- name: Observational Refinement Checking
+  URL: https://github.com/imdea-software/observational-refinement-checking
+  desc: >
+    algorithms for observational refinement / linearizability.
+
 - name: c2s
   URL: https://github.com/michael-emmi/c2s
   desc: >

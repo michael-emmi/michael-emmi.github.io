@@ -1,38 +1,54 @@
-@media only screen and (min-device-width : 320px) {
-  body {
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 3vw;
-  }
-}
-
-@media only screen and (min-device-width : 768px) {
-  body {
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 1em;
-  }
-
-  section {
-    max-width: 18cm;
-  }
-
-  #header {
-    max-width: 12cm;
-  }
-
-  #about {
-    max-width: 14cm;
-  }
-}
-
 body {
-  padding: 0;
   font-family: 'IM Fell Double Pica', serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.column {
+  display: block;
+  float: left;
+  margin: 0 0 0 2%;
+}
+
+.container:first-child {
+  margin-left: 0;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  zoom: 1;
+}
+
+.left {
+	width: 45%;
+}
+.right {
+	width: 45%;
+}
+
+@media only screen and (max-width: 480px) {
+	.column { margin: 1% 0 1% 0%;}
+	.left, .right { width: 100%; }
+}
+
+section {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 h1, h2 {
@@ -96,10 +112,6 @@ a[href]:hover {
   color: #606060;
 }
 
-section {
-  margin: auto;
-}
-
 #header {
   white-space: nowrap;
 }
@@ -133,3 +145,4 @@ section {
   font-style: italic;
   color: #A0A0A0;
 }
+
