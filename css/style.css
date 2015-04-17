@@ -50,6 +50,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 3vw;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
 }
 
