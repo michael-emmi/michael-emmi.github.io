@@ -26,7 +26,10 @@ abbr {
   /* NOTE this looks terrible without proper fonts. */
   font-family: 'IM Fell Double Pica SC', serif;
   text-transform: lowercase;
-  letter-spacing: 0.05em;
+/*  letter-spacing: 0.01em;*/
+  font-size: 1.2em;
+  line-height: 0.8em;
+  display: inline-block;
 }
 
 a {

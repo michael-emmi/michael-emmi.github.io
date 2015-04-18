@@ -1,6 +1,6 @@
 name: Michael Emmi
 role: Researcher
-place: IMDEA Software Institute
+place: <abbr>IMDEA</abbr> Software Institute
 
 links:
 - name: dblp
@@ -10,14 +10,15 @@ links:
 
 about: >
 
-  <p>Michael received his Ph.D. in Computer Science from UCLA in 2010 and
-  joined the IMDEA Software Institute in 2013, following a postdoc fellowship
-  at the Université Paris Diderot awarded by La Fondation Sciences
-  Mathématiques de Paris. Prior to all that, Michael completed his
-  undergraduate studies at Binghamton University (SUNY). He has been a teaching
-  assistant for undergraduate courses at UCLA and Université Paris Diderot, and
-  has held internships at Microsoft Research, NASA Ames Research Center, and
-  IBM.</p>
+  <p>Michael received his doctorate in Computer Science from <abbr>UCLA</abbr>
+  in 2010 and joined the <abbr>IMDEA</abbr> Software Institute in 2013,
+  following a postdoc fellowship at the Université Paris Diderot awarded by La
+  Fondation Sciences Mathématiques de Paris. Prior to all that, Michael
+  completed his undergraduate studies at Binghamton University
+  (<abbr>SUNY</abbr>). He has been a teaching assistant for undergraduate
+  courses at <abbr>UCLA</abbr> and Université Paris Diderot, and has held
+  internships at Microsoft Research, <abbr>NASA</abbr> Ames Research Center,
+  and <abbr>IBM</abbr>.</p>
 
   <p>Michael’s research enables the construction of reliable software by
   developing the foundations for effective programming abstractions and
@@ -30,8 +31,8 @@ about: >
 
 contact:
   address: |
-    IMDEA Software Institute<br>
-    Campus Montegancedo UPM<br>
+    <abbr>IMDEA</abbr> Software Institute<br>
+    Campus Montegancedo <abbr>UPM</abbr><br>
     28223 Pozuelo de Alarcón, Madrid<br>
     España
   email: michael.emmi@gmail.com
@@ -39,17 +40,17 @@ contact:
     - number: +34 911 012 202
       country: Spain
     - number: +1 (310) 564-6453
-      country: USA
+      country: <abbr>USA</abbr>
 
 activities:
 
 - name: POPL ’16
-  desc: 43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  desc: 43rd <abbr>ACM SIGPLAN-SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2016/
   role: External Review Committee
 
 - name: PPoPP ’16
-  desc: 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming
+  desc: 21st <abbr>ACM SIGPLAN</abbr> Symposium on Principles and Practice of Parallel Programming
   URL:  http://www.sigplan.org/Conferences/PPOPP/
   role: External Review Committee
 
@@ -59,7 +60,7 @@ activities:
   role: Program Committee
 
 - name: POPL ’15
-  desc: 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  desc: 42nd <abbr>ACM SIGPLAN-SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
   role: External Review Committee
 
@@ -74,13 +75,13 @@ activities:
   role: Program Chair
 
 - name: PLDI ’14
-  desc: 35th annual ACM SIGPLAN Conference on Programming Language Design
+  desc: 35th annual <abbr>ACM SIGPLAN</abbr> Conference on Programming Language Design
     and Implementation
   URL:  http://conferences.inf.ed.ac.uk/pldi2014/
   role: External Review Committee
 
 - name: POPL ’13
-  desc: 40th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  desc: 40th <abbr>ACM SIGPLAN-SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2013/
   role: External Review Committee
 
@@ -92,17 +93,21 @@ activities:
 publications:
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   place: CAV ’15
+  info: tool paper
+  # info: with Burcu Kulahcioglu Ozkan, Serdar Tasiran
   tags: []
 
 - title: On Reducing Linearizability to State Reachability
   place: ICALP ’15
+  # info: with Ahmed Bouajjani, Constantin Enea, Jad Hamza
   tags: []
 
 - title: Monitoring Refinement via Symbolic Reasoning
   place: PLDI ’15
+  # info: with Constantin Enea, Jad Hamza
   tags: []
 
-- title: 'SMACK+Corral: A Modular Verifier'
+- title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
   place: TACAS ’15
   info: competition contribution to SV-COMP 2015
   tags: [impl]
@@ -110,15 +115,17 @@ publications:
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
   place: ESOP ’15
+  # info: with Pierre Ganty, Rupak Majumdar, Fernando Rosa-Velardo
   tags: []
   URL: papers/conf-esop-EmmiGMR15.pdf
 
 - title: Tractable Refinement Checking for Concurrent Objects
   place: POPL ’15
+  # info: with Ahmed Bouajjani, Constantin Enea, Jad Hamza
   tags: []
   URL: papers/conf-popl-BouajjaniEEH15.pdf
 
-- title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
+- title: '<abbr>SMACK</abbr>: Decoupling Source Language Details from Verifier Implementations'
   place: CAV ’14
   tags: []
   info: tool paper
@@ -126,21 +133,25 @@ publications:
 
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
   place: SPIN ’14
+  # info: with Burcu Kulahcioglu Ozkan, Serdar Tasiran
   tags: []
   URL: papers/conf-spin-EmmiOT14.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   place: STTT ’14
+  # info: with Ahmed Bouajjani
   tags: []
   URL: papers/journals-sttt-BouajjaniE14.pdf
 
 - title: Verifying Concurrent Programs Against Sequential Specifications 
   place: ESOP ’13
+  # info: with Ahmed Bouajjani, Constantin Enea, Jad Hamza
   tags: []
   URL: papers/conf-esop-BouajjaniEEH13.pdf
 
 - title: Analysis of Recursively Parallel Programs
   place: TOPLAS ’13
+  # info: with Ahmed Bouajjani
   tags: []
   URL: papers/journals-toplas-BouajjaniE13.pdf
 
@@ -161,16 +172,19 @@ publications:
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   place: TACAS ’12
+  # info: with Ahmed Bouajjani
   tags: []
   URL: papers/conf-tacas-BouajjaniE12.pdf
 
 - title: Analysis of Recursively Parallel Programs
   place: POPL ’12
+  # info: with Ahmed Bouajjani
   tags: []
   URL: papers/conf-popl-BouajjaniE12.pdf
 
 - title: On Sequentializing Concurrent Programs
   place: SAS ’11
+  # info: with Ahmed Bouajjani, Gennaro Parlato
   tags: []
   URL: papers/conf-sas-BouajjaniEP11.pdf
 
@@ -226,10 +240,10 @@ publications:
 
 software:
 
-- name: SMACK
+- name: <abbr>SMACK</abbr>
   URL: https://github.com/smackers/smack
   desc: >
-    LLVM bitcode to Boogie translation.
+    <abbr>LLVM</abbr> bitcode to Boogie translation.
   
 - name: Observational Refinement Checking
   URL: https://github.com/imdea-software/observational-refinement-checking
@@ -244,5 +258,5 @@ software:
 - name: printlncs
   URL: https://github.com/michael-emmi/printlncs
   desc: >
-    save paper by printing every two pages of LNCS proceedings on a single
-    page, without scaling.
+    save paper by printing every two pages of <abbr>LNCS</abbr> proceedings on
+    a single page, without scaling.
