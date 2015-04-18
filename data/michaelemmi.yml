@@ -109,7 +109,7 @@ publications:
 
 - title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
   place: TACAS ’15
-  info: competition contribution to SV-COMP 2015
+  info: competition contribution to <abbr>SV-COMP</abbr> 2015
   tags: [impl]
   URL: papers/conf-tacas-HaranCELQR15.pdf
 
