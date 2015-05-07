@@ -101,6 +101,7 @@ publications:
   place: ICALP ’15
   # info: with Ahmed Bouajjani, Constantin Enea, Jad Hamza
   tags: []
+  URL: papers/conf-icalp-BouajjaniEEH15.pdf
 
 - title: Monitoring Refinement via Symbolic Reasoning
   place: PLDI ’15
@@ -247,7 +248,7 @@ software:
     Bounded software verifier for C programs.
   
 - name: Observational Refinement Checking
-  URL: https://github.com/imdea-software/observational-refinement-checking
+  URL: https://github.com/imdea-software/violin
   desc: >
     algorithms for observational refinement / linearizability.
 
