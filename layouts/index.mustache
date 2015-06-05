@@ -34,8 +34,8 @@
           {{#activities}}
             <div class="item">
               <div class="head">
-                <span class="thing">{{role}}</span>
-                <span class="place">{{{name}}}</span>
+                <span class="lhs">{{role}}</span>
+                <span class="rhs">{{{name}}}</span>
               </div>
               <div class="info">
                 <a href="{{URL}}">{{{desc}}}</a>
@@ -52,7 +52,7 @@
           {{#publications}}
             <div class="item">
               <div class="head">
-                <span class="thing">
+                <span class="lhs">
                   {{#URL}}
                     <a href="{{.}}">{{{title}}}</a>
                   {{/URL}}
@@ -60,7 +60,7 @@
                     <a>{{{title}}}</a>
                   {{/URL}}
                 </span>
-                <span class="place">{{{place}}}</span>
+                <span class="rhs">{{{acronym}}}</span>
               </div>
               {{#info}}
                 <div class="info">
@@ -82,7 +82,7 @@
           {{#software}}
             <div class="item">
               <div class="head">
-                <span class="thing">
+                <span class="lhs">
                   <a href="{{URL}}">{{{name}}}</a>
                 </span>
               </div>

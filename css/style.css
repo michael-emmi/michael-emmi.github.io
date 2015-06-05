@@ -26,8 +26,6 @@ abbr {
   /* NOTE this looks terrible without proper fonts. */
   font-family: 'IM Fell Double Pica SC', serif;
   text-transform: lowercase;
-/*  letter-spacing: 0.01em;*/
-  font-size: 1.2em;
   line-height: 0.8em;
 }
 
@@ -82,12 +80,12 @@ a[href]:hover {
   display: table-row;
 }
 
-.thing {
+.lhs {
   display: table-cell;
   padding-right: 1em;
 }
 
-.place {
+.rhs {
   display: table-cell;
   white-space: nowrap;
   text-align: right;
@@ -136,6 +134,14 @@ a[href]:hover {
 }
 .right {
 	width: 48%;
+}
+
+.article-title {
+  font-weight: bold;
+}
+
+.article-volume {
+  font-style: italic;
 }
 
 @media only screen and (max-device-width: 480px) {
