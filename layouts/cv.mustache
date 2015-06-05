@@ -4,19 +4,29 @@
     <meta charset='utf-8'>
     <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/common.css">
+    <link rel="stylesheet" media="screen" href="css/cv.css">
     <title>{{name}}</title>
   </head>
 
   <body>
     <section id="header">
-      <h1 class="title">{{name}}</h1>
-      <div class="tagline">{{role}} / {{{place}}}</div>
-      <div class="item">
-        {{#links}}
-          <span class="tag"><a href="{{url}}">@{{name}}</a></span>
-        {{/links}}
-      </div>
+      <h1 class="title">{{{name}}}</h1>
+      <div class="tagline">{{{role}}}</div>
+      {{#contact}}
+        <div class="row">
+          <div class="column left">
+            <div class="item">{{{address}}}</div>
+          </div>
+          <div class="column right">
+            <a href="{{web}}">{{web}}</a><br>
+            <a href="mailto:{{email}}">{{email}}</a><br>
+            {{#phone}}
+              <a href="tel:{{number}}">{{number}}</a> ({{{country}}})<br>
+            {{/phone}}
+          </div>
+        </div>
+      {{/contact}}
     </section>
 
     <section id="about">
@@ -30,18 +40,8 @@
       <h2>Education</h2>
       {{#education}}
         <div class="item">
-          <div class="head">
-            <span class="lhs">{{degree}}</span>
-            <span class="rhs">{{when}}</span>
-          </div>
-          <div class="info">
-            {{where}}
-            {{#info}}
-              <div>
-                {{{.}}}
-              </div>
-            {{/info}}
-          </div>
+          <span class="article-title">{{{degree}}}</span>{{#info}}, {{{.}}}{{/info}}.
+          {{{where}}}, {{{when}}}.
         </div>
       {{/education}}
     </section>
@@ -50,66 +50,57 @@
       <h2>Awards</h2>
       {{#awards}}
         <div class="item">
-          <div class="head">
-            <span class="lhs">{{title}}</span>
-            <span class="rhs">{{when}}</span>
-          </div>
-          <div class="info">
-            granted by {{source}}
-          </div>
+          <span class="article-title">{{{title}}}</span>. {{{source}}}, {{{when}}}.
         </div>
       {{/awards}}
     </section>
 
     <section id="positions">
-      <h2>Research, Industry, and Teaching Positions</h2>
+      <h2>Employment</h2>
       {{#positions}}
         <div class="item">
-          <strong>{{title}}</strong> / {{where}} / {{when}}
+          <span class="article-title">{{{title}}}</span>, {{{where}}}, {{{when}}}.
         </div>
       {{/positions}}
     </section>
 
     <section id="references">
-      <h2>Professional References</h2>
+      <h2>References</h2>
       {{#references}}
         <div class="item">
-          <strong>{{name}}</strong> / {{title}} / {{where}} / <a href="mailto:{{email}}">{{email}}</a>
+          <span class="article-title"><a href="{{web}}">{{{name}}}</a></span>, {{{title}}}, {{{where}}}.
         </div>
       {{/references}}
     </section>
 
     <section id="activities">
-      <h2>Professional Activities</h2>
+      <h2>Activities</h2>
       {{#activities}}
         <div class="item">
-          <div class="head">
-            <span class="lhs">{{role}}</span>
-            <span class="rhs">{{{name}}}</span>
-          </div>
-          <div class="info">
-            <a href="{{URL}}">{{{desc}}}</a>
-          </div>
+          <span class="article-title">{{{role}}}</span>.
+          <span class="article-volume"><a href="{{URL}}">{{{desc}}}</a></span>
+          ({{{acronym}}}).
         </div>
       {{/activities}}
     </section>
 
     <section id="publications">
-      <h2>List of Publications</h2>
+      <h2>Publications</h2>
       {{#publications}}
         <div class="item">
           {{authors}}.
           <span class="article-title">
-            {{#URL}}
-              <a href="{{.}}">{{{title}}}</a>
-            {{/URL}}
-            {{^URL}}
-              <a>{{{title}}}</a>
-            {{/URL}}.
+            {{#doi}}
+              <a href="{{.}}">{{{title}}}</a>.
+            {{/doi}}
+            {{^doi}}
+              {{{title}}}.
+            {{/doi}}
           </span>
           In <span class="article-volume">{{{book}}}</span>
           ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
           {{{publisher}}}, {{year}}.
+          {{#pdf}}(<a href="{{.}}"><abbr>PDF</abbr></a>){{/pdf}}
         </div>
       {{/publications}}
     </section>
@@ -118,27 +109,10 @@
       <h2>Software</h2>
       {{#software}}
         <div class="item">
-          <div class="head">
-            <span class="lhs">
-              <a href="{{URL}}">{{{name}}}</a>
-            </span>
-          </div>
-          <div class="info">{{{desc}}}</div>
+          <span class="article-title"><a href="{{URL}}">{{{name}}}</a></span>,
+          {{{desc}}}
         </div>
       {{/software}}
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      {{#contact}}
-        <div class="item">{{{address}}}</div>
-        <div class="item">
-          <a href="mailto:{{email}}">{{email}}</a>
-        </div>
-        {{#phone}}
-          <div class="item">{{number}} ({{{country}}})</div>
-        {{/phone}}
-      {{/contact}}
     </section>
 
   </body>

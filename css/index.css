@@ -1,0 +1,30 @@
+.lhs {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+.rhs {
+  display: table-cell;
+  white-space: nowrap;
+  text-align: right;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 80%;
+  font-style: italic;
+  color: #A0A0A0;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.column { margin: 1% 0 1% 0%;}
+	.left, .right { width: 100%; }
+  body {
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3vw;
+    -webkit-font-smoothing: antialiased;
+  }
+}

@@ -4,7 +4,8 @@
     <meta charset='utf-8'>
     <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/common.css">
+    <link rel="stylesheet" media="screen" href="css/index.css">
     <title>{{name}}</title>
   </head>
 
@@ -35,7 +36,7 @@
             <div class="item">
               <div class="head">
                 <span class="lhs">{{role}}</span>
-                <span class="rhs">{{{name}}}</span>
+                <span class="rhs">{{{acronym}}}</span>
               </div>
               <div class="info">
                 <a href="{{URL}}">{{{desc}}}</a>
@@ -53,12 +54,12 @@
             <div class="item">
               <div class="head">
                 <span class="lhs">
-                  {{#URL}}
+                  {{#pdf}}
                     <a href="{{.}}">{{{title}}}</a>
-                  {{/URL}}
-                  {{^URL}}
+                  {{/pdf}}
+                  {{^pdf}}
                     <a>{{{title}}}</a>
-                  {{/URL}}
+                  {{/pdf}}
                 </span>
                 <span class="rhs">{{{acronym}}}</span>
               </div>

@@ -1,11 +1,11 @@
 body {
-  font-family: 'IM Fell Double Pica', serif;
+  font-family: 'IM Fell Double Pica', Georgia, serif;
   padding: 0;
   margin: 1em 1em 1em 1em;
 }
 
 section {
-  margin: 1em 0 1em 0;
+  margin: 2em 0 1em 0;
   padding: 0 1em 0 1em;
 }
 
@@ -24,9 +24,9 @@ p {
 
 abbr {
   /* NOTE this looks terrible without proper fonts. */
-  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'IM Fell Double Pica SC', Georgia, serif;
   text-transform: lowercase;
-  line-height: 0.8em;
+/*  line-height: 0.8em;*/
 }
 
 a {
@@ -80,24 +80,6 @@ a[href]:hover {
   display: table-row;
 }
 
-.lhs {
-  display: table-cell;
-  padding-right: 1em;
-}
-
-.rhs {
-  display: table-cell;
-  white-space: nowrap;
-  text-align: right;
-  font-size: smaller;
-  font-weight: bold;
-}
-
-.info {
-  font-size: 70%;
-  font-style: italic;
-  color: #A0A0A0;
-}
 
 .row {
   clear: both;
@@ -134,25 +116,4 @@ a[href]:hover {
 }
 .right {
 	width: 48%;
-}
-
-.article-title {
-  font-weight: bold;
-}
-
-.article-volume {
-  font-style: italic;
-}
-
-@media only screen and (max-device-width: 480px) {
-	.column { margin: 1% 0 1% 0%;}
-	.left, .right { width: 100%; }
-  body {
-    margin-top: 0;
-    margin-bottom: 1em;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 3vw;
-    -webkit-font-smoothing: antialiased;
-  }
 }

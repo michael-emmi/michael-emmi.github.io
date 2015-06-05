@@ -1,4 +1,6 @@
 name: Michael Emmi
+nationality: American
+birthdate: April 11, 1981
 role: Researcher
 place: <abbr>IMDEA</abbr> Software Institute
 
@@ -38,6 +40,7 @@ contact:
     28223 Pozuelo de Alarcón, Madrid<br>
     España
   email: michael.emmi@gmail.com
+  web: http://michael-emmi.github.io
   phone:
     - number: +34 911 012 202
       country: Spain
@@ -46,137 +49,157 @@ contact:
 
 education:
 - degree: Ph.D. Computer Science
-  where: University of California, Los Angeles
-  when: Fall 2005 — Spring 2010
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  when: 2010
   info:
-  - advised by Rupak Majumdar
+  - Rupak Majumdar
 
 - degree: M.S. Computer Science
-  where: University of California, Los Angeles
-  when: Fall 2003 — Fall 2005
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  when: 2005
 
 - degree: B.S. Computer Science
-  where: Binghamton University
-  when: Fall 1999 — Spring 2003
+  where: Binghamton University (<abbr>SUNY</abbr>)
+  when: 2003
   info:
-  - minor in Physics
-  - graduated Magna Cum Laude
+  - Magna Cum Laude
+  - Physics minor
 
 awards:
 - title: Postdoctoral Fellowship
-  source: La Fondation Sciences Mathématiques de Paris
-  when: October 2010 — September 2012
+  source: La Fondation Sciences Mathématiques de Paris (<abbr>FSMP</abbr>)
+  when: 2010–2012
 
 positions:
 - title: Researcher
-  where: IMDEA Software Institute, Madrid, Spain
-  when: Fall 2013 — Present
-
-- title: Visiting Researcher
-  where: Microsoft Research, Bangalore, India
-  when: Fall 2013 — Present
+  where: <abbr>IMDEA</abbr> Software Institute, Madrid
+  when: 2013 – Present
 
 - title: Postdoc Researcher
-  where: LIAFA, Universtié Paris Diderot, France
-  when: Fall 2010 — Summer 2013
+  where: <abbr>LIAFA</abbr>, Universtié Paris Diderot
+  when: 2010–2013
+
+- title: Lecturer (<abbr>ATER</abbr>)
+  where: Université Paris Diderot
+  when: 2012–2013
+
+- title: Visiting Researcher
+  where: Microsoft Research, Bangalore
+  when: 2011
 
 - title: Research Intern
-  where: Microsoft Research, Redmond, USA
-  when: Summer 2010
+  where: Microsoft Research, Redmond
+  when: 2010
 
 - title: Research Intern
-  where: Microsoft Research, Cambridge, UK
-  when: Fall 2008
+  where: Microsoft Research, Cambridge (<abbr>UK</abbr>)
+  when: 2008
 
 - title: Research Intern
-  where: Microsoft Research, Redmond, USA
-  when: Summer 2007
+  where: Microsoft Research, Redmond
+  when: 2007
 
 - title: Research Intern
-  where: NASA Ames Research Center, USA
-  when: Summer 2006
+  where: <abbr>NASA</abbr> Ames Research Center
+  when: 2006
 
 - title: Research Assistant
-  where: University of California, USA
-  when: Winter 2006 — Spring 2010
-
-- title: Software Engineer Intern
-  where: IBM, Endicott, USA
-  when: Summer 2001, Winter & Summer 2002
-
-- title: Lecturer
-  where: Université Paris Diderot
-  when: Fall 2012 — Summer 2013
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  when: 2006–2010
 
 - title: Teaching Assistant
-  where: UCLA
-  when: Fall 2003 — Fall 2005
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  when: 2003–2005
+
+- title: Software Engineer Intern
+  where: <abbr>IBM</abbr>, Endicott
+  when: 2001, 2002
 
 - title: Course Assistant
-  where: Binghamton University
-  when: Fall 2001 — Spring 2002
+  where: Binghamton University (<abbr>SUNY</abbr>)
+  when: 2001–2002
 
 references:
 - name: Ahmed Bouajjani
   title: Professor
-  where: Université Paris 7
+  where: Université Paris Diderot
+  web: http://www.liafa.jussieu.fr/~abou/
   email: abou@liafa.univ-paris-diderot.fr
 
 - name: Rupak Majumdar
   title: Scientific Director
-  where: Max Planck Institut
+  where: Max Planck Institut for Software Systems
+  web: http://www.mpi-sws.org/~rupak/
   email: rupak@mpi-sws.org
 
 - name: Shaz Qadeer
   title: Senior Researcher
   where: Microsoft Research
+  web: http://research.microsoft.com/en-us/people/qadeer/
   email: qadeer@microsoft.com
+
+- name: Dimitra Giannakopoulou
+  title: Research Computer Scientist
+  where: <abbr>NASA</abbr> Ames Research Center
+  web: http://ti.arc.nasa.gov/profile/dimitra/
+  email: Dimitra.Giannakopoulou@nasa.gov
+
+- name: Josh Berdine
+  title: Researcher
+  where: Microsoft Research
+  web: http://research.microsoft.com/en-us/people/jjb/
+  email: jjb@microsoft.com
 
 activities:
 
-- name: <abbr>POPL</abbr> ’16
+- acronym: <abbr>POPL</abbr> ’16
   desc: 43rd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
-  URL:  http://popl.mpi-sws.org/2016/
+  URL:  http://conf.researchr.org/home/POPL-2016
   role: External Review Committee
 
-- name: <abbr>PPoPP</abbr> ’16
+- acronym: <abbr>PPoPP</abbr> ’16
   desc: 21st <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Symposium on Principles and Practice of Parallel Programming
-  URL:  http://www.sigplan.org/Conferences/PPOPP/
+  URL:  https://ppopp15.soe.ucsc.edu
   role: External Review Committee
 
-- name: <abbr>EC</abbr><sup>2</sup> ’15
+- acronym: <abbr>EC<sup>2</sup></abbr> ’15
   desc: 8th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://multicore.doc.ic.ac.uk/events/ec2/
   role: Program Committee
 
-- name: <abbr>POPL</abbr> ’15
+- acronym: <abbr>POPL</abbr> ’15
   desc: 42nd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
   role: External Review Committee
 
-- name: <abbr>FM</abbr> ’15
+- acronym: <abbr>FM</abbr> ’15
   desc: 20th International Symposium on Formal Methods
   URL:    http://fm2015.ifi.uio.no
   role:   Program Committee
 
-- name: <abbr>EC</abbr><sup>2</sup> ’14
+- acronym: <abbr>EC<sup>2</sup></abbr> ’14
   desc: 7th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://software.imdea.org/ec2-2014/
   role: Program Chair
 
-- name: <abbr>PLDI</abbr> ’14
+- acronym: <abbr>PLDI</abbr> ’14
   desc: 35th annual <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Conference on Programming Language Design
     and Implementation
   URL:  http://conferences.inf.ed.ac.uk/pldi2014/
   role: External Review Committee
 
-- name: <abbr>POPL</abbr> ’13
+- acronym: <abbr>POPL</abbr> ’13
   desc: 40th <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2013/
   role: External Review Committee
 
-- name: <abbr>VMCAI</abbr> ’13
+- acronym: <abbr>VMCAI</abbr> ’13
   desc: 14th International Conference on Verification, Model Checking and Abstract Interpretation
+  URL:  http://vmcai13.di.univr.it/
+  role: Program Committee
+
+- acronym: <abbr>Bytecode</abbr> ’11
+  desc: 6th International Workshop on Bytecode Semantics, Verification, Analysis and Transformation
   URL:  http://vmcai13.di.univr.it/
   role: Program Committee
 
@@ -190,8 +213,7 @@ publications:
   pages:
   publisher: Springer
   year: 2015
-  info: tool paper
-  tags: []
+  doi:
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -202,8 +224,8 @@ publications:
   pages:
   publisher: Springer
   year: 2015
-  tags: []
-  URL: papers/conf-icalp-BouajjaniEEH15.pdf
+  doi:
+  pdf: papers/conf-icalp-BouajjaniEEH15.pdf
 
 - title: Monitoring Refinement via Symbolic Reasoning
   authors: Michael Emmi, Constantin Enea, and Jad Hamza
@@ -212,8 +234,8 @@ publications:
   pages: 341–350
   publisher: <abbr>ACM</abbr>
   year: 2015
-  tags: []
-  URL: papers/conf-pldi-EmmiEH15.pdf
+  doi:
+  pdf: papers/conf-pldi-EmmiEH15.pdf
 
 - title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
   authors: Arvind Haran, Montgomery Carter, Michael Emmi, Akash Lal, Shaz Qadeer, and Zvonimir Rakamaric
@@ -224,9 +246,8 @@ publications:
   pages: 451–454
   publisher: Springer
   year: 2015
-  info: competition contribution to <abbr>SV-COMP</abbr> 2015
-  tags: [impl]
-  URL: papers/conf-tacas-HaranCELQR15.pdf
+  doi: http://dx.doi.org/10.1007/978-3-662-46681-0_42
+  pdf: papers/conf-tacas-HaranCELQR15.pdf
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
   authors: Michael Emmi, Pierre Ganty, Rupak Majumdar, and Fernando Rosa-Velardo
@@ -237,8 +258,8 @@ publications:
   pages: 535–559
   publisher: Springer
   year: 2015
-  tags: []
-  URL: papers/conf-esop-EmmiGMR15.pdf
+  doi: http://dx.doi.org/10.1007/978-3-662-46669-8_22
+  pdf: papers/conf-esop-EmmiGMR15.pdf
 
 - title: Tractable Refinement Checking for Concurrent Objects
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -247,8 +268,8 @@ publications:
   pages: 651–662
   publisher: <abbr>ACM</abbr>
   year: 2015
-  tags: []
-  URL: papers/conf-popl-BouajjaniEEH15.pdf
+  doi: http://doi.acm.org/10.1145/2676726.2677002
+  pdf: papers/conf-popl-BouajjaniEEH15.pdf
 
 - title: '<abbr>SMACK</abbr>: Decoupling Source Language Details from Verifier Implementations'
   authors: Zvonimir Rakamaric and Michael Emmi
@@ -259,19 +280,18 @@ publications:
   pages: 106–113
   publisher: Springer
   year: 2014
-  tags: []
-  info: tool paper
-  URL: papers/conf-cav-RakamaricE14.pdf
+  doi: http://dx.doi.org/10.1007/978-3-319-08867-9_7
+  pdf: papers/conf-cav-RakamaricE14.pdf
 
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
   authors: Michael Emmi, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
-  book: Proc. International Symposium on Model Checking of Software
+  book: Proc. International <abbr>SPIN</abbr> Symposium on Model Checking of Software
   acronym: <abbr>SPIN</abbr> ’14
   pages: 20–29
   publisher: <abbr>ACM</abbr>
   year: 2014
-  tags: []
-  URL: papers/conf-spin-EmmiOT14.pdf
+  doi: http://doi.acm.org/10.1145/2632362.2632370
+  pdf: papers/conf-spin-EmmiOT14.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -282,8 +302,8 @@ publications:
   pages: 127–146
   publisher: Springer
   year: 2014
-  tags: []
-  URL: papers/journals-sttt-BouajjaniE14.pdf
+  doi: http://dx.doi.org/10.1007/s10009-013-0276-z
+  pdf: papers/journals-sttt-BouajjaniE14.pdf
 
 - title: Verifying Concurrent Programs Against Sequential Specifications
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -294,8 +314,8 @@ publications:
   pages: 290–309
   publisher: Springer
   year: 2013
-  tags: []
-  URL: papers/conf-esop-BouajjaniEEH13.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-37036-6_17
+  pdf: papers/conf-esop-BouajjaniEEH13.pdf
 
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -307,8 +327,8 @@ publications:
   pages: 10:1–10:49
   publisher: <abbr>ACM</abbr>
   year: 2013
-  tags: []
-  URL: papers/journals-toplas-BouajjaniE13.pdf
+  doi: http://doi.acm.org/10.1145/2518188
+  pdf: papers/journals-toplas-BouajjaniE13.pdf
 
 - title: Asynchronous Programs with Prioritized Task-Buffers
   authors: Michael Emmi, Akash Lal, and Shaz Qadeer
@@ -317,8 +337,8 @@ publications:
   pages: 48
   publisher: <abbr>ACM</abbr>
   year: 2012
-  tags: []
-  URL: papers/conf-fse-EmmiLQ12.pdf
+  doi: http://doi.acm.org/10.1145/2393596.2393652
+  pdf: papers/conf-fse-EmmiLQ12.pdf
 
 - title: Finding Non-Terminating Executions in Distributed Asynchronous Programs
   authors: Michael Emmi and Akash Lal
@@ -329,8 +349,8 @@ publications:
   pages: 439–455
   publisher: Springer
   year: 2012
-  tags: []
-  URL: papers/conf-sas-EmmiL12.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-33125-1_29
+  pdf: papers/conf-sas-EmmiL12.pdf
 
 - title: Detecting Fair Non-Termination in Multithreaded Programs
   authors: Mohamed Faouzi Atig, Ahmed Bouajjani, Michael Emmi, and Akash Lal
@@ -341,8 +361,8 @@ publications:
   pages: 210–226
   publisher: Springer
   year: 2012
-  tags: []
-  URL: papers/conf-cav-AtigBEL12.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-31424-7_19
+  pdf: papers/conf-cav-AtigBEL12.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -353,8 +373,8 @@ publications:
   pages: 451–465
   publisher: Springer
   year: 2012
-  tags: []
-  URL: papers/conf-tacas-BouajjaniE12.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-28756-5_31
+  pdf: papers/conf-tacas-BouajjaniE12.pdf
 
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -363,8 +383,8 @@ publications:
   pages: 203–214
   publisher: <abbr>ACM</abbr>
   year: 2012
-  tags: []
-  URL: papers/conf-popl-BouajjaniE12.pdf
+  doi: http://doi.acm.org/10.1145/2103656.2103681
+  pdf: papers/conf-popl-BouajjaniE12.pdf
 
 - title: On Sequentializing Concurrent Programs
   authors: Ahmed Bouajjani, Michael Emmi, and Gennaro Parlato
@@ -375,8 +395,8 @@ publications:
   pages: 129–145
   publisher: Springer
   year: 2011
-  tags: []
-  URL: papers/conf-sas-BouajjaniEP11.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-23702-7_13
+  pdf: papers/conf-sas-BouajjaniEP11.pdf
 
 - title: Delay-Bounded Scheduling
   authors: Michael Emmi, Shaz Qadeer, and Zvonimir Rakamaric
@@ -385,8 +405,8 @@ publications:
   pages: 411–422
   publisher: <abbr>ACM</abbr>
   year: 2011
-  tags: []
-  URL: papers/conf-popl-EmmiQR11.pdf
+  doi: http://doi.acm.org/10.1145/1926385.1926432
+  pdf: papers/conf-popl-EmmiQR11.pdf
 
 - title: Parameterized Verification of Transactional Memories
   authors: Michael Emmi, Rupak Majumdar, and Roman Manevich
@@ -395,8 +415,8 @@ publications:
   pages: 134–145
   publisher: <abbr>ACM</abbr>
   year: 2010
-  tags: []
-  URL: papers/conf-pldi-EmmiMM10.pdf
+  doi: http://doi.acm.org/10.1145/1806596.1806613
+  pdf: papers/conf-pldi-EmmiMM10.pdf
 
 - title: Verifying Reference Counting Implementations
   authors: Michael Emmi, Ranji Jhala, Eddie Kohler, and Rupak Majumdar
@@ -407,8 +427,8 @@ publications:
   pages: 352–367
   publisher: Springer
   year: 2009
-  tags: []
-  URL: papers/conf-tacas-EmmiJKM09.pdf
+  doi: http://dx.doi.org/10.1007/978-3-642-00768-2_30
+  pdf: papers/conf-tacas-EmmiJKM09.pdf
 
 - title: Assume-Guarantee Verification for Interface Automata
   authors: Michael Emmi, Dimitra Giannakopoulou, and Corina S. Pasareanu
@@ -419,8 +439,8 @@ publications:
   pages: 116–131
   publisher: Springer
   year: 2008
-  tags: []
-  URL: papers/conf-fm-EmmiGP08.pdf
+  doi: http://dx.doi.org/10.1007/978-3-540-68237-0_10
+  pdf: papers/conf-fm-EmmiGP08.pdf
 
 - title: Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers
   book: Proc. <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> 2008 Conference on Programming Language Design and Implementation
@@ -429,8 +449,8 @@ publications:
   pages: 183–192
   publisher: <abbr>ACM</abbr>
   year: 2008
-  tags: []
-  URL: papers/conf-pldi-ChenHPECCP08.pdf
+  doi: http://doi.acm.org/10.1145/1375581.1375604
+  pdf: papers/conf-pldi-ChenHPECCP08.pdf
 
 - title: Assembling an Expressive Facial Animation System
   authors: Alice Wang, Michael Emmi, and Petros Faloutsos
@@ -439,8 +459,8 @@ publications:
   pages: 21–26
   publisher: <abbr>ACM</abbr>
   year: 2007
-  tags: []
-  URL: papers/conf-sandbox-WangEF07.pdf
+  doi: http://doi.acm.org/10.1145/1274940.1274947
+  pdf: papers/conf-sandbox-WangEF07.pdf
 
 - title: Dynamic Test Input Generation for Database Applications
   authors: Michael Emmi, Rupak Majumdar, and Koushik Sen
@@ -449,8 +469,8 @@ publications:
   pages: 151–162
   publisher: <abbr>ACM</abbr>
   year: 2007
-  tags: []
-  URL: papers/conf-issta-EmmiMS07.pdf
+  doi: http://doi.acm.org/10.1145/1273463.1273484
+  pdf: papers/conf-issta-EmmiMS07.pdf
 
 - title: Verifying Compensating Transactions
   authors: Michael Emmi and Rupak Majumdar
@@ -461,8 +481,8 @@ publications:
   pages: 29–43
   publisher: Springer
   year: 2007
-  tags: []
-  URL: papers/conf-vmcai-EmmiM07.pdf
+  doi: http://dx.doi.org/10.1007/978-3-540-69738-1_2
+  pdf: papers/conf-vmcai-EmmiM07.pdf
 
 - title: Lock Allocation
   authors: Michael Emmi, Jeff Fischer, Ranjit Jhala, and Rupak Majumdar
@@ -471,8 +491,8 @@ publications:
   pages: 291–296
   publisher: <abbr>ACM</abbr>
   year: 2007
-  tags: []
-  URL: papers/conf-popl-EmmiFJM07.pdf
+  doi: http://doi.acm.org/10.1145/1190216.1190260
+  pdf: papers/conf-popl-EmmiFJM07.pdf
 
 - title: Decision Problems for the Verification of Real-Time Software
   authors: Michael Emmi and Rupak Majumdar
@@ -483,25 +503,25 @@ publications:
   pages: 200–211
   publisher: Springer
   year: 2006
-  tags: []
-  URL: papers/conf-hscc-EmmiM06.pdf
+  doi: http://dx.doi.org/10.1007/11730637_17
+  pdf: papers/conf-hscc-EmmiM06.pdf
 
 software:
 
 - name: <abbr>SMACK</abbr>
   URL: https://github.com/smackers/smack
   desc: >
-    Bounded software verifier for C programs.
+    <abbr>SV-COMP ’15</abbr> award-winning bounded software verifier for C programs.
   
-- name: Observational Refinement Checking
+- name: Violin
   URL: https://github.com/imdea-software/violin
   desc: >
-    algorithms for observational refinement / linearizability.
+    efficient algorithms for checking observational refinement.
 
 - name: c2s
   URL: https://github.com/michael-emmi/c2s
   desc: >
-    concurrent to sequential program translations.
+    concurrent to sequential program translations (sequentializations).
 
 - name: printlncs
   URL: https://github.com/michael-emmi/printlncs
