@@ -37,10 +37,7 @@
             <div class="item">
               <div class="head">
                 <span class="lhs">{{role}}</span>
-                <span class="rhs">{{{acronym}}}</span>
-              </div>
-              <div class="info">
-                <a href="{{URL}}">{{{desc}}}</a>
+                <span class="rhs"><a href="{{URL}}">{{{acronym}}}</a></span>
               </div>
             </div>
           {{/activities}}
@@ -100,11 +97,9 @@
           <h2>Contact</h2>
           {{#contact}}
             <div class="item">{{{address}}}</div>
-            <div class="item">
-              <a href="mailto:{{email}}">{{email}}</a>
-            </div>
+            <a href="mailto:{{email}}">{{email}}</a><br>
             {{#phone}}
-              <div class="item">{{number}} ({{{country}}})</div>
+              <a href="tel:{{number}}">{{number}}</a> ({{{country}}})<br>
             {{/phone}}
           {{/contact}}
         </section>
