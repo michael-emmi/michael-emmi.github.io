@@ -4,8 +4,9 @@
     <meta charset='utf-8'>
     <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
     <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" media="screen" href="css/common.css">
-    <link rel="stylesheet" media="screen" href="css/cv.css">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <link rel="stylesheet" href="css/cv.css">
     <title>{{name}}</title>
   </head>
 
@@ -40,7 +41,8 @@
       <h2>Education</h2>
       {{#education}}
         <div class="item">
-          <span class="article-title">{{{degree}}}</span>{{#info}}, {{{.}}}{{/info}}.
+          <span class="article-title">{{{degree}}}</span>.
+          <!-- {{#info}}, {{{.}}}{{/info}}. -->
           {{{where}}}, {{{when}}}.
         </div>
       {{/education}}
@@ -69,6 +71,7 @@
       {{#references}}
         <div class="item">
           <span class="article-title"><a href="{{web}}">{{{name}}}</a></span>, {{{title}}}, {{{where}}}.
+          {{#email}}<span class="print-only"><a href="mailto:{{.}}">{{.}}</a></span>{{/email}}
         </div>
       {{/references}}
     </section>
@@ -100,7 +103,7 @@
           In <span class="article-volume">{{{book}}}</span>
           ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
           {{{publisher}}}, {{year}}.
-          {{#pdf}}(<a href="{{.}}"><abbr>PDF</abbr></a>){{/pdf}}
+          {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
         </div>
       {{/publications}}
     </section>
@@ -111,6 +114,7 @@
         <div class="item">
           <span class="article-title"><a href="{{URL}}">{{{name}}}</a></span>,
           {{{desc}}}
+          <span class="print-only"><a href="{{URL}}">{{URL}}</a></span>
         </div>
       {{/software}}
     </section>

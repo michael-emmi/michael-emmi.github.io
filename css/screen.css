@@ -43,6 +43,14 @@ a[href]:hover {
   text-decoration: underline;
 }
 
+.screen-only {
+
+}
+
+.print-only {
+  display: none;
+}
+
 .info a {
   color: #A0A0A0;
 }

@@ -52,7 +52,7 @@ education:
   where: University of California, Los Angeles (<abbr>UCLA</abbr>)
   when: 2010
   info:
-  - Rupak Majumdar
+  - advised by Rupak Majumdar
 
 - degree: M.S. Computer Science
   where: University of California, Los Angeles (<abbr>UCLA</abbr>)
@@ -62,8 +62,8 @@ education:
   where: Binghamton University (<abbr>SUNY</abbr>)
   when: 2003
   info:
-  - Magna Cum Laude
-  - Physics minor
+  - graduated Magna Cum Laude
+  - with Physics minor
 
 awards:
 - title: Postdoctoral Fellowship
@@ -73,7 +73,7 @@ awards:
 positions:
 - title: Researcher
   where: <abbr>IMDEA</abbr> Software Institute, Madrid
-  when: 2013 – Present
+  when: 2013–Present
 
 - title: Postdoc Researcher
   where: <abbr>LIAFA</abbr>, Universtié Paris Diderot
@@ -152,53 +152,53 @@ references:
 
 activities:
 
-- acronym: <abbr>POPL</abbr> ’16
+- acronym: <abbr>POPL</abbr>&nbsp;’16
   desc: 43rd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://conf.researchr.org/home/POPL-2016
   role: External Review Committee
 
-- acronym: <abbr>PPoPP</abbr> ’16
+- acronym: <abbr>PPoPP</abbr>&nbsp;’16
   desc: 21st <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Symposium on Principles and Practice of Parallel Programming
   URL:  https://ppopp15.soe.ucsc.edu
   role: External Review Committee
 
-- acronym: <abbr>EC<sup>2</sup></abbr> ’15
+- acronym: <abbr>EC<sup>2</sup></abbr>&nbsp;’15
   desc: 8th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://multicore.doc.ic.ac.uk/events/ec2/
   role: Program Committee
 
-- acronym: <abbr>POPL</abbr> ’15
+- acronym: <abbr>POPL</abbr>&nbsp;’15
   desc: 42nd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
   role: External Review Committee
 
-- acronym: <abbr>FM</abbr> ’15
+- acronym: <abbr>FM</abbr>&nbsp;’15
   desc: 20th International Symposium on Formal Methods
   URL:    http://fm2015.ifi.uio.no
   role:   Program Committee
 
-- acronym: <abbr>EC<sup>2</sup></abbr> ’14
+- acronym: <abbr>EC<sup>2</sup></abbr>&nbsp;’14
   desc: 7th International Workshop on Exploiting Concurrency Efficiently and Correctly
   URL:  http://software.imdea.org/ec2-2014/
   role: Program Chair
 
-- acronym: <abbr>PLDI</abbr> ’14
+- acronym: <abbr>PLDI</abbr>&nbsp;’14
   desc: 35th annual <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Conference on Programming Language Design
     and Implementation
   URL:  http://conferences.inf.ed.ac.uk/pldi2014/
   role: External Review Committee
 
-- acronym: <abbr>POPL</abbr> ’13
+- acronym: <abbr>POPL</abbr>&nbsp;’13
   desc: 40th <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2013/
   role: External Review Committee
 
-- acronym: <abbr>VMCAI</abbr> ’13
+- acronym: <abbr>VMCAI</abbr>&nbsp;’13
   desc: 14th International Conference on Verification, Model Checking and Abstract Interpretation
   URL:  http://vmcai13.di.univr.it/
   role: Program Committee
 
-- acronym: <abbr>Bytecode</abbr> ’11
+- acronym: <abbr>Bytecode</abbr>&nbsp;’11
   desc: 6th International Workshop on Bytecode Semantics, Verification, Analysis and Transformation
   URL:  http://vmcai13.di.univr.it/
   role: Program Committee
@@ -207,7 +207,7 @@ publications:
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   authors: Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran
   book: Proc. 27th International Conference on. Computer Aided Verification
-  acronym: <abbr>CAV</abbr> ’15
+  acronym: <abbr>CAV</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume:
   pages:
@@ -218,7 +218,7 @@ publications:
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
   book: Proc. 42nd International Colloquium on Automata, Languages, and Programming
-  acronym: <abbr>ICALP</abbr> ’15
+  acronym: <abbr>ICALP</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume: 9135
   pages:
@@ -230,7 +230,7 @@ publications:
 - title: Monitoring Refinement via Symbolic Reasoning
   authors: Michael Emmi, Constantin Enea, and Jad Hamza
   book: Proc. 36th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> conference on Programming Language Design and Implementation
-  acronym: <abbr>PLDI</abbr> ’15
+  acronym: <abbr>PLDI</abbr>&nbsp;’15
   pages: 341–350
   publisher: <abbr>ACM</abbr>
   year: 2015
@@ -240,7 +240,7 @@ publications:
 - title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
   authors: Arvind Haran, Montgomery Carter, Michael Emmi, Akash Lal, Shaz Qadeer, and Zvonimir Rakamaric
   book: Proc. 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems
-  acronym: <abbr>TACAS</abbr> ’15
+  acronym: <abbr>TACAS</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume: 9035
   pages: 451–454
@@ -252,7 +252,7 @@ publications:
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
   authors: Michael Emmi, Pierre Ganty, Rupak Majumdar, and Fernando Rosa-Velardo
   book: Proc. 24th European Symposium on Programming,
-  acronym: <abbr>ESOP</abbr> ’15
+  acronym: <abbr>ESOP</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume: 9032
   pages: 535–559
@@ -264,7 +264,7 @@ publications:
 - title: Tractable Refinement Checking for Concurrent Objects
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
   book: Proc. 42nd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
-  acronym: <abbr>POPL</abbr> ’15
+  acronym: <abbr>POPL</abbr>&nbsp;’15
   pages: 651–662
   publisher: <abbr>ACM</abbr>
   year: 2015
@@ -274,7 +274,7 @@ publications:
 - title: '<abbr>SMACK</abbr>: Decoupling Source Language Details from Verifier Implementations'
   authors: Zvonimir Rakamaric and Michael Emmi
   book: Proc. 26th International Conference on Computer Aided Verification
-  acronym: <abbr>CAV</abbr> ’14
+  acronym: <abbr>CAV</abbr>&nbsp;’14
   series: <abbr>LNCS</abbr>
   volume: 8559
   pages: 106–113
@@ -286,7 +286,7 @@ publications:
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
   authors: Michael Emmi, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
   book: Proc. International <abbr>SPIN</abbr> Symposium on Model Checking of Software
-  acronym: <abbr>SPIN</abbr> ’14
+  acronym: <abbr>SPIN</abbr>&nbsp;’14
   pages: 20–29
   publisher: <abbr>ACM</abbr>
   year: 2014
@@ -296,7 +296,7 @@ publications:
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
   book: International Journal on Software Tools for Technology Transfer
-  acronym: <abbr>STTT</abbr> ’14
+  acronym: <abbr>STTT</abbr>&nbsp;’14
   volume: 16
   issue: 2
   pages: 127–146
@@ -308,7 +308,7 @@ publications:
 - title: Verifying Concurrent Programs Against Sequential Specifications
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
   book: Proc. 22nd European Symposium on Programming
-  acronym: <abbr>ESOP</abbr> ’13
+  acronym: <abbr>ESOP</abbr>&nbsp;’13
   series: <abbr>LNCS</abbr>
   volume: 7792
   pages: 290–309
@@ -320,8 +320,7 @@ publications:
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
   book: <abbr>ACM</abbr> Transactions on Programming Languages and Systems 
-  acronym: <abbr>TOPLAS</abbr> ’13
-  series: <abbr>LNCS</abbr>
+  acronym: <abbr>TOPLAS</abbr>&nbsp;’13
   volume: 35
   issue: 3
   pages: 10:1–10:49
@@ -333,7 +332,7 @@ publications:
 - title: Asynchronous Programs with Prioritized Task-Buffers
   authors: Michael Emmi, Akash Lal, and Shaz Qadeer
   book: Proc. 20th <abbr>ACM</abbr> <abbr>SIGSOFT</abbr> Symposium on the Foundations of Software Engineering
-  acronym: <abbr>FSE</abbr> ’12
+  acronym: <abbr>FSE</abbr>&nbsp;’12
   pages: 48
   publisher: <abbr>ACM</abbr>
   year: 2012
@@ -343,7 +342,7 @@ publications:
 - title: Finding Non-Terminating Executions in Distributed Asynchronous Programs
   authors: Michael Emmi and Akash Lal
   book: Proc. 19th International Static Analysis Symposium
-  acronym: <abbr>SAS</abbr> ’12
+  acronym: <abbr>SAS</abbr>&nbsp;’12
   series: <abbr>LNCS</abbr>
   volume: 7460
   pages: 439–455
@@ -355,7 +354,7 @@ publications:
 - title: Detecting Fair Non-Termination in Multithreaded Programs
   authors: Mohamed Faouzi Atig, Ahmed Bouajjani, Michael Emmi, and Akash Lal
   book: Proc. 24th International Conference on Computer Aided Verification
-  acronym: <abbr>CAV</abbr> ’12
+  acronym: <abbr>CAV</abbr>&nbsp;’12
   series: <abbr>LNCS</abbr>
   volume: 7358
   pages: 210–226
@@ -367,7 +366,7 @@ publications:
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
   book: Proc. 18th International Conference on Tools and Algorithms for the Construction and Analysis of Systems
-  acronym: <abbr>TACAS</abbr> ’12
+  acronym: <abbr>TACAS</abbr>&nbsp;’12
   series: <abbr>LNCS</abbr>
   volume: 7214
   pages: 451–465
@@ -379,7 +378,7 @@ publications:
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
   book: Proc. 39th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
-  acronym: <abbr>POPL</abbr> ’12
+  acronym: <abbr>POPL</abbr>&nbsp;’12
   pages: 203–214
   publisher: <abbr>ACM</abbr>
   year: 2012
@@ -389,7 +388,7 @@ publications:
 - title: On Sequentializing Concurrent Programs
   authors: Ahmed Bouajjani, Michael Emmi, and Gennaro Parlato
   book: Proc. 18th International Symposium on Static Analysis
-  acronym: <abbr>SAS</abbr> ’11
+  acronym: <abbr>SAS</abbr>&nbsp;’11
   series: <abbr>LNCS</abbr>
   volume: 6887
   pages: 129–145
@@ -401,7 +400,7 @@ publications:
 - title: Delay-Bounded Scheduling
   authors: Michael Emmi, Shaz Qadeer, and Zvonimir Rakamaric
   book: Proc. 38th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
-  acronym: <abbr>POPL</abbr> ’11
+  acronym: <abbr>POPL</abbr>&nbsp;’11
   pages: 411–422
   publisher: <abbr>ACM</abbr>
   year: 2011
@@ -411,7 +410,7 @@ publications:
 - title: Parameterized Verification of Transactional Memories
   authors: Michael Emmi, Rupak Majumdar, and Roman Manevich
   book: Proc. <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> 2010 Conference on Programming Language Design and Implementation
-  acronym: <abbr>PLDI</abbr> ’10
+  acronym: <abbr>PLDI</abbr>&nbsp;’10
   pages: 134–145
   publisher: <abbr>ACM</abbr>
   year: 2010
@@ -421,7 +420,7 @@ publications:
 - title: Verifying Reference Counting Implementations
   authors: Michael Emmi, Ranji Jhala, Eddie Kohler, and Rupak Majumdar
   book: Proc. 15th International Conference on Tools and Algorithms for the Construction and Analysis of Systems
-  acronym: <abbr>TACAS</abbr> ’09
+  acronym: <abbr>TACAS</abbr>&nbsp;’09
   series: <abbr>LNCS</abbr>
   volume: 5505
   pages: 352–367
@@ -433,7 +432,7 @@ publications:
 - title: Assume-Guarantee Verification for Interface Automata
   authors: Michael Emmi, Dimitra Giannakopoulou, and Corina S. Pasareanu
   book: Proc. 15th International Symposium on Formal Methods
-  acronym: <abbr>FM</abbr> ’08
+  acronym: <abbr>FM</abbr>&nbsp;’08
   series: <abbr>LNCS</abbr>
   volume: 5014
   pages: 116–131
@@ -445,7 +444,7 @@ publications:
 - title: Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers
   book: Proc. <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> 2008 Conference on Programming Language Design and Implementation
   authors: Juan Chen, Chris Hawblitzel, Frances Perry, Michael Emmi, Jeremy Condit, Derrick Coetzee, and Polyvios Pratikakis
-  acronym:  <abbr>PLDI</abbr> ’08
+  acronym:  <abbr>PLDI</abbr>&nbsp;’08
   pages: 183–192
   publisher: <abbr>ACM</abbr>
   year: 2008
@@ -455,7 +454,7 @@ publications:
 - title: Assembling an Expressive Facial Animation System
   authors: Alice Wang, Michael Emmi, and Petros Faloutsos
   book: Proc. <abbr>ACM</abbr> <abbr>SIGGRAPH </abbr> Symposium on Video Games
-  acronym: Sandbox ’07
+  acronym: Sandbox&nbsp;’07
   pages: 21–26
   publisher: <abbr>ACM</abbr>
   year: 2007
@@ -465,7 +464,7 @@ publications:
 - title: Dynamic Test Input Generation for Database Applications
   authors: Michael Emmi, Rupak Majumdar, and Koushik Sen
   book: Proc. <abbr>ACM</abbr>/<abbr> SIGSOFT</abbr> International Symposium on Software Testing and Analysis
-  acronym: <abbr>ISSTA</abbr> ’07
+  acronym: <abbr>ISSTA</abbr>&nbsp;’07
   pages: 151–162
   publisher: <abbr>ACM</abbr>
   year: 2007
@@ -475,7 +474,7 @@ publications:
 - title: Verifying Compensating Transactions
   authors: Michael Emmi and Rupak Majumdar
   book: Proc. 8th International Conference on Verification, Model Checking, and Abstract Interpretation
-  acronym: <abbr>VMCAI</abbr> ’07
+  acronym: <abbr>VMCAI</abbr>&nbsp;’07
   series: <abbr>LNCS</abbr>
   volume: 4349
   pages: 29–43
@@ -487,7 +486,7 @@ publications:
 - title: Lock Allocation
   authors: Michael Emmi, Jeff Fischer, Ranjit Jhala, and Rupak Majumdar
   book: Proc. 34th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
-  acronym: <abbr>POPL</abbr> ’07
+  acronym: <abbr>POPL</abbr>&nbsp;’07
   pages: 291–296
   publisher: <abbr>ACM</abbr>
   year: 2007
@@ -497,7 +496,7 @@ publications:
 - title: Decision Problems for the Verification of Real-Time Software
   authors: Michael Emmi and Rupak Majumdar
   book: "Proc. 9th International Workshop on Hybrid Systems: Computation and Control"
-  acronym: <abbr>HSCC</abbr> ’06
+  acronym: <abbr>HSCC</abbr>&nbsp;’06
   series: <abbr>LNCS</abbr>
   volume: 3927
   pages: 200–211
@@ -511,17 +510,19 @@ software:
 - name: <abbr>SMACK</abbr>
   URL: https://github.com/smackers/smack
   desc: >
-    <abbr>SV-COMP ’15</abbr> award-winning bounded software verifier for C programs.
+    <abbr>SV-COMP&nbsp;’15</abbr> award-winning bounded software verifier for C programs.
   
 - name: Violin
   URL: https://github.com/imdea-software/violin
   desc: >
-    efficient algorithms for checking observational refinement.
+    efficient symbolic reasoning algorithms for checking linearizability of
+    concurrent data structures.
 
 - name: c2s
   URL: https://github.com/michael-emmi/c2s
   desc: >
-    concurrent to sequential program translations (sequentializations).
+    program “sequentializations” for reducing bounded concurrent program
+    verification to sequential program verification.
 
 - name: printlncs
   URL: https://github.com/michael-emmi/printlncs
