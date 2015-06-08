@@ -231,10 +231,10 @@ publications:
   authors: Michael Emmi, Constantin Enea, and Jad Hamza
   book: Proc. 36th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> conference on Programming Language Design and Implementation
   acronym: <abbr>PLDI</abbr>&nbsp;’15
-  pages: 341–350
+  pages: 260–269
   publisher: <abbr>ACM</abbr>
   year: 2015
-  doi:
+  doi: http://doi.acm.org/10.1145/2737924.2737983
   pdf: papers/conf-pldi-EmmiEH15.pdf
 
 - title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
