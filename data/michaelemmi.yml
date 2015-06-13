@@ -17,7 +17,7 @@ about: >
   <p>Michael received his doctorate in Computer Science from <abbr>UCLA</abbr>
   in 2010 and joined the <abbr>IMDEA</abbr> Software Institute in 2013,
   following a postdoc fellowship at the Université Paris Diderot awarded by La
-  Fondation Sciences Mathématiques de Paris. Prior to all that, Michael
+  Fondation Sciences Mathématiques de Paris (<abbr>FSMP</abbr>). Prior to all that, Michael
   completed his undergraduate studies at Binghamton University
   (<abbr>SUNY</abbr>). He has been a teaching assistant for undergraduate
   courses at <abbr>UCLA</abbr> and Université Paris Diderot, and has held
@@ -133,7 +133,7 @@ references:
   email: rupak@mpi-sws.org
 
 - name: Shaz Qadeer
-  title: Senior Researcher
+  title: Principal Researcher
   where: Microsoft Research
   web: http://research.microsoft.com/en-us/people/qadeer/
   email: qadeer@microsoft.com

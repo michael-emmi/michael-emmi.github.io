@@ -61,7 +61,7 @@
       <h2>Employment</h2>
       {{#positions}}
         <div class="item">
-          <span class="article-title">{{{title}}}</span>, {{{where}}}, {{{when}}}.
+          <span class="article-title">{{{title}}}</span>. {{{where}}}, {{{when}}}.
         </div>
       {{/positions}}
     </section>
@@ -70,7 +70,7 @@
       <h2>References</h2>
       {{#references}}
         <div class="item">
-          <span class="article-title"><a href="{{web}}">{{{name}}}</a></span>, {{{title}}}, {{{where}}}.
+          <span class="article-title"><a href="{{web}}">{{{name}}}</a></span>. {{{title}}}, {{{where}}}.
           {{#email}}<span class="print-only"><a href="mailto:{{.}}">{{.}}</a></span>{{/email}}
         </div>
       {{/references}}
