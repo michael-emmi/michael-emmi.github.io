@@ -153,6 +153,11 @@ references:
 
 activities:
 
+- acronym: <abbr>NETYS</abbr>&nbsp;’16
+  desc: 2nd International Conference on Networked Systems
+  role: Program Committee
+  URL:  http://netys.net
+
 - acronym: <abbr>POPL</abbr>&nbsp;’16
   desc: 43rd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
   URL:  http://conf.researchr.org/home/POPL-2016
@@ -320,7 +325,7 @@ publications:
 
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
-  book: <abbr>ACM</abbr> Transactions on Programming Languages and Systems 
+  book: <abbr>ACM</abbr> Transactions on Programming Languages and Systems
   acronym: <abbr>TOPLAS</abbr>&nbsp;’13
   volume: 35
   issue: 3
@@ -512,18 +517,25 @@ software:
   URL: https://github.com/smackers/smack
   desc: >
     <abbr>SV-COMP&nbsp;’15</abbr> award-winning bounded software verifier for C programs.
-  
+
 - name: Violin
   URL: https://github.com/imdea-software/violin
   desc: >
     efficient symbolic reasoning algorithms for checking linearizability of
     concurrent data structures.
 
-- name: c2s
-  URL: https://github.com/michael-emmi/c2s
+- name: BAM! BAM! Boogieman
+  URL: https://github.com/michael-emmi/bam-bam-boogieman
   desc: >
-    program “sequentializations” for reducing bounded concurrent program
-    verification to sequential program verification.
+    <strong>B</strong>oogie <strong>A</strong>ST <strong>M</strong>anipulator
+    which implements various code analyses and transformations for the Boogie
+    intermediate verification language.
+
+- name: Whittle
+  URL: https://github.com/michael-emmi/whittle
+  desc: >
+    Minimizes input files via “delta debugging” by repeatedly “whittling” down
+    features while maintaining validity.
 
 - name: printlncs
   URL: https://github.com/michael-emmi/printlncs
