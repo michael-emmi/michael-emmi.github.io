@@ -215,11 +215,11 @@ publications:
   book: Proc. 27th International Conference on. Computer Aided Verification
   acronym: <abbr>CAV</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
-  volume:
-  pages:
+  volume: 9206
+  pages: 455–461
   publisher: Springer
   year: 2015
-  doi:
+  doi: http://dx.doi.org/10.1007/978-3-319-21690-4_28
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -227,10 +227,10 @@ publications:
   acronym: <abbr>ICALP</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume: 9135
-  pages:
+  pages: 95–107
   publisher: Springer
   year: 2015
-  doi:
+  doi: http://dx.doi.org/10.1007/978-3-662-47666-6_8
   pdf: papers/conf-icalp-BouajjaniEEH15.pdf
 
 - title: Monitoring Refinement via Symbolic Reasoning
