@@ -210,6 +210,17 @@ activities:
   role: Program Committee
 
 publications:
+
+- title: Symbolic Abstract Data Type Inference
+  authors: Michael Emmi and Constantin Enea
+  book: Proc. 43rd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
+  acronym: <abbr>POPL</abbr>&nbsp;’16
+  pages:
+  publisher: <abbr>ACM</abbr>
+  year: 2016
+  doi:
+  pdf:
+
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   authors: Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran
   book: Proc. 27th International Conference on. Computer Aided Verification
