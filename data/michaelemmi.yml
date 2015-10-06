@@ -231,6 +231,7 @@ publications:
   publisher: Springer
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-319-21690-4_28
+  pdf: papers/conf-cav-OzkanET15.pdf
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
