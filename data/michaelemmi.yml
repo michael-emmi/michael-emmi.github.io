@@ -153,6 +153,11 @@ references:
 
 activities:
 
+- acronym: <abbr>FoSSaCS</abbr>&nbsp;’17
+  desc: 20th International Conference on Foundations of Software Science and Computation Structures
+  role: Program Committee
+  URL:  http://fossacs.pps.univ-paris-diderot.fr
+
 - acronym: <abbr>NETYS</abbr>&nbsp;’16
   desc: 2nd International Conference on Networked Systems
   role: Program Committee
