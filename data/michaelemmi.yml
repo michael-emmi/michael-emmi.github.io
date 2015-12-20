@@ -220,11 +220,11 @@ publications:
   authors: Michael Emmi and Constantin Enea
   book: Proc. 43rd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
   acronym: <abbr>POPL</abbr>&nbsp;’16
-  pages:
+  pages: 513–525
   publisher: <abbr>ACM</abbr>
   year: 2016
   doi:
-  pdf:
+  pdf: papers/conf-popl-EmmiE16.pdf
 
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   authors: Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran
