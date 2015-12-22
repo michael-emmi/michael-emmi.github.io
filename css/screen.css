@@ -1,5 +1,5 @@
 body {
-  font-family: 'IM Fell Double Pica', Georgia, serif;
+  font-family: 'IM Fell French Canon', Georgia, serif;
   padding: 0;
   margin: 1em 1em 1em 1em;
 }
@@ -23,10 +23,8 @@ p {
 }
 
 abbr {
-  /* NOTE this looks terrible without proper fonts. */
-  font-family: 'IM Fell Double Pica SC', Georgia, serif;
+  font-family: 'IM Fell French Canon SC', Georgia, serif;
   text-transform: lowercase;
-/*  line-height: 0.8em;*/
 }
 
 a {
@@ -66,7 +64,6 @@ a[href]:hover {
 
 .title {
   font-size: 4em;
-  letter-spacing: -0.05em;
   margin: 0 0 0 0;
 }
 

@@ -88,27 +88,6 @@
       {{/activities}}
     </section>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      {{#publications}}
-        <div class="item">
-          {{authors}}.
-          <span class="article-title">
-            {{#doi}}
-              <a href="{{.}}">{{{title}}}</a>.
-            {{/doi}}
-            {{^doi}}
-              {{{title}}}.
-            {{/doi}}
-          </span>
-          In <span class="article-volume">{{{book}}}</span>
-          ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
-          {{{publisher}}}, {{year}}.
-          {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
-        </div>
-      {{/publications}}
-    </section>
-
     <section id="software">
       <h2>Software</h2>
       {{#software}}
