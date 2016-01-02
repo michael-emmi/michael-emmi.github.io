@@ -17,9 +17,10 @@
 
     <section id="publications">
       <h2>In International Journals</h2>
+      <ol>
       {{#publications}}
         {{#issue}}
-          <div class="item">
+          <li class="item">
             {{authors}}.
             <span class="article-title">
               {{#doi}}
@@ -33,16 +34,18 @@
             ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
             {{{publisher}}}, {{year}}.
             {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
-          </div>
+          </li>
         {{/issue}}
       {{/publications}}
+      <ol>
     </section>
 
     <section id="publications">
       <h2>In International Conference Proceedings</h2>
+      <ol>
       {{#publications}}
         {{^issue}}
-          <div class="item">
+          <li class="item">
             {{authors}}.
             <span class="article-title">
               {{#doi}}
@@ -56,9 +59,10 @@
             ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
             {{{publisher}}}, {{year}}.
             {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
-          </div>
+          </li>
         {{/issue}}
       {{/publications}}
+      </ol>
     </section>
 
   </body>

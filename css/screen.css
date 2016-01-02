@@ -74,11 +74,19 @@ a[href]:hover {
   color: #606060;
 }
 
+ol {
+  padding-left: 0
+}
+
 .item {
   display: table;
   width: 100%;
   margin-bottom: 0.8em;
   color: #606060;
+}
+
+li.item {
+  display: list-item
 }
 
 .head {
