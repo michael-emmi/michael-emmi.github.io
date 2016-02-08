@@ -158,6 +158,11 @@ activities:
   role: Program Committee
   URL:  http://fossacs.pps.univ-paris-diderot.fr
 
+- acronym: <abbr>FMCAD</abbr>&nbsp;’16
+  desc: 16th International Conference on Formal Methods in Computer-Aided Design
+  role: Program Committee
+  URL:  http://www.cs.utexas.edu/~hunt/fmcad/
+
 - acronym: <abbr>NETYS</abbr>&nbsp;’16
   desc: 4th International Conference on Networked Systems
   role: Program Committee
