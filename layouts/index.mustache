@@ -99,7 +99,7 @@
             <div class="item">{{{address}}}</div>
             <a href="mailto:{{email}}">{{email}}</a><br>
             {{#phone}}
-              <a href="tel:{{number}}">{{number}}</a> ({{{country}}})<br>
+              <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
             {{/phone}}
           {{/contact}}
         </section>

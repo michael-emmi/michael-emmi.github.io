@@ -3,7 +3,7 @@ nationality: American
 birth-date: April 11, 1981
 birth-place: Binghamton, <abbr>NY</abbr>, <abbr>USA</abbr>
 role: Researcher
-place: <abbr>IMDEA</abbr> Software Institute
+place: Bell Labs, Nokia
 
 links:
 - name: dblp
@@ -36,17 +36,14 @@ about: >
 
 contact:
   address: |
-    <abbr>IMDEA</abbr> Software Institute<br>
-    Campus Montegancedo <abbr>UPM</abbr><br>
-    28223 Pozuelo de Alarcón, Madrid<br>
-    España
+    Bell Labs, Nokia<br>
+    600 Mountain Ave., 2B-439<br>
+    Murray Hill, <abbr>NJ</abbr> 07974<br>
+    <abbr>USA</abbr>
   email: michael.emmi@gmail.com
   web: http://michael-emmi.github.io
   phone:
-    - number: +34 911 012 202
-      country: Spain
-    - number: +1 (310) 564-6453
-      country: <abbr>USA</abbr>
+    - number: +1 (908) 743-4680
 
 education:
 - degree: Ph.D. Computer Science

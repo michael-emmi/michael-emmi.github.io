@@ -24,7 +24,7 @@
             <a href="{{web}}">{{web}}</a><br>
             <a href="mailto:{{email}}">{{email}}</a><br>
             {{#phone}}
-              <a href="tel:{{number}}">{{number}}</a> ({{{country}}})<br>
+              <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
             {{/phone}}
           </div>
         </div>
