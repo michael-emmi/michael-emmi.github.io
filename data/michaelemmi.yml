@@ -155,6 +155,10 @@ activities:
   role: Program Committee
   URL:  http://fossacs.pps.univ-paris-diderot.fr
 
+- acronym: <abbr>EC<sup>2</sup></abbr>&nbsp;’16
+  desc: 9th International Workshop on Exploiting Concurrency Efficiently and Correctly
+  role: Program Committee
+
 - acronym: <abbr>FMCAD</abbr>&nbsp;’16
   desc: 16th International Conference on Formal Methods in Computer-Aided Design
   role: Program Committee
