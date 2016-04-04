@@ -238,7 +238,7 @@ publications:
 
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   authors: Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran
-  book: Proc. 27th International Conference on. Computer Aided Verification
+  book: Proc. 27th International Conference on Computer Aided Verification
   acronym: <abbr>CAV</abbr>&nbsp;’15
   series: <abbr>LNCS</abbr>
   volume: 9206
