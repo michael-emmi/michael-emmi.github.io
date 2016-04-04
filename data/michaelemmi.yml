@@ -69,9 +69,13 @@ awards:
   when: 2010–2012
 
 positions:
+- title: Member of Technical Staff
+  where: Bell Labs, Nokia, Murray Hill, NJ
+  when: 2016–present
+  
 - title: Researcher
   where: <abbr>IMDEA</abbr> Software Institute, Madrid
-  when: 2013–Present
+  when: 2013–2016
 
 - title: Postdoc Researcher
   where: <abbr>LIAFA</abbr>, Universtié Paris Diderot
