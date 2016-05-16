@@ -239,7 +239,7 @@ publications:
 - title: <abbr>SMACK</abbr> Software Verification Toolchain
   authors: Montgomery Carter, Shaobo He, Jonathan Whitaker, Zvonimir Rakamaric, and Michael Emmi
   book: Proc. 38th International Conference on Software Engineering
-  acronym: <abbr>ICSE</abbr>&nbsp;’16
+  acronym: <abbr>ICSE</abbr>&nbsp;Companion&nbsp;’16
   pages: 589–592
   publisher: <abbr>ACM</abbr>
   year: 2016
@@ -302,7 +302,7 @@ publications:
   doi: http://doi.acm.org/10.1145/2737924.2737983
   pdf: papers/conf-pldi-EmmiEH15.pdf
 
-- title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier'
+- title: '<abbr>SMACK</abbr>+Corral: A Modular Verifier (Competition Contribution)'
   authors: Arvind Haran, Montgomery Carter, Michael Emmi, Akash Lal, Shaz Qadeer, and Zvonimir Rakamaric
   book: Proc. 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems
   acronym: <abbr>TACAS</abbr>&nbsp;’15
