@@ -72,7 +72,7 @@ positions:
 - title: Member of Technical Staff
   where: Bell Labs, Nokia, Murray Hill, NJ
   when: 2016–present
-  
+
 - title: Researcher
   where: <abbr>IMDEA</abbr> Software Institute, Madrid
   when: 2013–2016
@@ -226,6 +226,26 @@ activities:
 
 publications:
 
+- title: Verifying Constant-Time Implementations
+  authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
+  book: Proc. 25th USENIX Security Symposium
+  acronym: <abbr>USENIX</abbr>&nbsp;Security&nbsp;’16
+  pages:
+  publisher: <abbr>USENIX</abbr>&nbsp;Association
+  year: 2016
+  doi:
+  pdf:
+
+- title: <abbr>SMACK</abbr> Software Verification Toolchain
+  authors: Montgomery Carter, Shaobo He, Jonathan Whitaker, Zvonimir Rakamaric, and Michael Emmi
+  book: Proc. 38th International Conference on Software Engineering
+  acronym: <abbr>ICSE</abbr>&nbsp;’16
+  pages: 589–592
+  publisher: <abbr>ACM</abbr>
+  year: 2016
+  doi: http://doi.acm.org/10.1145/2889160.2889163
+  pdf: papers/conf-icse-CarterHWRE16.pdf
+
 - title: Symbolic Abstract Data Type Inference
   authors: Michael Emmi and Constantin Enea
   book: Proc. 43rd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
@@ -233,7 +253,7 @@ publications:
   pages: 513–525
   publisher: <abbr>ACM</abbr>
   year: 2016
-  doi:
+  doi: http://doi.acm.org/10.1145/2837614.2837645
   pdf: papers/conf-popl-EmmiE16.pdf
 
 - title: Systematic Asynchrony Bug Exploration for Android Apps
@@ -247,6 +267,18 @@ publications:
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-319-21690-4_28
   pdf: papers/conf-cav-OzkanET15.pdf
+
+- title: 'Checking Correctness of Concurrent Objects: Tractable Reductions to Reachability (Invited Talk)'
+  authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
+  book: Proc. 35th <abbr>IARCS</abbr> Annual Conference on Foundation of Software Technology and Theoretical Computer Science
+  acronym: <abbr>FSTTCS</abbr>&nbsp;’15
+  series: <abbr>LIPI</abbr>cs
+  volume: 45
+  pages: 95–107
+  publisher: Schloss Dagstuhl — Leibniz-Zentrum fuer Informatik
+  year: 2015
+  doi: http://dx.doi.org/10.4230/LIPIcs.FSTTCS.2015.2
+  pdf: papers/conf-fsttcs-BouajjaniEEH15.pdf
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
