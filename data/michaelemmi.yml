@@ -228,13 +228,13 @@ publications:
 
 - title: Verifying Constant-Time Implementations
   authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
-  book: Proc. 25th USENIX Security Symposium
+  book: Proc. 25th <abbr>USENIX</abbr> Security Symposium
   acronym: <abbr>USENIX</abbr>&nbsp;Security&nbsp;’16
-  pages:
+  pages: 53–70
   publisher: <abbr>USENIX</abbr>&nbsp;Association
   year: 2016
-  doi:
-  pdf:
+  doi: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/almeida
+  pdf: papers/conf-uss-AlmeidaBBDE16.pdf
 
 - title: <abbr>SMACK</abbr> Software Verification Toolchain
   authors: Montgomery Carter, Shaobo He, Jonathan Whitaker, Zvonimir Rakamaric, and Michael Emmi
