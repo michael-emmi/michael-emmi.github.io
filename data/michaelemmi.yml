@@ -154,6 +154,10 @@ references:
 
 activities:
 
+- acronym: <abbr>FORTE</abbr>&nbsp;’17
+  desc: 37th <abbr>IFIP</abbr> International Conference on Formal Techniques for Distributed Objects, Components and Systems
+  role: Program Committee
+
 - acronym: <abbr>FoSSaCS</abbr>&nbsp;’17
   desc: 20th International Conference on Foundations of Software Science and Computation Structures
   role: Program Committee
