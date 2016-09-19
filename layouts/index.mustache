@@ -37,7 +37,11 @@
             <div class="item">
               <div class="head">
                 <span class="lhs">{{role}}</span>
-                <span class="rhs"><a href="{{URL}}">{{{acronym}}}</a></span>
+                <span class="rhs">
+                  {{#URL}}<a href="{{URL}}">{{/URL}}
+                  {{{acronym}}}
+                  {{#URL}}</a>{{/URL}}
+                </span>
               </div>
             </div>
           {{/activities}}

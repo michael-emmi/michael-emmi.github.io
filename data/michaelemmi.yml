@@ -154,6 +154,11 @@ references:
 
 activities:
 
+- acronym: <abbr>CAV</abbr>&nbsp;’17
+  desc: 29th International Conference on Computer-Aided Verification
+  role: Program Committee
+  URL: http://cavconference.org/2017/
+
 - acronym: <abbr>FORTE</abbr>&nbsp;’17
   desc: 37th <abbr>IFIP</abbr> International Conference on Formal Techniques for Distributed Objects, Components and Systems
   role: Program Committee
@@ -161,11 +166,12 @@ activities:
 - acronym: <abbr>FoSSaCS</abbr>&nbsp;’17
   desc: 20th International Conference on Foundations of Software Science and Computation Structures
   role: Program Committee
-  URL:  http://fossacs.pps.univ-paris-diderot.fr
+  URL: http://www.etaps.org/index.php/2017/fossacs
 
 - acronym: <abbr>EC<sup>2</sup></abbr>&nbsp;’16
   desc: 9th International Workshop on Exploiting Concurrency Efficiently and Correctly
   role: Program Committee
+  URL: http://ecee.colorado.edu/pavol/ec2-2016/
 
 - acronym: <abbr>FMCAD</abbr>&nbsp;’16
   desc: 16th International Conference on Formal Methods in Computer-Aided Design
