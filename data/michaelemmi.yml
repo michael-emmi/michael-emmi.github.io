@@ -236,6 +236,18 @@ activities:
 
 publications:
 
+- title: Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency
+  authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
+  book: Proc. 26th European Symposium on Programming
+  acronym: <abbr>ESOP</abbr>&nbsp;’17
+  series: <abbr>LNCS</abbr>
+  volume:
+  pages:
+  publisher: Springer
+  year: 2017
+  doi:
+  pdf:
+
 - title: Verifying Constant-Time Implementations
   authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
   book: Proc. 25th <abbr>USENIX</abbr> Security Symposium
