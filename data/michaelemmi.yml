@@ -3,7 +3,7 @@ nationality: American
 birth-date: April 11, 1981
 birth-place: Binghamton, <abbr>NY</abbr>, <abbr>USA</abbr>
 role: Researcher
-place: Bell Labs, Nokia
+place: Nokia Bell Labs
 
 links:
 - name: dblp
@@ -36,7 +36,7 @@ about: >
 
 contact:
   address: |
-    Bell Labs, Nokia<br>
+    Nokia Bell Labs<br>
     600 Mountain Ave., 2B-439<br>
     Murray Hill, <abbr>NJ</abbr> 07974<br>
     <abbr>USA</abbr>
@@ -70,7 +70,7 @@ awards:
 
 positions:
 - title: Member of Technical Staff
-  where: Bell Labs, Nokia, Murray Hill, NJ
+  where: Nokia Bell Labs, Murray Hill, NJ
   when: 2016–present
 
 - title: Researcher
