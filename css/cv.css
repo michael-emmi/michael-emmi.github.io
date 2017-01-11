@@ -16,6 +16,10 @@ body {
   content: ", "
 }
 
+.list span:last-of-type:after {
+  content: ""
+}
+
 @media only screen and (max-device-width: 480px) {
 	.column { margin: 1% 0 1% 0%;}
 	.left, .right { width: 100%; }
