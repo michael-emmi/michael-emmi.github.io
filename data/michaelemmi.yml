@@ -17,12 +17,12 @@ about: >
 
   <p>Michael received his doctorate in Computer Science from <abbr>UCLA</abbr>
   in 2010 and joined Bell Labs in 2016, following a postdoc fellowship at the
-  Université Paris Diderot awarded by La Fondation Sciences Mathématiques de
+  Paris 7 awarded by La Fondation Sciences Mathématiques de
   Paris (<abbr>FSMP</abbr>), and a faculty researcher position at the
   <abbr>IMDEA</abbr> Software Institute. Prior to all that, Michael completed
   his undergraduate studies at Binghamton University (<abbr>SUNY</abbr>). He has
   been a teaching assistant for undergraduate courses at <abbr>UCLA</abbr> and
-  Université Paris Diderot, and has held internships at Microsoft Research,
+  Paris 7, and has held internships at MSR,
   <abbr>NASA</abbr> Ames Research Center, and <abbr>IBM</abbr>.</p>
 
   <p>Michael’s research enables the construction of reliable software by
@@ -47,13 +47,13 @@ contact:
 
 education:
 - degree: Ph.D. Computer Science
-  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  where: UCLA (<abbr>UCLA</abbr>)
   when: 2010
   info:
   - advised by Rupak Majumdar
 
 - degree: M.S. Computer Science
-  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  where: UCLA (<abbr>UCLA</abbr>)
   when: 2005
 
 - degree: B.S. Computer Science
@@ -82,23 +82,23 @@ positions:
   when: 2010–2013
 
 - title: Lecturer (<abbr>ATER</abbr>)
-  where: Université Paris Diderot
+  where: Paris 7
   when: 2012–2013
 
 - title: Visiting Researcher
-  where: Microsoft Research, Bangalore
+  where: MSR, Bangalore
   when: 2011
 
 - title: Research Intern
-  where: Microsoft Research, Redmond
+  where: MSR, Redmond
   when: 2010
 
 - title: Research Intern
-  where: Microsoft Research, Cambridge (<abbr>UK</abbr>)
+  where: MSR, Cambridge (<abbr>UK</abbr>)
   when: 2008
 
 - title: Research Intern
-  where: Microsoft Research, Redmond
+  where: MSR, Redmond
   when: 2007
 
 - title: Research Intern
@@ -106,11 +106,11 @@ positions:
   when: 2006
 
 - title: Research Assistant
-  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  where: UCLA (<abbr>UCLA</abbr>)
   when: 2006–2010
 
 - title: Teaching Assistant
-  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
+  where: UCLA (<abbr>UCLA</abbr>)
   when: 2003–2005
 
 - title: Software Engineer Intern
@@ -124,19 +124,19 @@ positions:
 references:
 - name: Ahmed Bouajjani
   title: Professor
-  where: Université Paris Diderot
+  where: Paris 7
   web: http://www.liafa.jussieu.fr/~abou/
   email: abou@liafa.univ-paris-diderot.fr
 
 - name: Rupak Majumdar
   title: Scientific Director
-  where: Max Planck Institute for Software Systems
+  where: MPI-SWS
   web: http://www.mpi-sws.org/~rupak/
   email: rupak@mpi-sws.org
 
 - name: Shaz Qadeer
   title: Principal Researcher
-  where: Microsoft Research
+  where: MSR
   web: http://research.microsoft.com/en-us/people/qadeer/
   email: qadeer@microsoft.com
 
@@ -148,7 +148,7 @@ references:
 
 - name: Josh Berdine
   title: Researcher
-  where: Microsoft Research
+  where: MSR
   web: http://research.microsoft.com/en-us/people/jjb/
   email: jjb@microsoft.com
 
@@ -591,6 +591,82 @@ publications:
   year: 2006
   doi: http://dx.doi.org/10.1007/11730637_17
   pdf: papers/conf-hscc-EmmiM06.pdf
+
+coauthors:
+- name: José Bacelar Almeida
+  affiliation: Universidade do Minho
+- name: Mohamed Faouzi Atig
+  affiliation: Uppsala University
+- name: Manuel Barbosa
+  affiliation: University of Porto
+- name: Gilles Barthe
+  affiliation: IMDEA Software
+- name: Ahmed Bouajjani
+  affiliation: Paris 7
+- name: Montgomery Carter
+  affiliation: University of Utah
+- name: Juan Chen
+  affiliation: MSR
+- name: Derrick Coetzee
+  affiliation: MSR
+- name: Jeremy Condit
+  affiliation: MSR
+- name: François Dupressoir
+  affiliation: IMDEA Software
+- name: Constantin Enea
+  affiliation: Paris 7
+- name: Petros Faloutsos
+  affiliation: UCLA
+- name: Jeffrey S. Fischer
+  affiliation: UCLA
+- name: Pierre Ganty
+  affiliation: IMDEA Software
+- name: Dimitra Giannakopoulou
+  affiliation: NASA Ames
+- name: Jad Hamza
+  affiliation: Paris 7
+- name: Arvind Haran
+  affiliation: University of Utah
+- name: Chris Hawblitzel
+  affiliation: MSR
+- name: Shaobo He
+  affiliation: University of Utah
+- name: Ranjit Jhala
+  affiliation: UCSD
+- name: Eddie Kohler
+  affiliation: Harvard
+- name: Akash Lal
+  affiliation: MSR
+- name: Rupak Majumdar
+  affiliation: MPI-SWS
+- name: Roman Manevich
+  affiliation: Ben-Gurion University of the Negev
+- name: Kedar Namjoshi
+  affiliation: Nokia Bell Labs
+- name: Burcu Kulahcioglu Ozkan
+  affiliation: Koç University
+- name: Gennaro Parlato
+  affiliation: Paris 7
+- name: Corina S. Pasareanu
+  affiliation: NASA Ames
+- name: Frances Perry
+  affiliation: Princeton University
+- name: Polyvios Pratikaki
+  affiliation: University of Maryland
+- name: Shaz Qadeer
+  affiliation: MSR
+- name: Zvonimir Rakamaric
+  affiliation: University of Utah
+- name: Fernando Rosa-Velardo
+  affiliation: Universidad Complutense de Madrid
+- name: Koushik Sen
+  affiliation: University of California, Berkeley
+- name: Serdar Tasiran
+  affiliation: Koç University
+- name: Alice Wang
+  affiliation: UCLA
+- name: Jonathan Whitaker
+  affiliation: University of Utah
 
 software:
 
