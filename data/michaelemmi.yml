@@ -600,47 +600,47 @@ coauthors:
 - name: Manuel Barbosa
   affiliation: University of Porto
 - name: Gilles Barthe
-  affiliation: IMDEA Software
+  affiliation: <abbr>IMDEA</abbr> Software
 - name: Ahmed Bouajjani
   affiliation: Paris 7
 - name: Montgomery Carter
   affiliation: University of Utah
 - name: Juan Chen
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: Derrick Coetzee
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: Jeremy Condit
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: François Dupressoir
-  affiliation: IMDEA Software
+  affiliation: <abbr>IMDEA</abbr> Software
 - name: Constantin Enea
   affiliation: Paris 7
 - name: Petros Faloutsos
-  affiliation: UCLA
+  affiliation: <abbr>UCLA</abbr>
 - name: Jeffrey S. Fischer
-  affiliation: UCLA
+  affiliation: <abbr>UCLA</abbr>
 - name: Pierre Ganty
-  affiliation: IMDEA Software
+  affiliation: <abbr>IMDEA</abbr> Software
 - name: Dimitra Giannakopoulou
-  affiliation: NASA Ames
+  affiliation: <abbr>NASA</abbr> Ames
 - name: Jad Hamza
   affiliation: Paris 7
 - name: Arvind Haran
   affiliation: University of Utah
 - name: Chris Hawblitzel
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: Shaobo He
   affiliation: University of Utah
 - name: Ranjit Jhala
-  affiliation: UCSD
+  affiliation: <abbr>UCSD</abbr>
 - name: Eddie Kohler
   affiliation: Harvard
 - name: Akash Lal
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: Rupak Majumdar
-  affiliation: MPI-SWS
+  affiliation: <abbr>MPI-SWS</abbr>
 - name: Roman Manevich
-  affiliation: Ben-Gurion University of the Negev
+  affiliation: UCLA
 - name: Kedar Namjoshi
   affiliation: Nokia Bell Labs
 - name: Burcu Kulahcioglu Ozkan
@@ -648,13 +648,13 @@ coauthors:
 - name: Gennaro Parlato
   affiliation: Paris 7
 - name: Corina S. Pasareanu
-  affiliation: NASA Ames
+  affiliation: <abbr>NASA</abbr> Ames
 - name: Frances Perry
   affiliation: Princeton University
 - name: Polyvios Pratikaki
   affiliation: University of Maryland
 - name: Shaz Qadeer
-  affiliation: MSR
+  affiliation: <abbr>MSR</abbr>
 - name: Zvonimir Rakamaric
   affiliation: University of Utah
 - name: Fernando Rosa-Velardo
@@ -664,7 +664,7 @@ coauthors:
 - name: Serdar Tasiran
   affiliation: Koç University
 - name: Alice Wang
-  affiliation: UCLA
+  affiliation: <abbr>UCLA</abbr>
 - name: Jonathan Whitaker
   affiliation: University of Utah
 
