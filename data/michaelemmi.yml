@@ -47,13 +47,13 @@ contact:
 
 education:
 - degree: Ph.D. Computer Science
-  where: UCLA (<abbr>UCLA</abbr>)
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
   when: 2010
   info:
   - advised by Rupak Majumdar
 
 - degree: M.S. Computer Science
-  where: UCLA (<abbr>UCLA</abbr>)
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
   when: 2005
 
 - degree: B.S. Computer Science
@@ -106,11 +106,11 @@ positions:
   when: 2006
 
 - title: Research Assistant
-  where: UCLA (<abbr>UCLA</abbr>)
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
   when: 2006–2010
 
 - title: Teaching Assistant
-  where: UCLA (<abbr>UCLA</abbr>)
+  where: University of California, Los Angeles (<abbr>UCLA</abbr>)
   when: 2003–2005
 
 - title: Software Engineer Intern
@@ -640,7 +640,7 @@ coauthors:
 - name: Rupak Majumdar
   affiliation: <abbr>MPI-SWS</abbr>
 - name: Roman Manevich
-  affiliation: UCLA
+  affiliation: <abbr>UCLA</abbr>
 - name: Kedar Namjoshi
   affiliation: Nokia Bell Labs
 - name: Burcu Kulahcioglu Ozkan
