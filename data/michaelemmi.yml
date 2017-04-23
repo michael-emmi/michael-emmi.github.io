@@ -256,11 +256,11 @@ publications:
   book: Proc. 26th European Symposium on Programming
   acronym: <abbr>ESOP</abbr>&nbsp;’17
   series: <abbr>LNCS</abbr>
-  volume:
-  pages:
+  volume: 10201
+  pages: 170–200
   publisher: Springer
   year: 2017
-  doi:
+  doi: http://dx.doi.org/10.1007/978-3-662-54434-1_7
   pdf:
 
 - title: Verifying Constant-Time Implementations
