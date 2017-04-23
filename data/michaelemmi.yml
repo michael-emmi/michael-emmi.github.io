@@ -239,6 +239,17 @@ activities:
   role: Program Committee
 
 publications:
+- title: Proving Linearizability Using Forward Simulations
+  authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Suha Orhun Mutluergil
+  book: 29th International Conference on Computer-Aided Verification
+  acronym: <abbr>CAV</abbr>&nbsp;’17
+  series: <abbr>LNCS</abbr>
+  volume:
+  pages:
+  publisher: Springer
+  year: 2017
+  doi:
+  pdf:
 
 - title: Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
