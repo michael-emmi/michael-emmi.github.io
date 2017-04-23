@@ -153,6 +153,10 @@ references:
   email: jjb@microsoft.com
 
 activities:
+- acronym: <abbr>TAPAS</abbr>&nbsp;’17
+  desc: 8th Workshop on Tools for Automatic Program Analysis
+  role: Program Committee
+  URL: http://cs.nyu.edu/acsys/tapas2017/
 
 - acronym: <abbr>CAV</abbr>&nbsp;’17
   desc: 29th International Conference on Computer-Aided Verification
