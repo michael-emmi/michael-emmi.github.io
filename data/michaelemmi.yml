@@ -22,7 +22,7 @@ about: >
   <abbr>IMDEA</abbr> Software Institute. Prior to all that, Michael completed
   his undergraduate studies at Binghamton University (<abbr>SUNY</abbr>). He has
   been a teaching assistant for undergraduate courses at <abbr>UCLA</abbr> and
-  Paris 7, and has held internships at MSR,
+  Paris 7, and has held internships at Microsoft Research,
   <abbr>NASA</abbr> Ames Research Center, and <abbr>IBM</abbr>.</p>
 
   <p>Michael’s research enables the construction of reliable software by
@@ -70,7 +70,7 @@ awards:
 
 positions:
 - title: Member of Technical Staff
-  where: Nokia Bell Labs, Murray Hill, NJ
+  where: Nokia Bell Labs, Murray Hill, <abbr>NJ</abbr>
   when: 2016–present
 
 - title: Researcher
@@ -86,19 +86,19 @@ positions:
   when: 2012–2013
 
 - title: Visiting Researcher
-  where: MSR, Bangalore
+  where: Microsoft Research, Bangalore
   when: 2011
 
 - title: Research Intern
-  where: MSR, Redmond
+  where: Microsoft Research, Redmond
   when: 2010
 
 - title: Research Intern
-  where: MSR, Cambridge (<abbr>UK</abbr>)
+  where: Microsoft Research, Cambridge (<abbr>UK</abbr>)
   when: 2008
 
 - title: Research Intern
-  where: MSR, Redmond
+  where: Microsoft Research, Redmond
   when: 2007
 
 - title: Research Intern
@@ -130,13 +130,13 @@ references:
 
 - name: Rupak Majumdar
   title: Scientific Director
-  where: MPI-SWS
+  where: <abbr>MPI-SWS</abbr>
   web: http://www.mpi-sws.org/~rupak/
   email: rupak@mpi-sws.org
 
 - name: Shaz Qadeer
   title: Principal Researcher
-  where: MSR
+  where: Microsoft Research
   web: http://research.microsoft.com/en-us/people/qadeer/
   email: qadeer@microsoft.com
 
@@ -148,7 +148,7 @@ references:
 
 - name: Josh Berdine
   title: Researcher
-  where: MSR
+  where: Microsoft Research
   web: http://research.microsoft.com/en-us/people/jjb/
   email: jjb@microsoft.com
 
