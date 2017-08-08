@@ -16,14 +16,15 @@ links:
 about: >
 
   <p>Michael received his doctorate in Computer Science from <abbr>UCLA</abbr>
-  in 2010 and joined Bell Labs in 2016, following a postdoc fellowship at the
-  Paris 7 awarded by La Fondation Sciences Mathématiques de
-  Paris (<abbr>FSMP</abbr>), and a faculty researcher position at the
-  <abbr>IMDEA</abbr> Software Institute. Prior to all that, Michael completed
-  his undergraduate studies at Binghamton University (<abbr>SUNY</abbr>). He has
-  been a teaching assistant for undergraduate courses at <abbr>UCLA</abbr> and
-  Paris 7, and has held internships at Microsoft Research,
-  <abbr>NASA</abbr> Ames Research Center, and <abbr>IBM</abbr>.</p>
+  in 2010 and joined <abbr>SRI</abbr> International in 2017, following a postdoc
+  fellowship at the Paris 7 awarded by La Fondation Sciences Mathématiques de
+  Paris (<abbr>FSMP</abbr>), and faculty researcher positions at the
+  <abbr>IMDEA</abbr> Software Institute and Nokia Bell Labs. Prior to all that,
+  Michael completed his undergraduate studies at Binghamton University
+  (<abbr>SUNY</abbr>). He has been a teaching assistant for undergraduate
+  courses at <abbr>UCLA</abbr> and Paris 7, and has held internships at
+  Microsoft Research, <abbr>NASA</abbr> Ames Research Center, and
+  <abbr>IBM</abbr>.</p>
 
   <p>Michael’s research enables the construction of reliable software by
   developing the foundations for effective programming abstractions and
@@ -41,7 +42,7 @@ contact:
     60 E 42nd St<br>
     New York, <abbr>NY</abbr> 10165<br>
     <abbr>USA</abbr>
-  email: michael.emmi@gmail.com
+  email: michael.emmi@sri.com
   web: http://michael-emmi.github.io
   phone:
     # - number:
