@@ -250,12 +250,12 @@ publications:
   book: 29th International Conference on Computer-Aided Verification
   acronym: <abbr>CAV</abbr>&nbsp;’17
   series: <abbr>LNCS</abbr>
-  volume:
-  pages:
+  volume: 10427
+  pages: 542–563
   publisher: Springer
   year: 2017
-  doi:
-  pdf:
+  doi: https://doi.org/10.1007/978-3-319-63390-9
+  pdf: papers/conf-esop-BouajjaniEEOT17.pdf
 
 - title: Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
@@ -267,7 +267,7 @@ publications:
   publisher: Springer
   year: 2017
   doi: http://dx.doi.org/10.1007/978-3-662-54434-1_7
-  pdf:
+  pdf: papers/conf-cav-BouajjaniEEM17.pdf
 
 - title: Verifying Constant-Time Implementations
   authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
