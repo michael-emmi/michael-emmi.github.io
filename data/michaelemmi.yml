@@ -159,6 +159,11 @@ references:
   email: jjb@microsoft.com
 
 activities:
+- acronym: <abbr>CAV</abbr>&nbsp;’18
+  desc: 30th International Conference on Computer Aided Verification
+  role: Program Committee
+  URL: http://cavconference.org/2018/
+
 - acronym: <abbr>TAPAS</abbr>&nbsp;’17
   desc: 8th Workshop on Tools for Automatic Program Analysis
   role: Program Committee
