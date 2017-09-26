@@ -101,9 +101,14 @@
               {{{title}}}.
             {{/doi}}
           </span>
-          In <span class="article-volume">{{{book}}}</span>
-          ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
-          {{{publisher}}}, {{year}}.
+          {{#book}}
+            In <span class="article-volume">{{{book}}}</span>
+            ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
+            {{{publisher}}}, {{year}}.
+          {{/book}}
+          {{^book}}
+            {{{publisher}}}, {{year}}.
+          {{/book}}
           {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
         </div>
       {{/publications}}

@@ -250,6 +250,26 @@ activities:
   role: Program Committee
 
 publications:
+- title: Sound, Complete, and Tractable Linearizability Monitoring for Concurrent Collections
+  authors: Michael Emmi and Constantin Enea
+  book: Proc. 45th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
+  acronym: <abbr>POPL</abbr>&nbsp;’18
+  pages:
+  publisher: <abbr>ACM</abbr>
+  year: 2018
+  doi:
+  pdf:
+
+- title: Exposing Non-Atomic Methods of Concurrent Objects
+  authors: Michael Emmi and Constantin Enea
+  book:
+  acronym: arXiv&nbsp;’17
+  pages: 1–22
+  publisher: ArXiv e-prints
+  year: 2017
+  doi: https://arxiv.org/abs/1706.09305
+  pdf: papers/journals-corr-EmmiE17.pdf
+
 - title: Proving Linearizability Using Forward Simulations
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Suha Orhun Mutluergil
   book: 29th International Conference on Computer-Aided Verification
