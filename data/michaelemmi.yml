@@ -159,6 +159,12 @@ references:
   email: jjb@microsoft.com
 
 activities:
+
+- acronym: <abbr>NETYS</abbr>&nbsp;’18
+  desc: 6th International Conference on Networked Systems
+  role: Program Committee
+  URL:  http://netys.net
+
 - acronym: <abbr>CAV</abbr>&nbsp;’18
   desc: 30th International Conference on Computer Aided Verification
   role: Program Committee
