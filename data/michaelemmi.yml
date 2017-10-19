@@ -286,7 +286,7 @@ publications:
   publisher: Springer
   year: 2017
   doi: https://doi.org/10.1007/978-3-319-63390-9
-  pdf: papers/conf-esop-BouajjaniEEOT17.pdf
+  pdf: papers/conf-cav-BouajjaniEEM17.pdf
 
 - title: Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
@@ -298,7 +298,7 @@ publications:
   publisher: Springer
   year: 2017
   doi: http://dx.doi.org/10.1007/978-3-662-54434-1_7
-  pdf: papers/conf-cav-BouajjaniEEM17.pdf
+  pdf: papers/conf-esop-BouajjaniEEOT17.pdf
 
 - title: Verifying Constant-Time Implementations
   authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
