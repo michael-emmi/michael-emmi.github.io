@@ -160,6 +160,11 @@ references:
 
 activities:
 
+- acronym: <abbr>SecDev</abbr>&nbsp;’18
+  desc: 3rd IEEE Secure Development Conference
+  role: Program Committee
+  URL:  https://secdev.ieee.org/2018/
+
 - acronym: <abbr>NETYS</abbr>&nbsp;’18
   desc: 6th International Conference on Networked Systems
   role: Program Committee
