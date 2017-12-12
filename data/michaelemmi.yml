@@ -269,7 +269,7 @@ publications:
   publisher: <abbr>ACM</abbr>
   year: 2018
   doi:
-  pdf:
+  pdf: papers/conf-popl-EmmiE18.pdf
 
 - title: Exposing Non-Atomic Methods of Concurrent Objects
   authors: Michael Emmi and Constantin Enea
