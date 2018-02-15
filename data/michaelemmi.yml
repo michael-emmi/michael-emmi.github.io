@@ -160,6 +160,11 @@ references:
 
 activities:
 
+- acronym: <abbr>POPL</abbr>&nbsp;’19
+  desc: 46th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
+  role: Program Committee
+  URL:
+
 - acronym: <abbr>SecDev</abbr>&nbsp;’18
   desc: 3rd IEEE Secure Development Conference
   role: Program Committee
@@ -210,12 +215,12 @@ activities:
   URL:  http://netys.net
 
 - acronym: <abbr>POPL</abbr>&nbsp;’16
-  desc: 43rd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
+  desc: 43rd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://conf.researchr.org/home/POPL-2016
   role: External Review Committee
 
 - acronym: <abbr>PPoPP</abbr>&nbsp;’16
-  desc: 21st <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Symposium on Principles and Practice of Parallel Programming
+  desc: 21st <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles and Practice of Parallel Programming
   URL:  https://ppopp15.soe.ucsc.edu
   role: External Review Committee
 
@@ -225,7 +230,7 @@ activities:
   role: Program Committee
 
 - acronym: <abbr>POPL</abbr>&nbsp;’15
-  desc: 42nd <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
+  desc: 42nd <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2015/
   role: External Review Committee
 
@@ -240,13 +245,13 @@ activities:
   role: Program Chair
 
 - acronym: <abbr>PLDI</abbr>&nbsp;’14
-  desc: 35th annual <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr></abbr> Conference on Programming Language Design
+  desc: 35th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Conference on Programming Language Design
     and Implementation
   URL:  http://conferences.inf.ed.ac.uk/pldi2014/
   role: External Review Committee
 
 - acronym: <abbr>POPL</abbr>&nbsp;’13
-  desc: 40th <abbr><abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr></abbr> Symposium on Principles of Programming Languages
+  desc: 40th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr>-<abbr>SIGACT</abbr> Symposium on Principles of Programming Languages
   URL:  http://popl.mpi-sws.org/2013/
   role: External Review Committee
 
@@ -265,10 +270,10 @@ publications:
   authors: Michael Emmi and Constantin Enea
   book: Proc. 45th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
   acronym: <abbr>POPL</abbr>&nbsp;’18
-  pages:
+  pages: 25:1–25:27
   publisher: <abbr>ACM</abbr>
   year: 2018
-  doi:
+  doi: http://doi.acm.org/10.1145/3158113
   pdf: papers/conf-popl-EmmiE18.pdf
 
 - title: Exposing Non-Atomic Methods of Concurrent Objects
@@ -754,5 +759,5 @@ software:
 - name: printlncs
   URL: https://github.com/michael-emmi/printlncs
   desc: >
-    save paper by printing every two pages of <abbr><abbr>LNCS</abbr></abbr> proceedings on
+    save paper by printing every two pages of <abbr>LNCS</abbr> proceedings on
     a single page, without scaling.
