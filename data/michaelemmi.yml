@@ -165,6 +165,11 @@ activities:
   role: Program Committee
   URL:
 
+- acronym: <abbr>LPAR</abbr>-22
+  desc: 22nd International Conference on Logic for Programming Artificial Intelligence and Reasoning
+  role: Program Committee
+  URL:  http://easychair.org/smart-program/LPAR-22/
+
 - acronym: <abbr>SecDev</abbr>&nbsp;’18
   desc: 3rd IEEE Secure Development Conference
   role: Program Committee
