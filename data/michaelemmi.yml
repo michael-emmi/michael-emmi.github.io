@@ -170,10 +170,10 @@ activities:
   role: Program Committee
   URL:  http://easychair.org/smart-program/LPAR-22/
 
-- acronym: <abbr>SecDev</abbr>&nbsp;’18
-  desc: 3rd IEEE Secure Development Conference
+- acronym: <abbr>YR-CONCUR</abbr>&nbsp;’18
+  desc: 8th Young Researchers Workshop on Concurrency Theory
   role: Program Committee
-  URL:  https://secdev.ieee.org/2018/
+  URL: https://www.irif.fr/~cenea/yr-concur2018/
 
 - acronym: <abbr>NETYS</abbr>&nbsp;’18
   desc: 6th International Conference on Networked Systems
