@@ -175,6 +175,11 @@ activities:
   role: Program Committee
   URL: https://www.irif.fr/~cenea/yr-concur2018/
 
+- acronym: <abbr>SecDev</abbr>&nbsp;’18
+  desc: IEEE Cybersecurity Development Conference
+  role: Program Committee
+  URL:  http://secdev.ieee.org/2018/home
+
 - acronym: <abbr>NETYS</abbr>&nbsp;’18
   desc: 6th International Conference on Networked Systems
   role: Program Committee
