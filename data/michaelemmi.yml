@@ -160,6 +160,11 @@ references:
 
 activities:
 
+- acronym: <abbr>PLDI</abbr>&nbsp;’19
+  desc: 40th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> conference on Programming Language Design and Implementation
+  role: Program Committee
+  URL:
+
 - acronym: <abbr>POPL</abbr>&nbsp;’19
   desc: 46th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
   role: Program Committee
