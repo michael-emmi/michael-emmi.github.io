@@ -281,6 +281,16 @@ activities:
   role: Program Committee
 
 publications:
+- title: "SideTrail: Verifying Time-Balancing of Cryptosystems"
+  authors: Konstantinos Athanasiou, Byron Cook, Michael Emmi, Colm MacCarthaigh, Daniel Schwartz-Narbonne and Serdar Tasiran
+  book: "Proc. 10th Working Conference on Verified Software: Theories, Tools, and Experiments"
+  acronym: <abbr>VSTTE</abbr>&nbsp;’18
+  pages:
+  publisher: <abbr>LNCS</abbr>
+  year: 2018
+  doi:
+  pdf:
+
 - title: Monitoring Weak Consistency
   authors: Michael Emmi and Constantin Enea
   book: Proc. 30th International Conference on Computer Aided Verification
