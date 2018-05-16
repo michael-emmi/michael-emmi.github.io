@@ -10,6 +10,9 @@ abbr {
 }
 
 @media only screen and (max-device-width: 480px) {
+  body {
+    font-family: sans-serif;;
+  }
   p {
     font-size: 2vw;
   }
