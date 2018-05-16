@@ -10,14 +10,6 @@ abbr {
 }
 
 @media only screen and (max-device-width: 480px) {
-  body {
-    font-family: sans-serif;;
-  }
-  abbr {
-    font-family: sans-serif;;
-    text-transform: uppercase;
-    font-size: 80%;
-  }
   p {
     font-size: 2vw;
   }
