@@ -1,12 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
 body {
-  font-family: 'IM Fell French Canon', Georgia, serif;
+  font-family: 'Alegreya Sans', Georgia, serif;
   padding: 0;
   margin: 1em 1em 1em 1em;
 }
 
 abbr {
-  font-family: 'IM Fell French Canon SC', Georgia, serif;
-  text-transform: lowercase;
 }
 
 @media only screen and (max-device-width: 480px) {
