@@ -163,12 +163,12 @@ activities:
 - acronym: <abbr>PLDI</abbr>&nbsp;’19
   desc: 40th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> conference on Programming Language Design and Implementation
   role: Program Committee
-  URL:
+  URL: https://conf.researchr.org/home/pldi-2019
 
 - acronym: <abbr>POPL</abbr>&nbsp;’19
   desc: 46th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
   role: Program Committee
-  URL:
+  URL: https://popl19.sigplan.org
 
 - acronym: <abbr>LPAR</abbr>-22
   desc: 22nd International Conference on Logic for Programming Artificial Intelligence and Reasoning
@@ -335,6 +335,17 @@ publications:
   year: 2018
   doi:
   pdf:
+
+- title: On Reducing Linearizability to State Reachability
+  authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
+  book: Information and Computation
+  acronym: <abbr>I&C</abbr>&nbsp;’18
+  volume: 261
+  pages: 383–400
+  publisher: <abbr>Springer</abbr>
+  year: 2018
+  doi: https://doi.org/10.1016/j.ic.2018.02.014
+  pdf: papers/journals-iandc-BouajjaniEEH18.pdf
 
 - title: Sound, Complete, and Tractable Linearizability Monitoring for Concurrent Collections
   authors: Michael Emmi and Constantin Enea
