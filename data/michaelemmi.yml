@@ -330,11 +330,13 @@ publications:
   authors: Michael Emmi and Constantin Enea
   book: Proc. 30th International Conference on Computer Aided Verification
   acronym: <abbr>CAV</abbr>&nbsp;’18
-  pages:
-  publisher: <abbr>LNCS</abbr>
+  series: <abbr>LNCS</abbr>
+  volume: 10981
+  pages: 487–506
+  publisher: <abbr>Springer</abbr>
   year: 2018
-  doi:
-  pdf:
+  doi: https://doi.org/10.1007/978-3-319-96145-3_26
+  pdf: papers/conf-cav-EmmiE18.pdf
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
