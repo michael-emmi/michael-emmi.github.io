@@ -159,7 +159,6 @@ references:
   email: jjb@microsoft.com
 
 activities:
-
 - acronym: <abbr>PLDI</abbr>&nbsp;’19
   desc: 40th annual <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> conference on Programming Language Design and Implementation
   role: Program Committee
@@ -169,6 +168,11 @@ activities:
   desc: 46th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
   role: Program Committee
   URL: https://popl19.sigplan.org
+
+- acronym: PL&nbsp;Day&nbsp;’18
+  desc: IBM Programming Languages Day
+  role: Contributed Talk
+  URL: https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=9578
 
 - acronym: <abbr>LPAR</abbr>-22
   desc: 22nd International Conference on Logic for Programming Artificial Intelligence and Reasoning
