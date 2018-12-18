@@ -130,9 +130,9 @@ positions:
 references:
 - name: Ahmed Bouajjani
   title: Professor
-  where: Paris 7
-  web: http://www.liafa.jussieu.fr/~abou/
-  email: abou@liafa.univ-paris-diderot.fr
+  where: Université Paris Diderot
+  web: https://www.irif.fr/~abou//
+  email: abou@irif.fr
 
 - name: Rupak Majumdar
   title: Scientific Director
@@ -141,10 +141,9 @@ references:
   email: rupak@mpi-sws.org
 
 - name: Shaz Qadeer
-  title: Principal Researcher
-  where: Microsoft Research
+  title: Research Scientist
+  where: Facebook Research
   web: http://research.microsoft.com/en-us/people/qadeer/
-  email: qadeer@microsoft.com
 
 - name: Dimitra Giannakopoulou
   title: Research Computer Scientist
@@ -153,10 +152,9 @@ references:
   email: Dimitra.Giannakopoulou@nasa.gov
 
 - name: Josh Berdine
-  title: Researcher
-  where: Microsoft Research
-  web: http://research.microsoft.com/en-us/people/jjb/
-  email: jjb@microsoft.com
+  title: Software Engineer
+  where: Facebook Research
+  web: https://research.fb.com/people/berdine-josh/
 
 activities:
 - acronym: <abbr>PLDI</abbr>&nbsp;’19
@@ -168,6 +166,11 @@ activities:
   desc: 46th <abbr>ACM</abbr> <abbr>SIGPLAN</abbr> Symposium on Principles of Programming Languages
   role: Program Committee
   URL: https://popl19.sigplan.org
+
+- acronym: <abbr>DSV</abbr>&nbsp;’19
+  desc: Workshop on Democratizing Software Verification
+  role: Program Chair
+  URL: 
 
 - acronym: PL&nbsp;Day&nbsp;’18
   desc: IBM Programming Languages Day
