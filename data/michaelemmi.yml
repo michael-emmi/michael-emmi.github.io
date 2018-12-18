@@ -835,7 +835,19 @@ software:
 - name: <abbr>SMACK</abbr>
   URL: https://github.com/smackers/smack
   desc: >
-    <abbr>SV-COMP&nbsp;’15</abbr> award-winning bounded software verifier for C programs.
+    <abbr>SV-COMP</abbr> award-winning bounded software verifier for C programs.
+
+- name: ct-verif
+  URL: https://github.com/imdea-software/verifying-constant-time
+  desc: >
+    a tool for verifying constant time implementations, and a case study of
+    verified constant-time implementations.
+
+- name: Violat
+  URL: https://github.com/michael-emmi/violat
+  desc: >
+    discovers simple test harnesses which demonstrate violations to atomicity
+    — and weak-consistency — of Java concurrent data structures.
 
 - name: Violin
   URL: https://github.com/imdea-software/violin
@@ -850,14 +862,19 @@ software:
     which implements various code analyses and transformations for the Boogie
     intermediate verification language.
 
+- name: Bibly
+  URL: https://github.com/michael-emmi/bibly
+  desc: >
+    simplifies the creation and maintenance of bibliographies in LaTeX
+    documents by fetching the BibTex entries corresponding to LaTeX citations.
+
 - name: Whittle
   URL: https://github.com/michael-emmi/whittle
   desc: >
     Minimizes input files via “delta debugging” by repeatedly “whittling” down
     features while maintaining validity.
 
-- name: printlncs
-  URL: https://github.com/michael-emmi/printlncs
+- name: 2up
+  URL: https://github.com/michael-emmi/2up
   desc: >
-    save paper by printing every two pages of <abbr>LNCS</abbr> proceedings on
-    a single page, without scaling.
+    save paper by printing every two pages on a single page.
