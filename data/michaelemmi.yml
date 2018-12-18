@@ -769,6 +769,8 @@ coauthors:
   affiliation: University of Utah
 - name: Juan Chen
   affiliation: <abbr>MSR</abbr>
+- name: Gabriela Ciocarlie
+  affiliation: SRI International
 - name: Derrick Coetzee
   affiliation: <abbr>MSR</abbr>
 - name: Jeremy Condit
