@@ -868,12 +868,6 @@ software:
     simplifies the creation and maintenance of bibliographies in LaTeX
     documents by fetching the BibTex entries corresponding to LaTeX citations.
 
-- name: Whittle
-  URL: https://github.com/michael-emmi/whittle
-  desc: >
-    Minimizes input files via “delta debugging” by repeatedly “whittling” down
-    features while maintaining validity.
-
 - name: 2up
   URL: https://github.com/michael-emmi/2up
   desc: >
