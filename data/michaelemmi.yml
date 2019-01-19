@@ -343,7 +343,7 @@ publications:
   publisher: Springer
   year: 2018
   doi: https://doi.org/10.1007/978-3-030-03592-1_12
-  pdf:
+  pdf: papers/conf-vstte-AthanasiouCEMST18.pdf
 
 - title: Monitoring Weak Consistency
   authors: Michael Emmi and Constantin Enea
