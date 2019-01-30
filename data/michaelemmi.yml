@@ -219,6 +219,11 @@ activities:
   role: Program Committee
   URL: http://cavconference.org/2018/
 
+- acronym: <abbr>NSF</abbr>&nbsp;‘17
+  desc: The National Science Foundation
+  role: Review Panelist
+  URL: https://www.nsf.gov
+
 - acronym: <abbr>TAPAS</abbr>&nbsp;’17
   desc: 8th Workshop on Tools for Automatic Program Analysis
   role: Program Committee
