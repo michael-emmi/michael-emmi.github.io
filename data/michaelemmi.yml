@@ -26,7 +26,7 @@ contact:
   - 60 E 42nd St
   - New York, NY 10165
   - USA
-  email: michael.emmi@sri.com
+  email: michael.emmi@gmail.com
   web: michael-emmi.github.io
   phone:
     # - number:
@@ -349,7 +349,7 @@ publications:
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
   book: Information and Computation
-  acronym: I&C ’18
+  acronym: IC ’18
   volume: 261
   part: 2
   pages: 383–400
