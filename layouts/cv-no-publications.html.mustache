@@ -16,10 +16,10 @@
       {{#contact}}
         <div class="row">
           <div class="column left">
-            <div class="item">{{{address}}}</div>
+            <div class="item">{{#address}}{{.}}<br>{{/address}}</div>
           </div>
           <div class="column right">
-            <a href="{{web}}">{{web}}</a><br>
+            <a href="https://{{web}}">{{web}}</a><br>
             <a href="mailto:{{email}}">{{email}}</a><br>
             {{#phone}}
               <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>

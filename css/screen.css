@@ -6,9 +6,6 @@ body {
   margin: 1em 1em 1em 1em;
 }
 
-abbr {
-}
-
 @media only screen and (max-device-width: 480px) {
   body {
     font-family: sans-serif;;

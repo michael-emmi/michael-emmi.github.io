@@ -16,10 +16,10 @@
       {{#contact}}
         <div class="row">
           <div class="column left">
-            <div class="item">{{{address}}}</div>
+            <div class="item">{{#address}}{{.}}<br>{{/address}}</div>
           </div>
           <div class="column right">
-            <a href="{{web}}">{{web}}</a><br>
+            <a href="https://{{web}}">{{web}}</a><br>
             <a href="mailto:{{email}}">{{email}}</a><br>
             {{#phone}}
               <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
@@ -32,7 +32,9 @@
     <section id="about">
       <h2>About</h2>
       <div>
-        {{{about}}}
+        {{#about}}
+          <p>{{{.}}}</p>
+        {{/about}}
       </div>
     </section>
 
@@ -81,7 +83,7 @@
         <div class="item">
           <span class="article-title">{{{role}}}</span>.
           <span class="article-volume">{{#URL}}<a href="{{URL}}">{{/URL}}{{{desc}}}{{#URL}}</a>{{/URL}}</span>
-          ({{{acronym}}}).
+          (<nobr>{{{acronym}}}</nobr>).
         </div>
       {{/activities}}
     </section>
@@ -101,13 +103,13 @@
           </span>
           {{#book}}
             In <span class="article-volume">{{{book}}}</span>
-            ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
+            (<nobr>{{{acronym}}}</nobr>){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
             {{{publisher}}}, {{year}}.
           {{/book}}
           {{^book}}
             {{{publisher}}}, {{year}}.
           {{/book}}
-          {{#pdf}}<span class="screen-only">(<a href="{{.}}"><abbr>PDF</abbr></a>)</span>{{/pdf}}
+          {{#pdf}}<span class="screen-only">(<a href="{{.}}">PDF</a>)</span>{{/pdf}}
         </div>
       {{/publications}}
     </section>

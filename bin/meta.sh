@@ -14,6 +14,6 @@ echo >> $BUILD
 for template in layouts/*.mustache
 do
   base=$(basename $template)
-  html="${base%.*}.html"
+  html="${base%.*}"
   echo "build $html: it $DATA $template" >> $BUILD
 done
