@@ -156,6 +156,11 @@ activities:
   role: Program Chair
   URL: https://smackers.github.io/democratizing-software-verification-workshop-2019/
 
+- acronym: NYPLSE ’19
+  desc: New York Seminar on Programming Languages and Software Engineering
+  role: Contributed Talk
+  URL: https://nyplse.commons.gc.cuny.edu
+
 - acronym: PL Day ’18
   desc: IBM Programming Languages Day
   role: Contributed Talk
