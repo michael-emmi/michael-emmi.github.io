@@ -161,6 +161,11 @@ activities:
   role: Contributed Talk
   URL: https://nyplse.commons.gc.cuny.edu
 
+- acronym: NSF ‘19
+  desc: The National Science Foundation
+  role: Review Panelist
+  URL: https://www.nsf.gov
+
 - acronym: PL Day ’18
   desc: IBM Programming Languages Day
   role: Contributed Talk
@@ -317,6 +322,16 @@ activities:
   role: Program Committee
 
 publications:
+- title: "ct-fuzz: Fuzzing for Timing Leaks"
+  authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
+  book:
+  acronym: arXiv ’19
+  pages: 1–19
+  publisher: ArXiv e-prints
+  year: 2017
+  doi:
+  pdf:
+
 - title: Weak-Consistency Specification via Visibility Relaxation
   authors: Michael Emmi and Constantin Enea
   book: Proc. 46th ACM SIGPLAN Symposium on Principles of Programming Languages
