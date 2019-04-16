@@ -322,6 +322,31 @@ activities:
   role: Program Committee
 
 publications:
+
+- title: On the Complexity of Checking Consistency for Replicated Data Types
+  authors: Ranadeep Biswas, Michael Emmi, and Constantin Enea
+  book: Proc. 31st International Conference on Computer Aided Verification
+  acronym: CAV ’19
+  series: LNCS
+  volume:
+  pages:
+  publisher: Springer
+  year: 2019
+  doi:
+  pdf:
+
+- title: "Violat: Generating Tests of Observational Refinement for Concurrent Objects"
+  authors: Michael Emmi and Constantin Enea
+  book: Proc. 31st International Conference on Computer Aided Verification
+  acronym: CAV ’19
+  series: LNCS
+  volume:
+  pages:
+  publisher: Springer
+  year: 2019
+  doi:
+  pdf:
+
 - title: "ct-fuzz: Fuzzing for Timing Leaks"
   authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
   book:
