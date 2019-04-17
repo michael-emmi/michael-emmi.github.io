@@ -5,5 +5,5 @@ build.ninja
 *.fls
 *.log
 *.out
-*.pdf
+/*.pdf
 *.tex
