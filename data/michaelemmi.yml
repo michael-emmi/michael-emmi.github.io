@@ -353,9 +353,9 @@ publications:
   acronym: arXiv ’19
   pages: 1–19
   publisher: ArXiv e-prints
-  year: 2017
-  doi:
-  pdf:
+  year: 2019
+  doi: https://arxiv.org/abs/1904.07280
+  pdf: papers/journals-corr-HeEC19.pdf
 
 - title: Weak-Consistency Specification via Visibility Relaxation
   authors: Michael Emmi and Constantin Enea
