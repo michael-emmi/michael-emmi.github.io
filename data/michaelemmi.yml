@@ -141,6 +141,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: CAV ’20
+  desc: 32nd International Conference on Computer Aided Verification
+  role: Program Committee
+  URL: http://i-cav.org/2020/
+
 - acronym: PLDI ’19
   desc: 40th annual ACM SIGPLAN conference on Programming Language Design and Implementation
   role: Program Committee
