@@ -12,11 +12,11 @@
   <body>
     <section id="header">
       <h1 class="title">{{{name}}}</h1>
-      <div class="tagline">{{{role}}}</div>
+      {{#role}}<div class="tagline">{{{.}}}</div>{{/role}}
       {{#contact}}
         <div class="row">
           <div class="column left">
-            <div class="item">{{#address}}{{.}}<br>{{/address}}</div>
+            {{#address}}<div class="item">{{.}}<br></div>{{/address}}
           </div>
           <div class="column right">
             <a href="https://{{web}}">{{web}}</a><br>

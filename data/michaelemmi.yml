@@ -3,7 +3,7 @@ nationality: American
 birth-date: April 11, 1981
 birth-place: Binghamton, NY, USA
 role: Researcher
-place: SRI International
+# place: SRI International
 
 links:
 - name: dblp
@@ -20,12 +20,12 @@ about:
 - Michael’s research enables the construction of reliable software by developing the foundations for effective programming abstractions and informative program analysis tools. Integrating technological trends with knowledge from several research communities spanning automata theory, programming languages, and distributed systems, his contributions include establishing the theoretical limits of program analysis, devising tractable approximations for intractable analysis problems, and building effective analysis tools.
 
 contact:
-  address:
-  - SRI International
-  - One Grand Central Place
-  - 60 E 42nd St
-  - New York, NY 10165
-  - USA
+#   address:
+#   - SRI International
+#   - One Grand Central Place
+#   - 60 E 42nd St
+#   - New York, NY 10165
+#   - USA
   email: michael.emmi@gmail.com
   web: michael-emmi.github.io
   phone:
@@ -57,7 +57,7 @@ awards:
 positions:
 - title: Sr. Computer Scientist
   where: SRI International
-  when: 2017–present
+  when: 2017–2019
 
 - title: Member of Technical Staff
   where: Nokia Bell Labs, Murray Hill, NJ
