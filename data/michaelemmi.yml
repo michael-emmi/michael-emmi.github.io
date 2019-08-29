@@ -141,6 +141,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: CONCUR ’20
+  desc: 31st International Conference on Concurrency Theory
+  role: Program Committee
+  URL: https://concur2020.forsyte.at
+
 - acronym: CAV ’20
   desc: 32nd International Conference on Computer Aided Verification
   role: Program Committee
