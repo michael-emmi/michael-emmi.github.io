@@ -55,6 +55,10 @@ awards:
   when: 2010–2012
 
 positions:
+- title: Software Development Engineer
+  where: Amazon Web Services, New York, NY
+  when: 2019–present
+
 - title: Sr. Computer Scientist
   where: SRI International
   when: 2017–2019
