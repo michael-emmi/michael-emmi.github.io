@@ -155,6 +155,11 @@ activities:
   role: Program Committee
   URL: http://i-cav.org/2020/
 
+- acronym: PL Day ’19
+  desc: IBM Programming Languages Day
+  role: Selection Committee
+  URL: https://ibm.biz/plday2019
+
 - acronym: PLDI ’19
   desc: 40th annual ACM SIGPLAN conference on Programming Language Design and Implementation
   role: Program Committee
@@ -183,7 +188,7 @@ activities:
 - acronym: PL Day ’18
   desc: IBM Programming Languages Day
   role: Contributed Talk
-  URL: https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=9578
+  URL: https://ibm.biz/plday2018
 
 - acronym: LPAR-22
   desc: 22nd International Conference on Logic for Programming Artificial Intelligence and Reasoning
@@ -238,7 +243,7 @@ activities:
 - acronym: PL Day ’17
   desc: IBM Programming Languages Day
   role: Contributed Talk
-  URL:  https://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106
+  URL: https://ibm.biz/plday2017
 
 - acronym: CAV ’17
   desc: 29th International Conference on Computer-Aided Verification
