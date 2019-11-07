@@ -342,6 +342,16 @@ activities:
 
 publications:
 
+- title: Verifying Visibility-Based Weak Consistency
+  authors: Siddharth Krishna, Michael Emmi, Constantin Enea, Dejan Jovanovic
+  book:
+  acronym: arXiv ’19
+  pages: 1–19
+  publisher: ArXiv e-prints
+  year: 2019
+  doi: https://arxiv.org/abs/1911.01508
+  pdf: papers/journals-corr-KrishnaEEJ.pdf
+
 - title: On the Complexity of Checking Consistency for Replicated Data Types
   authors: Ranadeep Biswas, Michael Emmi, and Constantin Enea
   book: Proc. 31st International Conference on Computer Aided Verification
