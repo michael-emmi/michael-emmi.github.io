@@ -2,8 +2,8 @@ name: Michael Emmi
 nationality: American
 birth-date: April 11, 1981
 birth-place: Binghamton, NY, USA
-role: Researcher
-# place:
+role: Applied Scientist
+place: Amazon Web Services
 
 links:
 - name: dblp
@@ -55,7 +55,7 @@ awards:
   when: 2010–2012
 
 positions:
-- title: Software Development Engineer
+- title: Applied Scientist
   where: Amazon Web Services, New York, NY
   when: 2019–present
 
