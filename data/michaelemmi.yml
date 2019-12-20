@@ -155,6 +155,11 @@ activities:
   role: Program Committee
   URL: http://i-cav.org/2020/
 
+- acronym: DSV ’20
+  desc: Workshop on Democratizing Software Verification
+  role: Program Chair
+  URL: https://smackers.github.io/democratizing-software-verification-workshop-2020/
+
 - acronym: PL Day ’19
   desc: IBM Programming Languages Day
   role: Selection Committee
