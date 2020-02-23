@@ -347,15 +347,37 @@ activities:
 
 publications:
 
+- title: Behavioral Simulation for Smart Contracts
+  authors: Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea
+  book: Proc. 41st annual ACM SIGPLAN conference on Programming Language Design and Implementation
+  acronym: PLDI ’20
+  pages:
+  publisher: ACM
+  year: 2020
+  doi:
+  pdf:
+
 - title: Verifying Visibility-Based Weak Consistency
   authors: Siddharth Krishna, Michael Emmi, Constantin Enea, Dejan Jovanovic
-  book:
-  acronym: arXiv ’19
-  pages: 1–19
-  publisher: ArXiv e-prints
-  year: 2019
-  doi: https://arxiv.org/abs/1911.01508
-  pdf: papers/journals-corr-KrishnaEEJ.pdf
+  book: Proc. 29th European Symposium on Programming
+  acronym: ESOP ’20
+  series: LNCS
+  volume:
+  pages:
+  publisher: Springer
+  year: 2020
+  doi:
+  pdf:
+
+- title: "ct-fuzz: Fuzzing for Timing Leaks"
+  authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
+  book: 13th IEEE Conference on Software Testing, Validation and Verification
+  acronym: ICST ’20
+  pages:
+  publisher: IEEE
+  year: 2020
+  doi:
+  pdf:
 
 - title: On the Complexity of Checking Consistency for Replicated Data Types
   authors: Ranadeep Biswas, Michael Emmi, and Constantin Enea
@@ -380,16 +402,6 @@ publications:
   year: 2019
   doi: https://doi.org/10.1007/978-3-030-25543-5_30
   pdf: papers/conf-cav-EmmiE19.pdf
-
-- title: "ct-fuzz: Fuzzing for Timing Leaks"
-  authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
-  book:
-  acronym: arXiv ’19
-  pages: 1–19
-  publisher: ArXiv e-prints
-  year: 2019
-  doi: https://arxiv.org/abs/1904.07280
-  pdf: papers/journals-corr-HeEC19.pdf
 
 - title: Weak-Consistency Specification via Visibility Relaxation
   authors: Michael Emmi and Constantin Enea
