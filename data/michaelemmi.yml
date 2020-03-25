@@ -373,11 +373,11 @@ publications:
   authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
   book: 13th IEEE Conference on Software Testing, Validation and Verification
   acronym: ICST ’20
-  pages:
+  pages: 466–471
   publisher: IEEE
   year: 2020
   doi:
-  pdf:
+  pdf: papers/conf-icst-HeEC20.pdf
 
 - title: On the Complexity of Checking Consistency for Replicated Data Types
   authors: Ranadeep Biswas, Michael Emmi, and Constantin Enea
