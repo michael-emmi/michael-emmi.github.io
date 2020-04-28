@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: CSF ’21
+  desc: 34th IEEE Computer Security Foundations Symposium
+  role: Program Committee
+  URL: https://www.ieee-security.org/TC/CSF2021/
+
 - acronym: CONCUR ’20
   desc: 31st International Conference on Concurrency Theory
   role: Program Committee
