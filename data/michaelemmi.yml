@@ -150,6 +150,11 @@ activities:
   role: Program Committee
   URL: https://www.ieee-security.org/TC/CSF2021/
 
+- acronym: OOPSLA ’20
+  desc: 2020 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications
+  role: External Review Committee
+  URL: https://2020.splashcon.org/track/splash-2020-oopsla
+
 - acronym: CONCUR ’20
   desc: 31st International Conference on Concurrency Theory
   role: Program Committee
