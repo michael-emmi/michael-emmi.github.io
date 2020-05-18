@@ -367,12 +367,12 @@ publications:
   book: Proc. 29th European Symposium on Programming
   acronym: ESOP ’20
   series: LNCS
-  volume:
-  pages:
+  volume: 12075
+  pages: 280–307
   publisher: Springer
   year: 2020
-  doi:
-  pdf:
+  doi: https://doi.org/10.1007/978-3-030-44914-8_11
+  pdf: papers/conf-esop-KrishnaEEJ20.pdf
 
 - title: "ct-fuzz: Fuzzing for Timing Leaks"
   authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
