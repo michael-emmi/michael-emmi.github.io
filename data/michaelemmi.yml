@@ -361,11 +361,11 @@ publications:
   authors: Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea
   book: Proc. 41st annual ACM SIGPLAN conference on Programming Language Design and Implementation
   acronym: PLDI ’20
-  pages:
+  pages: 470–486
   publisher: ACM
   year: 2020
   doi:
-  pdf:
+  pdf: papers/conf-pldi-BeillahiCEE20.pdf
 
 - title: Verifying Visibility-Based Weak Consistency
   authors: Siddharth Krishna, Michael Emmi, Constantin Enea, Dejan Jovanovic
