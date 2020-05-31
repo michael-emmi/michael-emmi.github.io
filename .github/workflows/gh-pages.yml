@@ -13,7 +13,7 @@ jobs:
       - name: Prepare
         run: |
           sudo gem install mustache
-          brew install ninja
+          sudo apt-get install ninja-build
 
       - name: Build
         run: |
