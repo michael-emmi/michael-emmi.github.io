@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <title>{{name}}</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <h1 class="title">List of Publications</h1>
+    </section>
+
+    <section id="publications">
+      <h2>In International Journals</h2>
+      <ol>
+      {{#publications}}
+        {{#issue}}
+          <li class="item">
+            {{authors}}.
+            <span class="article-title">
+              {{#doi}}
+                <a href="{{.}}">{{{title}}}</a>.
+              {{/doi}}
+              {{^doi}}
+                {{{title}}}.
+              {{/doi}}
+            </span>
+            In <span class="article-volume">{{{book}}}</span>
+            (<nobr>{{{acronym}}}</nobr>){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
+            {{{publisher}}}, {{year}}.
+            {{#pdf}}<span class="screen-only">(<a href="{{.}}">PDF</a>)</span>{{/pdf}}
+          </li>
+        {{/issue}}
+      {{/publications}}
+      <ol>
+    </section>
+
+    <section id="publications">
+      <h2>In International Conference Proceedings</h2>
+      <ol>
+      {{#publications}}
+        {{^issue}}
+          <li class="item">
+            {{authors}}.
+            <span class="article-title">
+              {{#doi}}
+                <a href="{{.}}">{{{title}}}</a>.
+              {{/doi}}
+              {{^doi}}
+                {{{title}}}.
+              {{/doi}}
+            </span>
+            In <span class="article-volume">{{{book}}}</span>
+            (<nobr>{{{acronym}}}</nobr>){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}.
+            {{{publisher}}}, {{year}}.
+            {{#pdf}}<span class="screen-only">(<a href="{{.}}">PDF</a>)</span>{{/pdf}}
+          </li>
+        {{/issue}}
+      {{/publications}}
+      </ol>
+    </section>
+
+  </body>
+
+</html>

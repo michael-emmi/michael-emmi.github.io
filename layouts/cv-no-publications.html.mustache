@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="description" class="template" content="{{name}}: {{role}} / {{place}}">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <title>{{name}}</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <h1 class="title">{{{name}}}</h1>
+      {{#role}}<div class="tagline">{{{.}}}</div>{{/role}}
+      {{#contact}}
+        <div class="row">
+          <div class="column left">
+            {{#address}}<div class="item">{{.}}<br></div>{{/address}}
+          </div>
+          <div class="column right">
+            <a href="https://{{web}}">{{web}}</a><br>
+            <a href="mailto:{{email}}">{{email}}</a><br>
+            {{#phone}}
+              <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
+            {{/phone}}
+          </div>
+        </div>
+      {{/contact}}
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div>
+        {{#about}}
+          <p>{{{.}}}</p>
+        {{/about}}
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      {{#education}}
+        <div class="item">
+          <span class="article-title">{{{degree}}}</span>.
+          <!-- {{#info}}, {{{.}}}{{/info}}. -->
+          {{{where}}}, {{{when}}}.
+        </div>
+      {{/education}}
+    </section>
+
+    <section id="awards">
+      <h2>Awards</h2>
+      {{#awards}}
+        <div class="item">
+          <span class="article-title">{{{title}}}</span>. {{{source}}}, {{{when}}}.
+        </div>
+      {{/awards}}
+    </section>
+
+    <section id="positions">
+      <h2>Employment</h2>
+      {{#positions}}
+        <div class="item">
+          <span class="article-title">{{{title}}}</span>. {{{where}}}, {{{when}}}.
+        </div>
+      {{/positions}}
+    </section>
+
+    <section id="references">
+      <h2>References</h2>
+      {{#references}}
+        <div class="item">
+          <span class="article-title"><a href="{{web}}">{{{name}}}</a></span>. {{{title}}}, {{{where}}}.
+          {{#email}}<span class="print-only"><a href="mailto:{{.}}">{{.}}</a></span>{{/email}}
+        </div>
+      {{/references}}
+    </section>
+
+    <section id="activities">
+      <h2>Activities</h2>
+      {{#activities}}
+        <div class="item">
+          <span class="article-title">{{{role}}}</span>.
+          <span class="article-volume"><a href="{{URL}}">{{{desc}}}</a></span>
+          ({{{acronym}}}).
+        </div>
+      {{/activities}}
+    </section>
+
+    <section id="software">
+      <h2>Software</h2>
+      {{#software}}
+        <div class="item">
+          <span class="article-title"><a href="{{URL}}">{{{name}}}</a></span>,
+          {{{desc}}}
+          <span class="print-only"><a href="{{URL}}">{{URL}}</a></span>
+        </div>
+      {{/software}}
+    </section>
+
+  </body>
+
+</html>

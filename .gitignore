@@ -1,0 +1,10 @@
+build.ninja
+.ninja_*
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+/*.pdf
+*.tex
+/public

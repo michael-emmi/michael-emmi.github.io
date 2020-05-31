@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
+body {
+  font-family: 'Alegreya Sans', Georgia, serif;
+  padding: 0;
+  margin: 1em 1em 1em 1em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    font-family: sans-serif;;
+  }
+  p {
+    font-size: 2vw;
+  }
+}
+
+section {
+  margin: 2em 0 1em 0;
+  padding: 0 1em 0 1em;
+}
+
+h2 {
+  margin: 0 0 0.3em 0;
+  font-size: 2em;
+  font-weight: light;
+  color: #000000;
+}
+
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.4;
+  color: #606060;
+}
+
+a {
+  color: #A0A0A0;
+  text-decoration: none;
+}
+
+a[href] {
+  color: #606060;
+}
+
+a[href]:hover {
+  color: #F08080;
+  text-decoration: underline;
+}
+
+.screen-only {
+
+}
+
+.print-only {
+  display: none;
+}
+
+.info a {
+  color: #A0A0A0;
+}
+
+.tag a {
+  padding: 0.2em;
+  color: #A0A0A0;
+}
+
+#header {
+  white-space: nowrap;
+}
+
+.title {
+  font-size: 4em;
+  margin: 0 0 0 0;
+}
+
+.tagline {
+  font-size: 1.45em;
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+  color: #606060;
+}
+
+ol {
+  padding-left: 0
+}
+
+.item {
+  display: table;
+  width: 100%;
+  margin-bottom: 0.8em;
+  color: #606060;
+}
+
+li.item {
+  display: list-item
+}
+
+.head {
+  display: table-row;
+}
+
+
+.row {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.row:first-child {
+  margin-left: 0;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  zoom: 1;
+}
+
+.column {
+  display: block;
+  float: left;
+  margin: 0 1% 0 1%;
+}
+
+.left {
+	width: 48%;
+}
+.right {
+	width: 48%;
+}

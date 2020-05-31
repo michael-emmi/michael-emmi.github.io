@@ -1,0 +1,142 @@
+\documentclass{article}
+\usepackage[margin=1.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage[inline]{enumitem}
+
+%% font selection
+%% NOTE code listings aren’t so great with the default Computer Modern fonts since they lack bold-face typewriter fonts
+% \usepackage{txfonts} %% Times New Roman
+% \usepackage{pxfonts} %% Palatino
+\usepackage[tt=false, type1=true]{libertine} %% Libertine
+\usepackage[varqu]{zi4} %% Inconsolata (typewriter font)
+
+\newlist{commalist}{description*}{4}
+\setlist[commalist]{itemjoin={%
+{,}},itemjoin*={%
+{, and}},afterlabel=\unskip{%
+{~}}}
+
+\pagestyle{plain}
+
+\begin{document}
+
+  {\noindent\bfseries\Huge {{{name}}}} \\[1em]
+  {\noindent\bfseries\Large {{{role}}}} \\[1em]
+  {{#contact}}
+  \noindent
+  \begin{minipage}[t]{0.5\linewidth}
+    {{#address}}
+      {{{.}}} \\
+    {{/address}}
+  \end{minipage}
+  \begin{minipage}[t]{0.5\linewidth}
+    \href{https://{{web}}}{%
+    {{web}}} \\
+    \href{%
+    mailto:{{email}}}{%
+    {{email}}}
+  \end{minipage}
+  {{/contact}}
+
+  \section*{About}
+
+  {{#about}}
+
+    {{{.}}}
+
+  {{/about}}
+
+  \section*{Education}
+
+  \begin{description}[leftmargin=0cm]
+    {{#education}}
+
+    \item[{{{degree}}}.] {{{where}}}, {{{when}}}.
+
+    {{/education}}
+  \end{description}
+
+  \section*{Awards}
+
+  \begin{description}[leftmargin=0cm]
+    {{#awards}}
+
+    \item[{{{title}}}.] {{{source}}}, {{{when}}}.
+
+    {{/awards}}
+  \end{description}
+
+  \section*{Employment}
+
+  \begin{description}[leftmargin=0cm]
+    {{#positions}}
+
+    \item[{{{title}}}.] {{{where}}}, {{{when}}}.
+
+    {{/positions}}
+  \end{description}
+
+  \section*{References}
+
+  \begin{description}[leftmargin=0cm]
+    {{#references}}
+
+    \item[\href{%
+    {{{web}}}}{%
+    {{{name}}}}.] {{{title}}}, {{{where}}}.
+    {{#email}}\href{mailto:{{.}}}{%
+    {{.}}}{{/email}}
+
+    {{/references}}
+  \end{description}
+
+  \section*{Activities}
+
+  \begin{description}[leftmargin=0cm]
+    {{#activities}}
+
+    \item[{{{role}}}.] {{#URL}}\href{%
+    {{{URL}}}}{%
+    {{{desc}}}}{{/URL}} ({{{acronym}}}).
+
+    {{/activities}}
+  \end{description}
+
+  \section*{Publications}
+
+  \begin{itemize}[leftmargin=0cm,label={}]
+    {{#publications}}
+
+    \item {{authors}}. {\bf{{#doi}}\href{%
+    {{.}}}{%
+    {{{title}}}.}{{/doi}}{{^doi}}{{{title}}}.{{/doi}}} {{#book}}In \emph{ {{{book}}} } ({{{acronym}}}){{#series}}, {{{.}}}{{/series}}{{#volume}}, volume {{{.}}}{{/volume}}{{#issue}}, issue {{{.}}}{{/issue}}{{#pages}}, pages {{{.}}}{{/pages}}. {{{publisher}}}, {{year}}.{{/book}}{{^book}}{{{publisher}}}, {{year}}.{{/book}} {{#pdf}}(\href{https://michael-emmi.github.io/{{.}}}{PDF}){{/pdf}}
+
+    {{/publications}}
+  \end{itemize}
+
+  \section*{Collaborators}
+
+  \begin{commalist}
+    {{#coauthors}}
+
+    \item {\bf {{{name}}}} ({{{affiliation}}})
+
+    {{/coauthors}}
+  \end{commalist}
+
+  \section*{Software}
+
+  \begin{description}[leftmargin=0cm]
+    {{#software}}
+
+    \item[\href{%
+    {{URL}}}{%
+    {{{name}}}},] {{{desc}}}
+
+    {{/software}}
+  \end{description}
+
+\end{document}

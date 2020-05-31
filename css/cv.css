@@ -1,0 +1,31 @@
+body {
+  width: 40em;
+  margin: 2cm auto 2cm auto;
+}
+
+.article-title {
+  font-weight: bold;
+}
+
+.article-volume {
+  font-style: italic;
+  font-weight: light;
+}
+
+.list span::after {
+  content: ", "
+}
+
+.list span:last-of-type:after {
+  content: ""
+}
+
+@media only screen and (max-device-width: 480px) {
+	.column { margin: 1% 0 1% 0%;}
+	.left, .right { width: 100%; }
+  body {
+    margin: 5%;
+    font-size: 3vw;
+    -webkit-font-smoothing: antialiased;
+  }
+}
