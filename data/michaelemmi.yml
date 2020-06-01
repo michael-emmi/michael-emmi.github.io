@@ -850,12 +850,18 @@ publications:
 coauthors:
 - name: José Bacelar Almeida
   affiliation: Universidade do Minho
+- name: Konstantinos Athanasiou
+  affiliation: Northeastern University
 - name: Mohamed Faouzi Atig
   affiliation: Uppsala University
 - name: Manuel Barbosa
   affiliation: University of Porto
 - name: Gilles Barthe
   affiliation: IMDEA Software
+- name: Sidi Mohamed Beillahi
+  affiliation: Université de Paris
+- name: Ranadeep Biswas
+  affiliation: Université de Paris
 - name: Ahmed Bouajjani
   affiliation: Paris 7
 - name: Montgomery Carter
@@ -868,6 +874,8 @@ coauthors:
   affiliation: MSR
 - name: Jeremy Condit
   affiliation: MSR
+- name: Byron Cook
+  affiliation: Amazon Web Services
 - name: François Dupressoir
   affiliation: IMDEA Software
 - name: Constantin Enea
@@ -890,14 +898,20 @@ coauthors:
   affiliation: University of Utah
 - name: Ranjit Jhala
   affiliation: UCSD
+- name: Dejan Jovanovic
+  affiliation: SRI International
 - name: Eddie Kohler
   affiliation: Harvard
+- name: Siddharth Krishna
+  affiliation: New York University
 - name: Akash Lal
   affiliation: MSR
 - name: Rupak Majumdar
   affiliation: MPI-SWS
 - name: Roman Manevich
   affiliation: UCLA
+- name: Colm MacCarthaigh
+  affiliation: Amazon Web Services
 - name: Kedar Namjoshi
   affiliation: Nokia Bell Labs
 - name: Burcu Kulahcioglu Ozkan
@@ -916,6 +930,8 @@ coauthors:
   affiliation: University of Utah
 - name: Fernando Rosa-Velardo
   affiliation: Universidad Complutense de Madrid
+- name: Daniel Schwartz-Narbonne
+  affiliation: Amazon Web Services
 - name: Koushik Sen
   affiliation: University of California, Berkeley
 - name: Serdar Tasiran
