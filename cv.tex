@@ -1,0 +1,758 @@
+\documentclass{article}
+\usepackage[margin=1.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage[inline]{enumitem}
+
+%% font selection
+%% NOTE code listings aren’t so great with the default Computer Modern fonts since they lack bold-face typewriter fonts
+% \usepackage{txfonts} %% Times New Roman
+% \usepackage{pxfonts} %% Palatino
+\usepackage[tt=false, type1=true]{libertine} %% Libertine
+\usepackage[varqu]{zi4} %% Inconsolata (typewriter font)
+
+\newlist{commalist}{description*}{4}
+\setlist[commalist]{itemjoin={%
+{,}},itemjoin*={%
+{, and}},afterlabel=\unskip{%
+{~}}}
+
+\pagestyle{plain}
+
+\begin{document}
+
+  {\noindent\bfseries\Huge Michael Emmi} \\[1em]
+  {\noindent\bfseries\Large Applied Scientist} \\[1em]
+  \noindent
+  \begin{minipage}[t]{0.5\linewidth}
+  \end{minipage}
+  \begin{minipage}[t]{0.5\linewidth}
+    \href{https://michael-emmi.github.io}{%
+    michael-emmi.github.io} \\
+    \href{%
+    mailto:michael.emmi@gmail.com}{%
+    michael.emmi@gmail.com}
+  \end{minipage}
+
+  \section*{About}
+
+
+    Michael received his doctorate in Computer Science from UCLA in 2010 and joined Amazon Web Services (AWS) in 2019, following a postdoc fellowship at the Paris 7 awarded by La Fondation Sciences Mathématiques de Paris (FSMP), and faculty researcher positions at the IMDEA Software Institute, Nokia Bell Labs, and SRI International. Prior to all that, Michael completed his undergraduate studies at Binghamton University (SUNY). He has been a teaching assistant for undergraduate courses at UCLA and Paris 7, and has held internships at Microsoft Research, NASA Ames Research Center, and IBM.
+
+
+    Michael’s research enables the construction of reliable software by developing the foundations for effective programming abstractions and informative program analysis tools. Integrating technological trends with knowledge from several research communities spanning automata theory, programming languages, and distributed systems, his contributions include establishing the theoretical limits of program analysis, devising tractable approximations for intractable analysis problems, and building effective analysis tools.
+
+
+  \section*{Education}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[Ph.D. Computer Science.] University of California, Los Angeles (UCLA), 2010.
+
+
+    \item[M.S. Computer Science.] University of California, Los Angeles (UCLA), 2005.
+
+
+    \item[B.S. Computer Science.] Binghamton University (SUNY), 2003.
+
+  \end{description}
+
+  \section*{Awards}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[Postdoctoral Fellowship.] La Fondation Sciences Mathématiques de Paris (FSMP), 2010–2012.
+
+  \end{description}
+
+  \section*{Employment}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[Applied Scientist.] Amazon Web Services, New York, NY, 2019–present.
+
+
+    \item[Sr. Computer Scientist.] SRI International, 2017–2019.
+
+
+    \item[Member of Technical Staff.] Nokia Bell Labs, Murray Hill, NJ, 2016–2017.
+
+
+    \item[Researcher.] IMDEA Software Institute, Madrid, 2013–2016.
+
+
+    \item[Postdoc Researcher.] LIAFA, Universtié Paris Diderot, 2010–2013.
+
+
+    \item[Lecturer (ATER).] Paris 7, 2012–2013.
+
+
+    \item[Visiting Researcher.] Microsoft Research, Bangalore, 2011.
+
+
+    \item[Research Intern.] Microsoft Research, Redmond, 2010.
+
+
+    \item[Research Intern.] Microsoft Research, Cambridge (UK), 2008.
+
+
+    \item[Research Intern.] Microsoft Research, Redmond, 2007.
+
+
+    \item[Research Intern.] NASA Ames Research Center, 2006.
+
+
+    \item[Research Assistant.] University of California, Los Angeles (UCLA), 2006–2010.
+
+
+    \item[Teaching Assistant.] University of California, Los Angeles (UCLA), 2003–2005.
+
+
+    \item[Software Engineer Intern.] IBM, Endicott, 2001, 2002.
+
+
+    \item[Course Assistant.] Binghamton University (SUNY), 2001–2002.
+
+  \end{description}
+
+  \section*{References}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[\href{%
+    https://www.irif.fr/~abou//}{%
+    Ahmed Bouajjani}.] Professor, Université Paris Diderot.
+    \href{mailto:abou@irif.fr}{%
+    abou@irif.fr}
+
+
+    \item[\href{%
+    http://www.mpi-sws.org/~rupak/}{%
+    Rupak Majumdar}.] Scientific Director, MPI-SWS.
+    \href{mailto:rupak@mpi-sws.org}{%
+    rupak@mpi-sws.org}
+
+
+    \item[\href{%
+    http://research.microsoft.com/en-us/people/qadeer/}{%
+    Shaz Qadeer}.] Research Scientist, Facebook Research.
+    
+
+
+    \item[\href{%
+    http://ti.arc.nasa.gov/profile/dimitra/}{%
+    Dimitra Giannakopoulou}.] Research Computer Scientist, NASA Ames Research Center.
+    \href{mailto:Dimitra.Giannakopoulou@nasa.gov}{%
+    Dimitra.Giannakopoulou@nasa.gov}
+
+
+    \item[\href{%
+    https://research.fb.com/people/berdine-josh/}{%
+    Josh Berdine}.] Software Engineer, Facebook Research.
+    
+
+  \end{description}
+
+  \section*{Activities}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[Program Committee.] \href{%
+    https://www.ieee-security.org/TC/CSF2021/}{%
+    34th IEEE Computer Security Foundations Symposium} (CSF ’21).
+
+
+    \item[External Review Committee.] \href{%
+    https://2020.splashcon.org/track/splash-2020-oopsla}{%
+    2020 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications} (OOPSLA ’20).
+
+
+    \item[Program Committee.] \href{%
+    https://concur2020.forsyte.at}{%
+    31st International Conference on Concurrency Theory} (CONCUR ’20).
+
+
+    \item[Program Committee.] \href{%
+    http://i-cav.org/2020/}{%
+    32nd International Conference on Computer Aided Verification} (CAV ’20).
+
+
+    \item[Program Chair.] \href{%
+    https://smackers.github.io/democratizing-software-verification-workshop-2020/}{%
+    Workshop on Democratizing Software Verification} (DSV ’20).
+
+
+    \item[Selection Committee.] \href{%
+    https://ibm.biz/plday2019}{%
+    IBM Programming Languages Day} (PL Day ’19).
+
+
+    \item[Program Committee.] \href{%
+    https://conf.researchr.org/home/pldi-2019}{%
+    40th annual ACM SIGPLAN conference on Programming Language Design and Implementation} (PLDI ’19).
+
+
+    \item[Program Committee.] \href{%
+    https://popl19.sigplan.org}{%
+    46th ACM SIGPLAN Symposium on Principles of Programming Languages} (POPL ’19).
+
+
+    \item[Program Chair.] \href{%
+    https://smackers.github.io/democratizing-software-verification-workshop-2019/}{%
+    Workshop on Democratizing Software Verification} (DSV ’19).
+
+
+    \item[Contributed Talk.] \href{%
+    https://nyplse.commons.gc.cuny.edu}{%
+    New York Seminar on Programming Languages and Software Engineering} (NYPLSE ’19).
+
+
+    \item[Review Panelist.] \href{%
+    https://www.nsf.gov}{%
+    The National Science Foundation} (NSF ‘19).
+
+
+    \item[Contributed Talk.] \href{%
+    https://ibm.biz/plday2018}{%
+    IBM Programming Languages Day} (PL Day ’18).
+
+
+    \item[Program Committee.] \href{%
+    http://easychair.org/smart-program/LPAR-22/}{%
+    22nd International Conference on Logic for Programming Artificial Intelligence and Reasoning} (LPAR-22).
+
+
+    \item[Invited Talk.] \href{%
+    http://avocs18.irisa.fr}{%
+    18th International Workshop on Automated Verification of Critical Systems} (AVoCS ’18).
+
+
+    \item[Invited Talk.] \href{%
+    http://forsyte.at/events/frida2018/}{%
+    The 5th Workshop on Formal Reasoning in Distributed Algorithms} (FRIDA ’18).
+
+
+    \item[Program Committee.] \href{%
+    https://www.irif.fr/~cenea/yr-concur2018/}{%
+    8th Young Researchers Workshop on Concurrency Theory} (YR-CONCUR ’18).
+
+
+    \item[Invited Talk.] \href{%
+    http://www.cs.princeton.edu/~grigoryf/vsse_program.html}{%
+    Workshop on Verification and Synthesis for Software Evolution} (VSSE ’18).
+
+
+    \item[Program Committee.] \href{%
+    http://secdev.ieee.org/2018/home}{%
+    IEEE Cybersecurity Development Conference} (SecDev ’18).
+
+
+    \item[Program Committee.] \href{%
+    http://netys.net}{%
+    6th International Conference on Networked Systems} (NETYS ’18).
+
+
+    \item[Program Committee.] \href{%
+    http://cavconference.org/2018/}{%
+    30th International Conference on Computer Aided Verification} (CAV ’18).
+
+
+    \item[Review Panelist.] \href{%
+    https://www.nsf.gov}{%
+    The National Science Foundation} (NSF ‘17).
+
+
+    \item[Program Committee.] \href{%
+    http://cs.nyu.edu/acsys/tapas2017/}{%
+    8th Workshop on Tools for Automatic Program Analysis} (TAPAS ’17).
+
+
+    \item[Contributed Talk.] \href{%
+    https://ibm.biz/plday2017}{%
+    IBM Programming Languages Day} (PL Day ’17).
+
+
+    \item[Program Committee.] \href{%
+    http://cavconference.org/2017/}{%
+    29th International Conference on Computer-Aided Verification} (CAV ’17).
+
+
+    \item[Program Committee.]  (FORTE ’17).
+
+
+    \item[Program Committee.] \href{%
+    http://www.etaps.org/index.php/2017/fossacs}{%
+    20th International Conference on Foundations of Software Science and Computation Structures} (FoSSaCS ’17).
+
+
+    \item[Contributed Talk.] \href{%
+    http://www.njpls.org/sep16.html}{%
+    NJ Programming Languages and Systems Seminar} (NJPLS ’16).
+
+
+    \item[Invited Talk.] \href{%
+    https://conf.researchr.org/track/pldi-2016/FMS-2016-papers}{%
+    Workshop on Formal Methods and Security} (FMS ’16).
+
+
+    \item[Program Committee.] \href{%
+    http://ecee.colorado.edu/pavol/ec2-2016/}{%
+    9th International Workshop on Exploiting Concurrency Efficiently and Correctly} (EC2 ’16).
+
+
+    \item[Program Committee.] \href{%
+    http://www.cs.utexas.edu/~hunt/fmcad/}{%
+    16th International Conference on Formal Methods in Computer-Aided Design} (FMCAD ’16).
+
+
+    \item[Program Committee.] \href{%
+    http://netys.net}{%
+    4th International Conference on Networked Systems} (NETYS ’16).
+
+
+    \item[External Review Committee.] \href{%
+    http://conf.researchr.org/home/POPL-2016}{%
+    43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages} (POPL ’16).
+
+
+    \item[External Review Committee.] \href{%
+    https://ppopp15.soe.ucsc.edu}{%
+    21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming} (PPoPP ’16).
+
+
+    \item[Program Committee.] \href{%
+    http://multicore.doc.ic.ac.uk/events/ec2/}{%
+    8th International Workshop on Exploiting Concurrency Efficiently and Correctly} (EC2 ’15).
+
+
+    \item[External Review Committee.] \href{%
+    http://popl.mpi-sws.org/2015/}{%
+    42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages} (POPL ’15).
+
+
+    \item[Invited Talk.] \href{%
+    http://netys.net/history/netys2015/workshops/index.html}{%
+    2nd Workshop on The Chemistry of Concurrent and Distributed Programming} (CCDP ’15).
+
+
+    \item[Program Committee.] \href{%
+    http://fm2015.ifi.uio.no}{%
+    20th International Symposium on Formal Methods} (FM ’15).
+
+
+    \item[Program Chair.] \href{%
+    http://software.imdea.org/ec2-2014/}{%
+    7th International Workshop on Exploiting Concurrency Efficiently and Correctly} (EC2 ’14).
+
+
+    \item[External Review Committee.] \href{%
+    http://conferences.inf.ed.ac.uk/pldi2014/}{%
+    35th annual ACM SIGPLAN Conference on Programming Language Design and Implementation} (PLDI ’14).
+
+
+    \item[External Review Committee.] \href{%
+    http://popl.mpi-sws.org/2013/}{%
+    40th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages} (POPL ’13).
+
+
+    \item[Program Committee.] \href{%
+    http://vmcai13.di.univr.it/}{%
+    14th International Conference on Verification, Model Checking and Abstract Interpretation} (VMCAI ’13).
+
+
+    \item[Program Committee.] \href{%
+    http://vmcai13.di.univr.it/}{%
+    6th International Workshop on Bytecode Semantics, Verification, Analysis and Transformation} (Bytecode ’11).
+
+  \end{description}
+
+  \section*{Publications}
+
+  \begin{itemize}[leftmargin=0cm,label={}]
+
+    \item Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea. {\bfBehavioral Simulation for Smart Contracts.} In \emph{ Proc. 41st annual ACM SIGPLAN conference on Programming Language Design and Implementation } (PLDI ’20), pages 470–486. ACM, 2020. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-BeillahiCEE20.pdf}{PDF})
+
+
+    \item Siddharth Krishna, Michael Emmi, Constantin Enea, Dejan Jovanovic. {\bf\href{%
+    https://doi.org/10.1007/978-3-030-44914-8_11}{%
+    Verifying Visibility-Based Weak Consistency.}} In \emph{ Proc. 29th European Symposium on Programming } (ESOP ’20), LNCS, volume 12075, pages 280–307. Springer, 2020. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-esop-KrishnaEEJ20.pdf}{PDF})
+
+
+    \item Michael Emmi, Shaobo He, and Gabriela Ciocarlie. {\bfct-fuzz: Fuzzing for Timing Leaks.} In \emph{ 13th IEEE Conference on Software Testing, Validation and Verification } (ICST ’20), pages 466–471. IEEE, 2020. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-icst-HeEC20.pdf}{PDF})
+
+
+    \item Ranadeep Biswas, Michael Emmi, and Constantin Enea. {\bf\href{%
+    https://doi.org/10.1007/978-3-030-25543-5_19}{%
+    On the Complexity of Checking Consistency for Replicated Data Types.}} In \emph{ Proc. 31st International Conference on Computer Aided Verification } (CAV ’19), LNCS, volume 11562, pages 324–343. Springer, 2019. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-BiswasEE19.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    https://doi.org/10.1007/978-3-030-25543-5_30}{%
+    Violat: Generating Tests of Observational Refinement for Concurrent Objects.}} In \emph{ Proc. 31st International Conference on Computer Aided Verification } (CAV ’19), LNCS, volume 11562, pages 534–546. Springer, 2019. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-EmmiE19.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    https://dl.acm.org/citation.cfm?id=3290373}{%
+    Weak-Consistency Specification via Visibility Relaxation.}} In \emph{ Proc. 46th ACM SIGPLAN Symposium on Principles of Programming Languages } (POPL ’19), pages 60:1–60:28. ACM, 2019. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE19.pdf}{PDF})
+
+
+    \item Konstantinos Athanasiou, Byron Cook, Michael Emmi, Colm MacCarthaigh, Daniel Schwartz-Narbonne and Serdar Tasiran. {\bf\href{%
+    https://doi.org/10.1007/978-3-030-03592-1_12}{%
+    SideTrail: Verifying Time-Balancing of Cryptosystems.}} In \emph{ Proc. 10th Working Conference on Verified Software: Theories, Tools, and Experiments } (VSTTE ’18), LNCS, volume 11294, pages 215–228. Springer, 2018. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-vstte-AthanasiouCEMST18.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    https://doi.org/10.1007/978-3-319-96145-3_26}{%
+    Monitoring Weak Consistency.}} In \emph{ Proc. 30th International Conference on Computer Aided Verification } (CAV ’18), LNCS, volume 10981, pages 487–506. Springer, 2018. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-EmmiE18.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    https://doi.org/10.1016/j.ic.2018.02.014}{%
+    On Reducing Linearizability to State Reachability.}} In \emph{ Information and Computation } (IC ’18), volume 261, pages 383–400. Elsevier, 2018. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/journals-iandc-BouajjaniEEH18.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    http://doi.acm.org/10.1145/3158113}{%
+    Sound, Complete, and Tractable Linearizability Monitoring for Concurrent Collections.}} In \emph{ Proc. 45th ACM SIGPLAN Symposium on Principles of Programming Languages } (POPL ’18), pages 25:1–25:27. ACM, 2018. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE18.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    https://arxiv.org/abs/1706.09305}{%
+    Exposing Non-Atomic Methods of Concurrent Objects.}} ArXiv e-prints, 2017. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/journals-corr-EmmiE17.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Suha Orhun Mutluergil. {\bf\href{%
+    https://doi.org/10.1007/978-3-319-63390-9}{%
+    Proving Linearizability Using Forward Simulations.}} In \emph{ Proc. 29th International Conference on Computer-Aided Verification } (CAV ’17), LNCS, volume 10427, pages 542–563. Springer, 2017. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-BouajjaniEEM17.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-662-54434-1_7}{%
+    Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency.}} In \emph{ Proc. 26th European Symposium on Programming } (ESOP ’17), LNCS, volume 10201, pages 170–200. Springer, 2017. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-esop-BouajjaniEEOT17.pdf}{PDF})
+
+
+    \item Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi. {\bf\href{%
+    https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/almeida}{%
+    Verifying Constant-Time Implementations.}} In \emph{ Proc. 25th USENIX Security Symposium } (USENIX Security ’16), pages 53–70. USENIX Association, 2016. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-uss-AlmeidaBBDE16.pdf}{PDF})
+
+
+    \item Montgomery Carter, Shaobo He, Jonathan Whitaker, Zvonimir Rakamaric, and Michael Emmi. {\bf\href{%
+    http://doi.acm.org/10.1145/2889160.2889163}{%
+    SMACK Software Verification Toolchain.}} In \emph{ Proc. 38th International Conference on Software Engineering } (ICSE Companion ’16), pages 589–592. ACM, 2016. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-icse-CarterHWRE16.pdf}{PDF})
+
+
+    \item Michael Emmi and Constantin Enea. {\bf\href{%
+    http://doi.acm.org/10.1145/2837614.2837645}{%
+    Symbolic Abstract Data Type Inference.}} In \emph{ Proc. 43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages } (POPL ’16), pages 513–525. ACM, 2016. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE16.pdf}{PDF})
+
+
+    \item Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-319-21690-4_28}{%
+    Systematic Asynchrony Bug Exploration for Android Apps.}} In \emph{ Proc. 27th International Conference on Computer Aided Verification } (CAV ’15), LNCS, volume 9206, pages 455–461. Springer, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-OzkanET15.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    http://dx.doi.org/10.4230/LIPIcs.FSTTCS.2015.2}{%
+    Checking Correctness of Concurrent Objects: Tractable Reductions to Reachability (Invited Talk).}} In \emph{ Proc. 35th IARCS Annual Conference on Foundation of Software Technology and Theoretical Computer Science } (FSTTCS ’15), LIPIcs, volume 45, pages 95–107. Schloss Dagstuhl — Leibniz-Zentrum fuer Informatik, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-fsttcs-BouajjaniEEH15.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-662-47666-6_8}{%
+    On Reducing Linearizability to State Reachability.}} In \emph{ Proc. 42nd International Colloquium on Automata, Languages, and Programming } (ICALP ’15), LNCS, volume 9135, pages 95–107. Springer, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-icalp-BouajjaniEEH15.pdf}{PDF})
+
+
+    \item Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    http://doi.acm.org/10.1145/2737924.2737983}{%
+    Monitoring Refinement via Symbolic Reasoning.}} In \emph{ Proc. 36th annual ACM SIGPLAN conference on Programming Language Design and Implementation } (PLDI ’15), pages 260–269. ACM, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-EmmiEH15.pdf}{PDF})
+
+
+    \item Arvind Haran, Montgomery Carter, Michael Emmi, Akash Lal, Shaz Qadeer, and Zvonimir Rakamaric. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-662-46681-0_42}{%
+    SMACK+Corral: A Modular Verifier (Competition Contribution).}} In \emph{ Proc. 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems } (TACAS ’15), LNCS, volume 9035, pages 451–454. Springer, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-HaranCELQR15.pdf}{PDF})
+
+
+    \item Michael Emmi, Pierre Ganty, Rupak Majumdar, and Fernando Rosa-Velardo. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-662-46669-8_22}{%
+    Analysis of Asynchronous Programs with Event-Based Synchronization.}} In \emph{ Proc. 24th European Symposium on Programming, } (ESOP ’15), LNCS, volume 9032, pages 535–559. Springer, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-esop-EmmiGMR15.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    http://doi.acm.org/10.1145/2676726.2677002}{%
+    Tractable Refinement Checking for Concurrent Objects.}} In \emph{ Proc. 42nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages } (POPL ’15), pages 651–662. ACM, 2015. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-BouajjaniEEH15.pdf}{PDF})
+
+
+    \item Zvonimir Rakamaric and Michael Emmi. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-319-08867-9_7}{%
+    SMACK: Decoupling Source Language Details from Verifier Implementations.}} In \emph{ Proc. 26th International Conference on Computer Aided Verification } (CAV ’14), LNCS, volume 8559, pages 106–113. Springer, 2014. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-RakamaricE14.pdf}{PDF})
+
+
+    \item Michael Emmi, Burcu Kulahcioglu Ozkan, and Serdar Tasiran. {\bf\href{%
+    http://doi.acm.org/10.1145/2632362.2632370}{%
+    Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs.}} In \emph{ Proc. International SPIN Symposium on Model Checking of Software } (SPIN ’14), pages 20–29. ACM, 2014. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-spin-EmmiOT14.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani and Michael Emmi. {\bf\href{%
+    http://dx.doi.org/10.1007/s10009-013-0276-z}{%
+    Bounded Phase Analysis of Message-Passing Programs.}} In \emph{ International Journal on Software Tools for Technology Transfer } (STTT ’14), volume 16, issue 2, pages 127–146. Springer, 2014. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/journals-sttt-BouajjaniE14.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-37036-6_17}{%
+    Verifying Concurrent Programs Against Sequential Specifications.}} In \emph{ Proc. 22nd European Symposium on Programming } (ESOP ’13), LNCS, volume 7792, pages 290–309. Springer, 2013. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-esop-BouajjaniEEH13.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani and Michael Emmi. {\bf\href{%
+    http://doi.acm.org/10.1145/2518188}{%
+    Analysis of Recursively Parallel Programs.}} In \emph{ ACM Transactions on Programming Languages and Systems } (TOPLAS ’13), volume 35, issue 3, pages 10:1–10:49. ACM, 2013. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/journals-toplas-BouajjaniE13.pdf}{PDF})
+
+
+    \item Michael Emmi, Akash Lal, and Shaz Qadeer. {\bf\href{%
+    http://doi.acm.org/10.1145/2393596.2393652}{%
+    Asynchronous Programs with Prioritized Task-Buffers.}} In \emph{ Proc. 20th ACM SIGSOFT Symposium on the Foundations of Software Engineering } (FSE ’12), pages 48. ACM, 2012. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-fse-EmmiLQ12.pdf}{PDF})
+
+
+    \item Michael Emmi and Akash Lal. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-33125-1_29}{%
+    Finding Non-Terminating Executions in Distributed Asynchronous Programs.}} In \emph{ Proc. 19th International Static Analysis Symposium } (SAS ’12), LNCS, volume 7460, pages 439–455. Springer, 2012. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-sas-EmmiL12.pdf}{PDF})
+
+
+    \item Mohamed Faouzi Atig, Ahmed Bouajjani, Michael Emmi, and Akash Lal. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-31424-7_19}{%
+    Detecting Fair Non-Termination in Multithreaded Programs.}} In \emph{ Proc. 24th International Conference on Computer Aided Verification } (CAV ’12), LNCS, volume 7358, pages 210–226. Springer, 2012. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-cav-AtigBEL12.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani and Michael Emmi. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-28756-5_31}{%
+    Bounded Phase Analysis of Message-Passing Programs.}} In \emph{ Proc. 18th International Conference on Tools and Algorithms for the Construction and Analysis of Systems } (TACAS ’12), LNCS, volume 7214, pages 451–465. Springer, 2012. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-BouajjaniE12.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani and Michael Emmi. {\bf\href{%
+    http://doi.acm.org/10.1145/2103656.2103681}{%
+    Analysis of Recursively Parallel Programs.}} In \emph{ Proc. 39th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages } (POPL ’12), pages 203–214. ACM, 2012. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-BouajjaniE12.pdf}{PDF})
+
+
+    \item Ahmed Bouajjani, Michael Emmi, and Gennaro Parlato. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-23702-7_13}{%
+    On Sequentializing Concurrent Programs.}} In \emph{ Proc. 18th International Symposium on Static Analysis } (SAS ’11), LNCS, volume 6887, pages 129–145. Springer, 2011. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-sas-BouajjaniEP11.pdf}{PDF})
+
+
+    \item Michael Emmi, Shaz Qadeer, and Zvonimir Rakamaric. {\bf\href{%
+    http://doi.acm.org/10.1145/1926385.1926432}{%
+    Delay-Bounded Scheduling.}} In \emph{ Proc. 38th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages } (POPL ’11), pages 411–422. ACM, 2011. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiQR11.pdf}{PDF})
+
+
+    \item Michael Emmi, Rupak Majumdar, and Roman Manevich. {\bf\href{%
+    http://doi.acm.org/10.1145/1806596.1806613}{%
+    Parameterized Verification of Transactional Memories.}} In \emph{ Proc. ACM SIGPLAN 2010 Conference on Programming Language Design and Implementation } (PLDI ’10), pages 134–145. ACM, 2010. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-EmmiMM10.pdf}{PDF})
+
+
+    \item Michael Emmi, Ranji Jhala, Eddie Kohler, and Rupak Majumdar. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-642-00768-2_30}{%
+    Verifying Reference Counting Implementations.}} In \emph{ Proc. 15th International Conference on Tools and Algorithms for the Construction and Analysis of Systems } (TACAS ’09), LNCS, volume 5505, pages 352–367. Springer, 2009. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-EmmiJKM09.pdf}{PDF})
+
+
+    \item Michael Emmi, Dimitra Giannakopoulou, and Corina S. Pasareanu. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-540-68237-0_10}{%
+    Assume-Guarantee Verification for Interface Automata.}} In \emph{ Proc. 15th International Symposium on Formal Methods } (FM ’08), LNCS, volume 5014, pages 116–131. Springer, 2008. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-fm-EmmiGP08.pdf}{PDF})
+
+
+    \item Juan Chen, Chris Hawblitzel, Frances Perry, Michael Emmi, Jeremy Condit, Derrick Coetzee, and Polyvios Pratikakis. {\bf\href{%
+    http://doi.acm.org/10.1145/1375581.1375604}{%
+    Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers.}} In \emph{ Proc. ACM SIGPLAN 2008 Conference on Programming Language Design and Implementation } (PLDI ’08), pages 183–192. ACM, 2008. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-ChenHPECCP08.pdf}{PDF})
+
+
+    \item Alice Wang, Michael Emmi, and Petros Faloutsos. {\bf\href{%
+    http://doi.acm.org/10.1145/1274940.1274947}{%
+    Assembling an Expressive Facial Animation System.}} In \emph{ Proc. ACM SIGGRAPH Symposium on Video Games } (Sandbox ’07), pages 21–26. ACM, 2007. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-sandbox-WangEF07.pdf}{PDF})
+
+
+    \item Michael Emmi, Rupak Majumdar, and Koushik Sen. {\bf\href{%
+    http://doi.acm.org/10.1145/1273463.1273484}{%
+    Dynamic Test Input Generation for Database Applications.}} In \emph{ Proc. ACM/SIGSOFT International Symposium on Software Testing and Analysis } (ISSTA ’07), pages 151–162. ACM, 2007. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-issta-EmmiMS07.pdf}{PDF})
+
+
+    \item Michael Emmi and Rupak Majumdar. {\bf\href{%
+    http://dx.doi.org/10.1007/978-3-540-69738-1_2}{%
+    Verifying Compensating Transactions.}} In \emph{ Proc. 8th International Conference on Verification, Model Checking, and Abstract Interpretation } (VMCAI ’07), LNCS, volume 4349, pages 29–43. Springer, 2007. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-vmcai-EmmiM07.pdf}{PDF})
+
+
+    \item Michael Emmi, Jeff Fischer, Ranjit Jhala, and Rupak Majumdar. {\bf\href{%
+    http://doi.acm.org/10.1145/1190216.1190260}{%
+    Lock Allocation.}} In \emph{ Proc. 34th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages } (POPL ’07), pages 291–296. ACM, 2007. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiFJM07.pdf}{PDF})
+
+
+    \item Michael Emmi and Rupak Majumdar. {\bf\href{%
+    http://dx.doi.org/10.1007/11730637_17}{%
+    Decision Problems for the Verification of Real-Time Software.}} In \emph{ Proc. 9th International Workshop on Hybrid Systems: Computation and Control } (HSCC ’06), LNCS, volume 3927, pages 200–211. Springer, 2006. (\href{https://michael-emmi.github.io/https://github.com/michael-emmi/research-papers/raw/master/conf-hscc-EmmiM06.pdf}{PDF})
+
+  \end{itemize}
+
+  \section*{Collaborators}
+
+  \begin{commalist}
+
+    \item {\bf José Bacelar Almeida} (Universidade do Minho)
+
+
+    \item {\bf Mohamed Faouzi Atig} (Uppsala University)
+
+
+    \item {\bf Manuel Barbosa} (University of Porto)
+
+
+    \item {\bf Gilles Barthe} (IMDEA Software)
+
+
+    \item {\bf Ahmed Bouajjani} (Paris 7)
+
+
+    \item {\bf Montgomery Carter} (University of Utah)
+
+
+    \item {\bf Juan Chen} (MSR)
+
+
+    \item {\bf Gabriela Ciocarlie} (SRI International)
+
+
+    \item {\bf Derrick Coetzee} (MSR)
+
+
+    \item {\bf Jeremy Condit} (MSR)
+
+
+    \item {\bf François Dupressoir} (IMDEA Software)
+
+
+    \item {\bf Constantin Enea} (Paris 7)
+
+
+    \item {\bf Petros Faloutsos} (UCLA)
+
+
+    \item {\bf Jeffrey S. Fischer} (UCLA)
+
+
+    \item {\bf Pierre Ganty} (IMDEA Software)
+
+
+    \item {\bf Dimitra Giannakopoulou} (NASA Ames)
+
+
+    \item {\bf Jad Hamza} (Paris 7)
+
+
+    \item {\bf Arvind Haran} (University of Utah)
+
+
+    \item {\bf Chris Hawblitzel} (MSR)
+
+
+    \item {\bf Shaobo He} (University of Utah)
+
+
+    \item {\bf Ranjit Jhala} (UCSD)
+
+
+    \item {\bf Eddie Kohler} (Harvard)
+
+
+    \item {\bf Akash Lal} (MSR)
+
+
+    \item {\bf Rupak Majumdar} (MPI-SWS)
+
+
+    \item {\bf Roman Manevich} (UCLA)
+
+
+    \item {\bf Kedar Namjoshi} (Nokia Bell Labs)
+
+
+    \item {\bf Burcu Kulahcioglu Ozkan} (Koç University)
+
+
+    \item {\bf Gennaro Parlato} (Paris 7)
+
+
+    \item {\bf Corina S. Pasareanu} (NASA Ames)
+
+
+    \item {\bf Frances Perry} (Princeton University)
+
+
+    \item {\bf Polyvios Pratikaki} (University of Maryland)
+
+
+    \item {\bf Shaz Qadeer} (MSR)
+
+
+    \item {\bf Zvonimir Rakamaric} (University of Utah)
+
+
+    \item {\bf Fernando Rosa-Velardo} (Universidad Complutense de Madrid)
+
+
+    \item {\bf Koushik Sen} (University of California, Berkeley)
+
+
+    \item {\bf Serdar Tasiran} (Koç University)
+
+
+    \item {\bf Alice Wang} (UCLA)
+
+
+    \item {\bf Jonathan Whitaker} (University of Utah)
+
+  \end{commalist}
+
+  \section*{Software}
+
+  \begin{description}[leftmargin=0cm]
+
+    \item[\href{%
+    https://github.com/smackers/smack}{%
+    SMACK},] SV-COMP award-winning bounded software verifier for C programs.
+
+
+
+    \item[\href{%
+    https://github.com/imdea-software/verifying-constant-time}{%
+    ct-verif},] a tool for verifying constant time implementations, and a case study of verified constant-time implementations.
+
+
+
+    \item[\href{%
+    https://github.com/michael-emmi/violat}{%
+    Violat},] discovers simple test harnesses which demonstrate violations to atomicity — and weak-consistency — of Java concurrent data structures.
+
+
+
+    \item[\href{%
+    https://github.com/imdea-software/violin}{%
+    Violin},] efficient symbolic reasoning algorithms for checking linearizability of concurrent data structures.
+
+
+
+    \item[\href{%
+    https://github.com/michael-emmi/bam-bam-boogieman}{%
+    BAM! BAM! Boogieman},] Boogie AST Manipulator which implements various code analyses and transformations for the Boogie intermediate verification language.
+
+
+
+    \item[\href{%
+    https://github.com/michael-emmi/bibly}{%
+    Bibly},] simplifies the creation and maintenance of bibliographies in LaTeX documents by fetching the BibTex entries corresponding to LaTeX citations.
+
+
+
+    \item[\href{%
+    https://github.com/michael-emmi/2up}{%
+    2up},] save paper by printing every two pages on a single page.
+
+
+  \end{description}
+
+\end{document}
