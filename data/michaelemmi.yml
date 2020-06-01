@@ -365,7 +365,7 @@ publications:
   publisher: ACM
   year: 2020
   doi:
-  pdf: papers/conf-pldi-BeillahiCEE20.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-BeillahiCEE20.pdf
 
 - title: Verifying Visibility-Based Weak Consistency
   authors: Siddharth Krishna, Michael Emmi, Constantin Enea, Dejan Jovanovic
@@ -377,7 +377,7 @@ publications:
   publisher: Springer
   year: 2020
   doi: https://doi.org/10.1007/978-3-030-44914-8_11
-  pdf: papers/conf-esop-KrishnaEEJ20.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-esop-KrishnaEEJ20.pdf
 
 - title: "ct-fuzz: Fuzzing for Timing Leaks"
   authors: Michael Emmi, Shaobo He, and Gabriela Ciocarlie
@@ -387,7 +387,7 @@ publications:
   publisher: IEEE
   year: 2020
   doi:
-  pdf: papers/conf-icst-HeEC20.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-icst-HeEC20.pdf
 
 - title: On the Complexity of Checking Consistency for Replicated Data Types
   authors: Ranadeep Biswas, Michael Emmi, and Constantin Enea
@@ -399,7 +399,7 @@ publications:
   publisher: Springer
   year: 2019
   doi: https://doi.org/10.1007/978-3-030-25543-5_19
-  pdf: papers/conf-cav-BiswasEE19.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-BiswasEE19.pdf
 
 - title: "Violat: Generating Tests of Observational Refinement for Concurrent Objects"
   authors: Michael Emmi and Constantin Enea
@@ -411,7 +411,7 @@ publications:
   publisher: Springer
   year: 2019
   doi: https://doi.org/10.1007/978-3-030-25543-5_30
-  pdf: papers/conf-cav-EmmiE19.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-EmmiE19.pdf
 
 - title: Weak-Consistency Specification via Visibility Relaxation
   authors: Michael Emmi and Constantin Enea
@@ -421,7 +421,7 @@ publications:
   publisher: ACM
   year: 2019
   doi: https://dl.acm.org/citation.cfm?id=3290373
-  pdf: papers/conf-popl-EmmiE19.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE19.pdf
 
 - title: "SideTrail: Verifying Time-Balancing of Cryptosystems"
   authors: Konstantinos Athanasiou, Byron Cook, Michael Emmi, Colm MacCarthaigh, Daniel Schwartz-Narbonne and Serdar Tasiran
@@ -433,7 +433,7 @@ publications:
   publisher: Springer
   year: 2018
   doi: https://doi.org/10.1007/978-3-030-03592-1_12
-  pdf: papers/conf-vstte-AthanasiouCEMST18.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-vstte-AthanasiouCEMST18.pdf
 
 - title: Monitoring Weak Consistency
   authors: Michael Emmi and Constantin Enea
@@ -445,7 +445,7 @@ publications:
   publisher: Springer
   year: 2018
   doi: https://doi.org/10.1007/978-3-319-96145-3_26
-  pdf: papers/conf-cav-EmmiE18.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-EmmiE18.pdf
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -457,7 +457,7 @@ publications:
   publisher: Elsevier
   year: 2018
   doi: https://doi.org/10.1016/j.ic.2018.02.014
-  pdf: papers/journals-iandc-BouajjaniEEH18.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/journals-iandc-BouajjaniEEH18.pdf
 
 - title: Sound, Complete, and Tractable Linearizability Monitoring for Concurrent Collections
   authors: Michael Emmi and Constantin Enea
@@ -467,7 +467,7 @@ publications:
   publisher: ACM
   year: 2018
   doi: http://doi.acm.org/10.1145/3158113
-  pdf: papers/conf-popl-EmmiE18.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE18.pdf
 
 - title: Exposing Non-Atomic Methods of Concurrent Objects
   authors: Michael Emmi and Constantin Enea
@@ -477,7 +477,7 @@ publications:
   publisher: ArXiv e-prints
   year: 2017
   doi: https://arxiv.org/abs/1706.09305
-  pdf: papers/journals-corr-EmmiE17.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/journals-corr-EmmiE17.pdf
 
 - title: Proving Linearizability Using Forward Simulations
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Suha Orhun Mutluergil
@@ -489,7 +489,7 @@ publications:
   publisher: Springer
   year: 2017
   doi: https://doi.org/10.1007/978-3-319-63390-9
-  pdf: papers/conf-cav-BouajjaniEEM17.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-BouajjaniEEM17.pdf
 
 - title: Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
@@ -501,7 +501,7 @@ publications:
   publisher: Springer
   year: 2017
   doi: http://dx.doi.org/10.1007/978-3-662-54434-1_7
-  pdf: papers/conf-esop-BouajjaniEEOT17.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-esop-BouajjaniEEOT17.pdf
 
 - title: Verifying Constant-Time Implementations
   authors: Jose Carlos Bacelar Almeida, Manuel Barbosa, Gilles Barthe, François Dupressoir, and Michael Emmi
@@ -511,7 +511,7 @@ publications:
   publisher: USENIX Association
   year: 2016
   doi: https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/almeida
-  pdf: papers/conf-uss-AlmeidaBBDE16.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-uss-AlmeidaBBDE16.pdf
 
 - title: SMACK Software Verification Toolchain
   authors: Montgomery Carter, Shaobo He, Jonathan Whitaker, Zvonimir Rakamaric, and Michael Emmi
@@ -521,7 +521,7 @@ publications:
   publisher: ACM
   year: 2016
   doi: http://doi.acm.org/10.1145/2889160.2889163
-  pdf: papers/conf-icse-CarterHWRE16.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-icse-CarterHWRE16.pdf
 
 - title: Symbolic Abstract Data Type Inference
   authors: Michael Emmi and Constantin Enea
@@ -531,7 +531,7 @@ publications:
   publisher: ACM
   year: 2016
   doi: http://doi.acm.org/10.1145/2837614.2837645
-  pdf: papers/conf-popl-EmmiE16.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiE16.pdf
 
 - title: Systematic Asynchrony Bug Exploration for Android Apps
   authors: Burcu Kulahcioglu Ozkan, Michael Emmi, and Serdar Tasiran
@@ -543,7 +543,7 @@ publications:
   publisher: Springer
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-319-21690-4_28
-  pdf: papers/conf-cav-OzkanET15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-OzkanET15.pdf
 
 - title: 'Checking Correctness of Concurrent Objects: Tractable Reductions to Reachability (Invited Talk)'
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -555,7 +555,7 @@ publications:
   publisher: Schloss Dagstuhl — Leibniz-Zentrum fuer Informatik
   year: 2015
   doi: http://dx.doi.org/10.4230/LIPIcs.FSTTCS.2015.2
-  pdf: papers/conf-fsttcs-BouajjaniEEH15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-fsttcs-BouajjaniEEH15.pdf
 
 - title: On Reducing Linearizability to State Reachability
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -567,7 +567,7 @@ publications:
   publisher: Springer
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-662-47666-6_8
-  pdf: papers/conf-icalp-BouajjaniEEH15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-icalp-BouajjaniEEH15.pdf
 
 - title: Monitoring Refinement via Symbolic Reasoning
   authors: Michael Emmi, Constantin Enea, and Jad Hamza
@@ -577,7 +577,7 @@ publications:
   publisher: ACM
   year: 2015
   doi: http://doi.acm.org/10.1145/2737924.2737983
-  pdf: papers/conf-pldi-EmmiEH15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-EmmiEH15.pdf
 
 - title: 'SMACK+Corral: A Modular Verifier (Competition Contribution)'
   authors: Arvind Haran, Montgomery Carter, Michael Emmi, Akash Lal, Shaz Qadeer, and Zvonimir Rakamaric
@@ -589,7 +589,7 @@ publications:
   publisher: Springer
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-662-46681-0_42
-  pdf: papers/conf-tacas-HaranCELQR15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-HaranCELQR15.pdf
 
 - title: Analysis of Asynchronous Programs with Event-Based Synchronization
   authors: Michael Emmi, Pierre Ganty, Rupak Majumdar, and Fernando Rosa-Velardo
@@ -601,7 +601,7 @@ publications:
   publisher: Springer
   year: 2015
   doi: http://dx.doi.org/10.1007/978-3-662-46669-8_22
-  pdf: papers/conf-esop-EmmiGMR15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-esop-EmmiGMR15.pdf
 
 - title: Tractable Refinement Checking for Concurrent Objects
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -611,7 +611,7 @@ publications:
   publisher: ACM
   year: 2015
   doi: http://doi.acm.org/10.1145/2676726.2677002
-  pdf: papers/conf-popl-BouajjaniEEH15.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-BouajjaniEEH15.pdf
 
 - title: 'SMACK: Decoupling Source Language Details from Verifier Implementations'
   authors: Zvonimir Rakamaric and Michael Emmi
@@ -623,7 +623,7 @@ publications:
   publisher: Springer
   year: 2014
   doi: http://dx.doi.org/10.1007/978-3-319-08867-9_7
-  pdf: papers/conf-cav-RakamaricE14.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-RakamaricE14.pdf
 
 - title: Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs
   authors: Michael Emmi, Burcu Kulahcioglu Ozkan, and Serdar Tasiran
@@ -633,7 +633,7 @@ publications:
   publisher: ACM
   year: 2014
   doi: http://doi.acm.org/10.1145/2632362.2632370
-  pdf: papers/conf-spin-EmmiOT14.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-spin-EmmiOT14.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -645,7 +645,7 @@ publications:
   publisher: Springer
   year: 2014
   doi: http://dx.doi.org/10.1007/s10009-013-0276-z
-  pdf: papers/journals-sttt-BouajjaniE14.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/journals-sttt-BouajjaniE14.pdf
 
 - title: Verifying Concurrent Programs Against Sequential Specifications
   authors: Ahmed Bouajjani, Michael Emmi, Constantin Enea, and Jad Hamza
@@ -657,7 +657,7 @@ publications:
   publisher: Springer
   year: 2013
   doi: http://dx.doi.org/10.1007/978-3-642-37036-6_17
-  pdf: papers/conf-esop-BouajjaniEEH13.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-esop-BouajjaniEEH13.pdf
 
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -669,7 +669,7 @@ publications:
   publisher: ACM
   year: 2013
   doi: http://doi.acm.org/10.1145/2518188
-  pdf: papers/journals-toplas-BouajjaniE13.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/journals-toplas-BouajjaniE13.pdf
 
 - title: Asynchronous Programs with Prioritized Task-Buffers
   authors: Michael Emmi, Akash Lal, and Shaz Qadeer
@@ -679,7 +679,7 @@ publications:
   publisher: ACM
   year: 2012
   doi: http://doi.acm.org/10.1145/2393596.2393652
-  pdf: papers/conf-fse-EmmiLQ12.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-fse-EmmiLQ12.pdf
 
 - title: Finding Non-Terminating Executions in Distributed Asynchronous Programs
   authors: Michael Emmi and Akash Lal
@@ -691,7 +691,7 @@ publications:
   publisher: Springer
   year: 2012
   doi: http://dx.doi.org/10.1007/978-3-642-33125-1_29
-  pdf: papers/conf-sas-EmmiL12.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-sas-EmmiL12.pdf
 
 - title: Detecting Fair Non-Termination in Multithreaded Programs
   authors: Mohamed Faouzi Atig, Ahmed Bouajjani, Michael Emmi, and Akash Lal
@@ -703,7 +703,7 @@ publications:
   publisher: Springer
   year: 2012
   doi: http://dx.doi.org/10.1007/978-3-642-31424-7_19
-  pdf: papers/conf-cav-AtigBEL12.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-cav-AtigBEL12.pdf
 
 - title: Bounded Phase Analysis of Message-Passing Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -715,7 +715,7 @@ publications:
   publisher: Springer
   year: 2012
   doi: http://dx.doi.org/10.1007/978-3-642-28756-5_31
-  pdf: papers/conf-tacas-BouajjaniE12.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-BouajjaniE12.pdf
 
 - title: Analysis of Recursively Parallel Programs
   authors: Ahmed Bouajjani and Michael Emmi
@@ -725,7 +725,7 @@ publications:
   publisher: ACM
   year: 2012
   doi: http://doi.acm.org/10.1145/2103656.2103681
-  pdf: papers/conf-popl-BouajjaniE12.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-BouajjaniE12.pdf
 
 - title: On Sequentializing Concurrent Programs
   authors: Ahmed Bouajjani, Michael Emmi, and Gennaro Parlato
@@ -737,7 +737,7 @@ publications:
   publisher: Springer
   year: 2011
   doi: http://dx.doi.org/10.1007/978-3-642-23702-7_13
-  pdf: papers/conf-sas-BouajjaniEP11.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-sas-BouajjaniEP11.pdf
 
 - title: Delay-Bounded Scheduling
   authors: Michael Emmi, Shaz Qadeer, and Zvonimir Rakamaric
@@ -747,7 +747,7 @@ publications:
   publisher: ACM
   year: 2011
   doi: http://doi.acm.org/10.1145/1926385.1926432
-  pdf: papers/conf-popl-EmmiQR11.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiQR11.pdf
 
 - title: Parameterized Verification of Transactional Memories
   authors: Michael Emmi, Rupak Majumdar, and Roman Manevich
@@ -757,7 +757,7 @@ publications:
   publisher: ACM
   year: 2010
   doi: http://doi.acm.org/10.1145/1806596.1806613
-  pdf: papers/conf-pldi-EmmiMM10.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-EmmiMM10.pdf
 
 - title: Verifying Reference Counting Implementations
   authors: Michael Emmi, Ranji Jhala, Eddie Kohler, and Rupak Majumdar
@@ -769,7 +769,7 @@ publications:
   publisher: Springer
   year: 2009
   doi: http://dx.doi.org/10.1007/978-3-642-00768-2_30
-  pdf: papers/conf-tacas-EmmiJKM09.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-tacas-EmmiJKM09.pdf
 
 - title: Assume-Guarantee Verification for Interface Automata
   authors: Michael Emmi, Dimitra Giannakopoulou, and Corina S. Pasareanu
@@ -781,7 +781,7 @@ publications:
   publisher: Springer
   year: 2008
   doi: http://dx.doi.org/10.1007/978-3-540-68237-0_10
-  pdf: papers/conf-fm-EmmiGP08.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-fm-EmmiGP08.pdf
 
 - title: Type-Preserving Compilation for Large-Scale Optimizing Object-Oriented Compilers
   book: Proc. ACM SIGPLAN 2008 Conference on Programming Language Design and Implementation
@@ -791,7 +791,7 @@ publications:
   publisher: ACM
   year: 2008
   doi: http://doi.acm.org/10.1145/1375581.1375604
-  pdf: papers/conf-pldi-ChenHPECCP08.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-ChenHPECCP08.pdf
 
 - title: Assembling an Expressive Facial Animation System
   authors: Alice Wang, Michael Emmi, and Petros Faloutsos
@@ -801,7 +801,7 @@ publications:
   publisher: ACM
   year: 2007
   doi: http://doi.acm.org/10.1145/1274940.1274947
-  pdf: papers/conf-sandbox-WangEF07.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-sandbox-WangEF07.pdf
 
 - title: Dynamic Test Input Generation for Database Applications
   authors: Michael Emmi, Rupak Majumdar, and Koushik Sen
@@ -811,7 +811,7 @@ publications:
   publisher: ACM
   year: 2007
   doi: http://doi.acm.org/10.1145/1273463.1273484
-  pdf: papers/conf-issta-EmmiMS07.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-issta-EmmiMS07.pdf
 
 - title: Verifying Compensating Transactions
   authors: Michael Emmi and Rupak Majumdar
@@ -823,7 +823,7 @@ publications:
   publisher: Springer
   year: 2007
   doi: http://dx.doi.org/10.1007/978-3-540-69738-1_2
-  pdf: papers/conf-vmcai-EmmiM07.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-vmcai-EmmiM07.pdf
 
 - title: Lock Allocation
   authors: Michael Emmi, Jeff Fischer, Ranjit Jhala, and Rupak Majumdar
@@ -833,7 +833,7 @@ publications:
   publisher: ACM
   year: 2007
   doi: http://doi.acm.org/10.1145/1190216.1190260
-  pdf: papers/conf-popl-EmmiFJM07.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-popl-EmmiFJM07.pdf
 
 - title: Decision Problems for the Verification of Real-Time Software
   authors: Michael Emmi and Rupak Majumdar
@@ -845,7 +845,7 @@ publications:
   publisher: Springer
   year: 2006
   doi: http://dx.doi.org/10.1007/11730637_17
-  pdf: papers/conf-hscc-EmmiM06.pdf
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-hscc-EmmiM06.pdf
 
 coauthors:
 - name: José Bacelar Almeida
