@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: SAS ’21
+  desc: 27th International Static Analysis Symposium
+  role: Program Committee
+  URL: 
+  
 - acronym: CSF ’21
   desc: 34th IEEE Computer Security Foundations Symposium
   role: Program Committee
