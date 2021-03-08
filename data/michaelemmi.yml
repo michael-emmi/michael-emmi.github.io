@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: POPL ’22
+  desc: 49th ACM SIGPLAN Symposium on Principles of Programming Languages
+  role: Program Committee
+  URL: https://popl22.sigplan.org
+  
 - acronym: SAS ’21
   desc: 27th International Static Analysis Symposium
   role: Program Committee
