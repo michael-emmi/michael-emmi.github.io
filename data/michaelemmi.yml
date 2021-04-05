@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: CSF ’22
+  desc: 35th IEEE Computer Security Foundations Symposium
+  role: Program Committee
+  URL: 
+  
 - acronym: POPL ’22
   desc: 49th ACM SIGPLAN Symposium on Principles of Programming Languages
   role: Program Committee
