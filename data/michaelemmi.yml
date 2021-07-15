@@ -375,7 +375,7 @@ publications:
 - title: RAPID: Checking API Usage for the Cloud in the Cloud
   authors: Michael Emmi, Liana Hadarean, Ranjit Jhala, Lee Pike, Nico Rosner, Martin Schäf, Aritra Sengupta, Willem Visser
   book: 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-  acronym: ESEC/FSE ’21
+  acronym: "ESEC/FSE ’21"
   pages:
   publisher: ACM
   year: 2021
