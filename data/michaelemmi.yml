@@ -372,6 +372,16 @@ activities:
 
 publications:
 
+- title: RAPID: Checking API Usage for the Cloud in the Cloud
+  authors: Michael Emmi, Liana Hadarean, Ranjit Jhala, Lee Pike, Nico Rosner, Martin Schäf, Aritra Sengupta, Willem Visser
+  book: 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+  acronym: ESEC/FSE ’21
+  pages:
+  publisher: ACM
+  year: 2021
+  doi:
+  pdf:
+
 - title: Behavioral Simulation for Smart Contracts
   authors: Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea
   book: Proc. 41st annual ACM SIGPLAN conference on Programming Language Design and Implementation
@@ -379,7 +389,7 @@ publications:
   pages: 470–486
   publisher: ACM
   year: 2020
-  doi:
+  doi: https://doi.org/10.1145/3385412.3386022
   pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-pldi-BeillahiCEE20.pdf
 
 - title: Verifying Visibility-Based Weak Consistency
@@ -401,7 +411,7 @@ publications:
   pages: 466–471
   publisher: IEEE
   year: 2020
-  doi:
+  doi: https://doi.org/10.1109/ICST46399.2020.00063
   pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-icst-HeEC20.pdf
 
 - title: On the Complexity of Checking Consistency for Replicated Data Types
