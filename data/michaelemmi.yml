@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: ATVA ’22
+  desc: 20th International Symposium on Automated Technology for Verification and Analysis
+  role: Program Committee
+  URL: 
+
 - acronym: CSF ’22
   desc: 35th IEEE Computer Security Foundations Symposium
   role: Program Committee
