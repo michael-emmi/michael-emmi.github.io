@@ -145,10 +145,15 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: ESOP ’23
+  desc: 32nd European Symposium on Programming
+  role: Program Committee
+  URL: 
+  
 - acronym: ATVA ’22
   desc: 20th International Symposium on Automated Technology for Verification and Analysis
   role: Program Committee
-  URL: 
+  URL: https://atva-conference.org/2022/
 
 - acronym: CSF ’22
   desc: 35th IEEE Computer Security Foundations Symposium
