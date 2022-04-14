@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+- acronym: CSF ’23
+  desc: 36th IEEE Computer Security Foundations Symposium
+  role: Program Committee
+  URL: https://www.ieee-security.org/TC/CSF2023/
+  
 - acronym: ESOP ’23
   desc: 32nd European Symposium on Programming
   role: Program Committee
