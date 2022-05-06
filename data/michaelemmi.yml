@@ -155,6 +155,11 @@ activities:
   role: Program Committee
   URL: 
   
+- acronym: DSV ’22
+  desc: Workshop on Democratizing Software Verification
+  role: Program Chair
+  URL: https://smackers.github.io/democratizing-software-verification-workshop-2022/
+  
 - acronym: ATVA ’22
   desc: 20th International Symposium on Automated Technology for Verification and Analysis
   role: Program Committee
