@@ -150,6 +150,11 @@ activities:
   role: Program Committee
   URL: http://i-cav.org/2023/
   
+- acronym: VMCAI ’23
+  desc: 24th International Conference on Verification, Model Checking, and Abstract Interpretation
+  role: Program Chair
+  URL: https://popl23.sigplan.org/home/VMCAI-2023
+  
 - acronym: CSF ’23
   desc: 36th IEEE Computer Security Foundations Symposium
   role: Program Committee
