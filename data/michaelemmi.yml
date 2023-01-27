@@ -404,8 +404,8 @@ publications:
   pages:
   publisher: ACM
   year: 2021
-  doi:
-  pdf:
+  doi: https://doi.org/10.1145/3468264.3473934
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-sigsoft-EmmiHJPRSSV21.pdf
 
 - title: Behavioral Simulation for Smart Contracts
   authors: Sidi Mohamed Beillahi, Gabriela Ciocarlie, Michael Emmi, Constantin Enea
