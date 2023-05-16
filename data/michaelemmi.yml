@@ -150,6 +150,11 @@ activities:
   role: Program Committee
   URL: https://popl24.sigplan.org/home/VMCAI-2024
   
+- acronym: CSF ’24
+  desc: 37th IEEE Computer Security Foundations Symposium
+  role: Program Committee
+  URL: https://csf2024.ieee-security.org
+  
 - acronym: SAS ’23
   desc: 30th Static Analysis Symposium
   role: Program Committee
