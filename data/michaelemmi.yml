@@ -144,7 +144,12 @@ references:
   where: Facebook Research
   web: https://research.fb.com/people/berdine-josh/
 
-activities:
+activities:  
+- acronym: VMCAI ’24
+  desc: 25th International Conference on Verification, Model Checking, and Abstract Interpretation
+  role: Program Committee
+  URL: https://popl24.sigplan.org/home/VMCAI-2024
+  
 - acronym: SAS ’23
   desc: 30th Static Analysis Symposium
   role: Program Committee
