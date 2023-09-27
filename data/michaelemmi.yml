@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:  
+- acronym: PLDI ’24
+  desc: 45th ACM SIGPLAN Conference on Programming Language Design and Implementation
+  role: Program Committee
+  URL: https://pldi24.sigplan.org
+  
 - acronym: VMCAI ’24
   desc: 25th International Conference on Verification, Model Checking, and Abstract Interpretation
   role: Program Committee
