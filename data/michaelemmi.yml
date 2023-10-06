@@ -939,6 +939,8 @@ coauthors:
   affiliation: Northeastern University
 - name: Mohamed Faouzi Atig
   affiliation: Uppsala University
+- name: Subarno Banerjee
+  affiliation: Amazon Web Services
 - name: Manuel Barbosa
   affiliation: University of Porto
 - name: Gilles Barthe
@@ -961,18 +963,24 @@ coauthors:
   affiliation: MSR
 - name: Byron Cook
   affiliation: Amazon Web Services
+- name: Siwei Cui
+  affiliation: Texas A&M University
 - name: François Dupressoir
   affiliation: IMDEA Software
 - name: Constantin Enea
   affiliation: Paris 7
 - name: Petros Faloutsos
   affiliation: UCLA
+- name: Antonio Filieri
+  affiliation: Amazon Web Services
 - name: Jeffrey S. Fischer
   affiliation: UCLA
 - name: Pierre Ganty
   affiliation: IMDEA Software
 - name: Dimitra Giannakopoulou
   affiliation: NASA Ames
+- name: Liana Hadarean
+  affiliation: Amazon Web Services
 - name: Jad Hamza
   affiliation: Paris 7
 - name: Arvind Haran
@@ -991,6 +999,10 @@ coauthors:
   affiliation: New York University
 - name: Akash Lal
   affiliation: MSR
+- name: Peixuan Li
+  affiliation: Amazon Web Services
+- name: Linghui Luo
+  affiliation: Amazon Web Services
 - name: Rupak Majumdar
   affiliation: MPI-SWS
 - name: Roman Manevich
@@ -1007,6 +1019,10 @@ coauthors:
   affiliation: NASA Ames
 - name: Frances Perry
   affiliation: Princeton University
+- name: Lee Pike
+  affiliation: Amazon Web Services
+- name: Goran Piskachev
+  affiliation: Amazon Web Services
 - name: Polyvios Pratikaki
   affiliation: University of Maryland
 - name: Shaz Qadeer
@@ -1015,14 +1031,26 @@ coauthors:
   affiliation: University of Utah
 - name: Fernando Rosa-Velardo
   affiliation: Universidad Complutense de Madrid
+- name: Nicolás Rosner
+  affiliation: Amazon Web Services
+- name: Martin Schäf
+  affiliation: Amazon Web Services
 - name: Daniel Schwartz-Narbonne
   affiliation: Amazon Web Services
 - name: Koushik Sen
   affiliation: University of California, Berkeley
+- name: Aritra Sengupta
+  affiliation: Amazon Web Services
 - name: Serdar Tasiran
   affiliation: Koç University
+- name: Omer Tripp
+  affiliation: Amazon Web Services
+- name: Willem Visser
+  affiliation: Amazon Web Services
 - name: Alice Wang
   affiliation: UCLA
+- name: Jingbo Wang
+  affiliation: USC
 - name: Jonathan Whitaker
   affiliation: University of Utah
 
