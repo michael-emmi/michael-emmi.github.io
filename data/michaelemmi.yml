@@ -144,7 +144,13 @@ references:
   where: Facebook Research
   web: https://research.fb.com/people/berdine-josh/
 
-activities:  
+activities:
+  
+- acronym: CSF ’25
+  desc: 38th IEEE Computer Security Foundations Symposium
+  role: Program Committee
+  URL: https://csf2025.ieee-security.org
+  
 - acronym: POPL ’25
   desc: 52nd ACM SIGPLAN Symposium on Principles of Programming Languages
   role: Program Committee
