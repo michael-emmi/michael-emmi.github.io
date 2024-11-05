@@ -145,6 +145,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+
+- acronym: CAV ’25
+  desc: 37th International Conference on Computer Aided Verification
+  role: Program Committee
+  URL: https://conferences.i-cav.org/2025/
   
 - acronym: CSF ’25
   desc: 38th IEEE Computer Security Foundations Symposium
