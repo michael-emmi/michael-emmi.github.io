@@ -20,7 +20,9 @@
           </div>
           <div class="column right">
             <a href="https://{{web}}">{{web}}</a><br>
-            <a href="mailto:{{email}}">{{email}}</a><br>
+            {{#email}}
+              <a href="mailto:{{email}}">{{email}}</a><br>
+            {{/email}}
             {{#phone}}
               <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
             {{/phone}}
