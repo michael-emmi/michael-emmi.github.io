@@ -102,7 +102,9 @@
           <h2>Contact</h2>
           {{#contact}}
             <div class="item">{{#address}}{{.}}<br>{{/address}}</div>
-            <a href="mailto:{{email}}">{{email}}</a><br>
+            {{#email}}
+              <a href="mailto:{{email}}">{{email}}</a><br>
+            {{/email}}
             {{#phone}}
               <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
             {{/phone}}
