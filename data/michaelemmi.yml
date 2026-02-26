@@ -1,7 +1,4 @@
 name: Michael Emmi
-nationality: American
-birth-date: April 11, 1981
-birth-place: Binghamton, NY, USA
 role: Senior Applied Scientist
 place: Amazon Web Services
 
@@ -20,16 +17,7 @@ about:
 - Michael’s research enables the construction of reliable software by developing the foundations for effective programming abstractions and informative program analysis tools. Integrating technological trends with knowledge from several research communities spanning automata theory, programming languages, and distributed systems, his contributions include establishing the theoretical limits of program analysis, devising tractable approximations for intractable analysis problems, and building effective analysis tools.
 
 contact:
-#   address:
-#   - SRI International
-#   - One Grand Central Place
-#   - 60 E 42nd St
-#   - New York, NY 10165
-#   - USA
-  email: michael.emmi@gmail.com
   web: michael-emmi.github.io
-  phone:
-    # - number:
 
 education:
 - degree: Ph.D. Computer Science
@@ -145,6 +133,11 @@ references:
   web: https://research.fb.com/people/berdine-josh/
 
 activities:
+
+- acronym: SAS ’26
+  desc: 33rd Static Analysis Symposium
+  role: Program Committee
+  URL: https://2026.splashcon.org
 
 - acronym: CAV ’25
   desc: 37th International Conference on Computer Aided Verification
