@@ -75,12 +75,6 @@
           {{/publications}}
         </section>
 
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="column left">
-
         <section id="software">
           <h2>Software</h2>
           {{#software}}
@@ -93,22 +87,6 @@
               <div class="info">{{{desc}}}</div>
             </div>
           {{/software}}
-        </section>
-
-      </div>
-      <div class="column right">
-
-        <section id="contact">
-          <h2>Contact</h2>
-          {{#contact}}
-            <div class="item">{{#address}}{{.}}<br>{{/address}}</div>
-            {{#email}}
-              <a href="mailto:{{email}}">{{email}}</a><br>
-            {{/email}}
-            {{#phone}}
-              <a href="tel:{{number}}">{{number}}</a> {{#note}}({{{.}}}){{/note}}<br>
-            {{/phone}}
-          {{/contact}}
         </section>
 
       </div>
