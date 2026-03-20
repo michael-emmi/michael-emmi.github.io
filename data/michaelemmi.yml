@@ -439,7 +439,7 @@ publications:
   publisher: ACM
   year: 2023
   doi: https://doi.org/10.1145/3611643.3613889
-  pdf: 
+  pdf: https://github.com/michael-emmi/research-papers/raw/master/conf-sigsoft-BanerjeeCEFHLLPRSTW23.pdf
 
 - title: "RAPID: Checking API Usage for the Cloud in the Cloud"
   authors: Michael Emmi, Liana Hadarean, Ranjit Jhala, Lee Pike, Nico Rosner, Martin Schäf, Aritra Sengupta, Willem Visser
